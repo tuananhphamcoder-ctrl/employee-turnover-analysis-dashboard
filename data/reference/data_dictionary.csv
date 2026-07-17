@@ -1,0 +1,24 @@
+﻿column,type,description
+employee_id,Text,Unique employee identifier
+department,Text,Employee department
+job_role,Text,Current or final job role
+manager_id,Text,Synthetic manager identifier
+manager_name,Text,Synthetic manager name
+shift,Text,"Day, Night, or Rotating"
+hire_date,Date,Employee hire date
+exit_date,Date,Exit date when attrition is Yes
+employment_status,Text,Active or Exited
+exit_reason,Text,Synthetic exit reason
+age,Integer,Employee age
+monthly_income_usd,Number,Synthetic monthly income
+overtime_flag,Text,Yes or No
+avg_monthly_overtime_hours,Number,Average overtime hours per month
+absenteeism_days_12m,Integer,Absence days during the last 12 months
+job_satisfaction,Integer,Score from 1 to 5
+work_life_balance,Integer,Score from 1 to 5
+performance_rating,Integer,Score from 1 to 5
+years_since_promotion,Integer,Years since most recent promotion
+training_hours_12m,Number,Training hours during the last 12 months
+commute_distance_km,Number,Synthetic commute distance
+tenure_years,Number,Tenure up to exit or analysis date
+attrition,Text,"Yes for exited employees, otherwise No"

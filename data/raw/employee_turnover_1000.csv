@@ -1,0 +1,1001 @@
+﻿employee_id,department,job_role,manager_id,manager_name,shift,hire_date,exit_date,employment_status,exit_reason,age,monthly_income_usd,overtime_flag,avg_monthly_overtime_hours,absenteeism_days_12m,job_satisfaction,work_life_balance,performance_rating,years_since_promotion,training_hours_12m,commute_distance_km,tenure_years,attrition
+EMP0001,Production,Production Operator,MGR-P02,Tran Quoc Bao,Day,2022-11-04,,Active,,46,787.0,No,4.8,1,4,3,3,1,39.5,10.5,3.16,No
+EMP0002,HR & Administration,Administrative Coordinator,MGR-H01,Luong Phuong Thao,Day,2023-12-04,,Active,,34,993.0,No,2.3,5,5,5,3,1,25.2,13.1,2.08,No
+EMP0003,Finance,Cost Analyst,MGR-F01,Mai Thanh Son,Day,2018-01-13,,Active,,45,1673.0,No,3.7,3,1,3,4,5,22.2,32.1,7.96,No
+EMP0004,Engineering,Industrial Engineer,MGR-E01,Truong Minh Duc,Day,2024-04-20,,Active,,27,1763.0,Yes,42.1,12,5,3,4,0,7.1,18.6,1.7,No
+EMP0005,Production,Production Technician,MGR-P02,Tran Quoc Bao,Night,2023-07-29,,Active,,53,1047.0,Yes,44.1,8,4,3,3,1,38.3,26.2,2.43,No
+EMP0006,Maintenance,Maintenance Technician,MGR-M01,Do Tuan Kiet,Day,2024-09-13,,Active,,44,1506.0,No,3.2,10,2,4,3,1,21.4,28.8,1.3,No
+EMP0007,Supply Chain,Warehouse Coordinator,MGR-S01,Phan Ngoc Mai,Night,2019-02-04,,Active,,51,1236.0,Yes,17.1,8,2,3,3,6,6.8,27.1,6.9,No
+EMP0008,Production,Line Leader,MGR-P04,Pham Hoang Duy,Day,2019-08-28,2024-03-04,Exited,Compensation,30,1095.0,Yes,40.2,16,4,5,2,2,11.9,23.5,4.52,Yes
+EMP0009,Supply Chain,Material Planner,MGR-S02,Dang Quang Huy,Night,2025-09-19,2025-12-02,Exited,Compensation,43,1653.0,No,3.5,9,5,3,3,0,31.3,17.1,0.2,Yes
+EMP0010,Production,Line Leader,MGR-P02,Tran Quoc Bao,Day,2023-05-29,,Active,,44,1317.0,No,4.3,7,4,3,3,0,43.1,3.2,2.59,No
+EMP0011,Quality,Quality Engineer,MGR-Q01,Vo Thu Ha,Day,2025-08-04,,Active,,37,1606.0,No,5.2,6,2,3,4,0,12.9,15.1,0.41,No
+EMP0012,Maintenance,Equipment Engineer,MGR-M02,Hoang Van Nam,Day,2022-12-16,,Active,,49,1690.0,No,1.3,5,3,3,4,1,27.8,28.0,3.04,No
+EMP0013,Quality,Quality Engineer,MGR-Q02,Bui Thanh Lan,Day,2020-03-19,,Active,,45,1551.0,Yes,22.9,3,4,1,4,1,24.2,17.9,5.79,No
+EMP0014,Engineering,Automation Engineer,MGR-E02,Ngo Bao Chau,Day,2022-06-22,,Active,,24,2011.0,No,0.7,17,2,4,3,3,17.3,26.3,3.53,No
+EMP0015,Engineering,Industrial Engineer,MGR-E01,Truong Minh Duc,Day,2025-01-31,,Active,,26,2065.0,No,8.1,9,4,3,3,0,42.9,24.3,0.91,No
+EMP0016,Production,Line Leader,MGR-P02,Tran Quoc Bao,Rotating,2019-03-30,,Active,,28,1363.0,No,2.3,15,3,3,5,5,18.9,31.2,6.76,No
+EMP0017,Supply Chain,Warehouse Coordinator,MGR-S01,Phan Ngoc Mai,Rotating,2023-03-16,,Active,,52,1128.0,No,5.7,11,3,4,2,2,51.2,13.7,2.8,No
+EMP0018,Maintenance,Facilities Technician,MGR-M01,Do Tuan Kiet,Rotating,2019-07-14,,Active,,32,1549.0,No,5.0,8,4,4,5,4,16.5,13.3,6.47,No
+EMP0019,Quality,Quality Inspector,MGR-Q01,Vo Thu Ha,Day,2023-04-14,,Active,,46,1286.0,Yes,23.2,10,3,4,3,0,56.1,8.8,2.72,No
+EMP0020,Production,Line Leader,MGR-P04,Pham Hoang Duy,Day,2025-01-03,,Active,,38,1148.0,Yes,25.0,8,1,4,1,0,21.4,8.9,0.99,No
+EMP0021,Engineering,Industrial Engineer,MGR-E01,Truong Minh Duc,Day,2024-08-28,,Active,,39,1917.0,No,2.5,6,4,3,3,1,43.3,10.3,1.34,No
+EMP0022,Production,Line Leader,MGR-P02,Tran Quoc Bao,Day,2025-09-24,,Active,,23,1231.0,Yes,21.8,11,4,4,3,0,30.0,43.1,0.27,No
+EMP0023,Supply Chain,Material Planner,MGR-S02,Dang Quang Huy,Day,2022-08-01,,Active,,30,1303.0,Yes,23.7,7,4,3,2,0,34.4,6.0,3.42,No
+EMP0024,Quality,Quality Engineer,MGR-Q02,Bui Thanh Lan,Day,2024-02-03,2025-01-07,Exited,Compensation,40,1830.0,Yes,23.8,10,1,4,3,1,48.6,7.2,0.93,Yes
+EMP0025,Production,Production Operator,MGR-P01,Nguyen Minh Anh,Day,2024-11-09,,Active,,21,969.0,No,1.3,2,5,3,3,1,49.1,11.8,1.14,No
+EMP0026,Engineering,Process Engineer,MGR-E01,Truong Minh Duc,Night,2019-04-23,,Active,,35,1763.0,No,3.2,6,4,5,4,4,13.1,6.0,6.69,No
+EMP0027,Quality,Quality Technician,MGR-Q01,Vo Thu Ha,Night,2019-03-18,,Active,,29,1422.0,No,7.2,8,5,3,3,2,22.8,20.3,6.79,No
+EMP0028,Maintenance,Maintenance Technician,MGR-M01,Do Tuan Kiet,Night,2024-11-02,,Active,,27,1383.0,No,4.7,7,3,5,3,0,29.1,25.0,1.16,No
+EMP0029,Production,Line Leader,MGR-P01,Nguyen Minh Anh,Rotating,2019-06-30,,Active,,20,1252.0,No,2.7,1,3,1,3,5,21.2,13.0,6.51,No
+EMP0030,HR & Administration,Administrative Coordinator,MGR-H01,Luong Phuong Thao,Day,2019-02-22,2025-10-24,Exited,Career change,43,1092.0,Yes,33.4,15,4,3,4,0,7.5,17.1,6.67,Yes
+EMP0031,Quality,Quality Inspector,MGR-Q01,Vo Thu Ha,Rotating,2020-12-17,,Active,,51,1082.0,No,6.6,13,4,4,4,3,47.2,8.4,5.04,No
+EMP0032,Production,Production Technician,MGR-P01,Nguyen Minh Anh,Day,2022-02-19,,Active,,24,1127.0,Yes,21.5,3,3,3,3,1,12.2,6.0,3.86,No
+EMP0033,Maintenance,Facilities Technician,MGR-M01,Do Tuan Kiet,Day,2021-05-01,,Active,,36,1533.0,No,6.2,5,4,4,3,1,16.2,26.0,4.67,No
+EMP0034,Maintenance,Facilities Technician,MGR-M01,Do Tuan Kiet,Day,2021-09-04,2025-02-16,Exited,Personal reasons,37,1272.0,Yes,45.2,9,4,4,3,0,22.6,25.5,3.45,Yes
+EMP0035,Production,Production Operator,MGR-P03,Le Thanh Cong,Day,2021-01-13,,Active,,23,959.0,Yes,26.5,12,4,4,3,2,35.2,6.2,4.96,No
+EMP0036,Production,Line Leader,MGR-P01,Nguyen Minh Anh,Rotating,2019-04-30,,Active,,53,1391.0,Yes,28.9,2,2,3,5,0,16.5,9.9,6.67,No
+EMP0037,Quality,Quality Inspector,MGR-Q01,Vo Thu Ha,Night,2018-12-21,,Active,,50,1187.0,No,5.2,7,1,3,3,5,37.6,15.5,7.03,No
+EMP0038,HR & Administration,Payroll Specialist,MGR-H01,Luong Phuong Thao,Day,2019-10-26,,Active,,33,1221.0,Yes,26.9,2,4,3,4,2,25.7,21.2,6.18,No
+EMP0039,Production,Production Operator,MGR-P01,Nguyen Minh Anh,Day,2024-08-17,2025-05-13,Exited,Compensation,31,877.0,No,3.3,5,4,3,2,1,28.6,8.1,0.74,Yes
+EMP0040,Production,Production Operator,MGR-P04,Pham Hoang Duy,Day,2024-04-12,,Active,,53,810.0,No,5.4,7,4,5,3,1,48.4,20.9,1.72,No
+EMP0041,Production,Line Leader,MGR-P01,Nguyen Minh Anh,Day,2023-03-16,,Active,,36,1229.0,Yes,19.1,4,5,3,3,1,28.6,11.5,2.8,No
+EMP0042,Supply Chain,Logistics Analyst,MGR-S02,Dang Quang Huy,Night,2021-09-15,,Active,,36,1491.0,No,7.4,5,4,1,3,1,11.8,15.6,4.29,No
+EMP0043,Quality,Quality Inspector,MGR-Q02,Bui Thanh Lan,Day,2021-10-13,,Active,,24,1161.0,No,8.5,7,4,3,3,3,22.5,23.6,4.22,No
+EMP0044,Engineering,Process Engineer,MGR-E01,Truong Minh Duc,Day,2020-02-04,,Active,,25,2216.0,Yes,46.3,4,3,2,3,1,37.5,23.1,5.91,No
+EMP0045,Finance,Accountant,MGR-F01,Mai Thanh Son,Day,2018-08-08,2024-12-27,Exited,Work schedule,23,1514.0,Yes,27.2,6,4,3,3,1,33.6,16.0,6.39,Yes
+EMP0046,Engineering,Industrial Engineer,MGR-E01,Truong Minh Duc,Day,2024-07-22,2025-10-10,Exited,Better opportunity,44,2009.0,No,6.8,5,3,4,3,1,53.1,33.0,1.22,Yes
+EMP0047,Maintenance,Maintenance Technician,MGR-M01,Do Tuan Kiet,Rotating,2024-03-28,,Active,,26,1265.0,No,4.0,12,4,4,4,1,23.3,24.1,1.76,No
+EMP0048,Production,Line Leader,MGR-P02,Tran Quoc Bao,Day,2023-08-24,,Active,,53,1222.0,Yes,29.5,7,3,5,5,0,24.3,10.6,2.35,No
+EMP0049,Production,Production Operator,MGR-P02,Tran Quoc Bao,Night,2023-05-08,2025-12-12,Exited,Career change,23,946.0,No,0.7,6,3,3,4,1,40.6,7.9,2.6,Yes
+EMP0050,Engineering,Industrial Engineer,MGR-E01,Truong Minh Duc,Day,2018-11-28,2025-12-01,Exited,Personal reasons,27,2037.0,Yes,28.7,8,3,3,3,3,31.2,24.6,7.01,Yes
+EMP0051,Quality,Quality Inspector,MGR-Q02,Bui Thanh Lan,Day,2022-05-05,,Active,,24,1371.0,No,4.1,15,3,5,3,3,30.2,14.6,3.66,No
+EMP0052,Supply Chain,Material Planner,MGR-S02,Dang Quang Huy,Day,2021-02-20,,Active,,43,1625.0,No,3.0,10,4,4,3,0,35.7,7.1,4.86,No
+EMP0053,Supply Chain,Logistics Analyst,MGR-S02,Dang Quang Huy,Night,2018-10-10,,Active,,48,1289.0,No,3.9,6,5,5,4,5,27.7,17.4,7.23,No
+EMP0054,Finance,Finance Specialist,MGR-F01,Mai Thanh Son,Day,2025-08-31,,Active,,37,1841.0,No,4.8,5,3,3,2,0,29.8,20.4,0.33,No
+EMP0055,Finance,Cost Analyst,MGR-F01,Mai Thanh Son,Day,2019-07-14,,Active,,41,1953.0,Yes,23.9,3,4,3,4,4,24.3,16.3,6.47,No
+EMP0056,Supply Chain,Material Planner,MGR-S02,Dang Quang Huy,Night,2019-04-19,,Active,,26,1383.0,Yes,22.8,14,3,4,3,5,26.3,19.7,6.7,No
+EMP0057,Production,Line Leader,MGR-P02,Tran Quoc Bao,Day,2020-01-03,,Active,,24,1352.0,Yes,15.0,9,3,5,3,0,18.0,26.7,5.99,No
+EMP0058,Maintenance,Facilities Technician,MGR-M02,Hoang Van Nam,Rotating,2018-05-23,,Active,,52,1517.0,No,2.0,8,5,3,2,0,28.3,28.5,7.61,No
+EMP0059,Production,Production Operator,MGR-P04,Pham Hoang Duy,Rotating,2023-12-24,2024-04-07,Exited,Compensation,28,917.0,No,5.1,12,1,3,2,2,8.6,34.7,0.29,Yes
+EMP0060,Production,Production Technician,MGR-P03,Le Thanh Cong,Day,2019-12-20,2025-01-02,Exited,Compensation,49,1082.0,No,4.6,6,3,2,4,0,11.9,23.6,5.04,Yes
+EMP0061,Production,Production Technician,MGR-P04,Pham Hoang Duy,Day,2023-06-12,2024-03-11,Exited,Personal reasons,44,1176.0,No,4.6,8,5,3,3,2,24.0,8.0,0.75,Yes
+EMP0062,Production,Line Leader,MGR-P03,Le Thanh Cong,Day,2018-04-20,,Active,,48,1147.0,Yes,19.6,5,5,4,5,6,29.4,19.4,7.7,No
+EMP0063,Maintenance,Facilities Technician,MGR-M01,Do Tuan Kiet,Rotating,2018-08-07,,Active,,42,1352.0,No,2.8,15,3,4,5,3,49.3,7.9,7.4,No
+EMP0064,Production,Production Operator,MGR-P03,Le Thanh Cong,Rotating,2022-03-06,,Active,,46,806.0,Yes,24.4,4,3,2,4,3,21.8,5.6,3.82,No
+EMP0065,Production,Line Leader,MGR-P04,Pham Hoang Duy,Night,2020-10-07,,Active,,22,1378.0,No,6.3,11,3,3,1,4,50.9,7.6,5.23,No
+EMP0066,Supply Chain,Warehouse Coordinator,MGR-S02,Dang Quang Huy,Day,2023-06-28,,Active,,24,1033.0,No,4.2,8,4,4,4,1,27.5,6.2,2.51,No
+EMP0067,Production,Production Technician,MGR-P04,Pham Hoang Duy,Rotating,2024-09-04,2025-05-13,Exited,Relocation,43,996.0,Yes,38.0,13,4,5,4,1,27.1,11.0,0.69,Yes
+EMP0068,Finance,Finance Specialist,MGR-F01,Mai Thanh Son,Day,2023-01-20,,Active,,37,1831.0,No,5.7,3,1,3,3,2,27.1,38.0,2.95,No
+EMP0069,Production,Production Technician,MGR-P02,Tran Quoc Bao,Rotating,2019-07-02,,Active,,51,1048.0,Yes,42.3,10,4,3,1,3,29.5,36.2,6.5,No
+EMP0070,Quality,Quality Technician,MGR-Q02,Bui Thanh Lan,Day,2025-02-19,,Active,,22,1163.0,No,3.7,12,2,1,3,0,19.4,28.2,0.86,No
+EMP0071,Production,Production Operator,MGR-P04,Pham Hoang Duy,Rotating,2024-09-30,,Active,,29,872.0,No,2.0,9,4,3,3,0,38.5,18.5,1.25,No
+EMP0072,Production,Production Operator,MGR-P04,Pham Hoang Duy,Rotating,2019-10-06,,Active,,30,939.0,No,4.1,8,2,3,4,4,48.8,43.0,6.24,No
+EMP0073,Production,Production Technician,MGR-P02,Tran Quoc Bao,Night,2020-12-23,2025-06-09,Exited,Compensation,52,1051.0,Yes,33.5,14,3,2,5,2,22.6,21.7,4.46,Yes
+EMP0074,Production,Production Technician,MGR-P04,Pham Hoang Duy,Day,2021-01-17,,Active,,28,908.0,Yes,14.0,13,4,2,3,4,47.4,24.8,4.95,No
+EMP0075,Production,Production Technician,MGR-P02,Tran Quoc Bao,Night,2025-09-07,2025-11-19,Exited,Compensation,50,906.0,Yes,37.1,8,3,4,4,0,34.0,8.4,0.2,Yes
+EMP0076,Production,Production Technician,MGR-P03,Le Thanh Cong,Night,2020-08-27,,Active,,48,964.0,No,6.4,11,4,3,2,5,9.4,3.1,5.34,No
+EMP0077,Production,Production Operator,MGR-P02,Tran Quoc Bao,Rotating,2018-06-07,,Active,,35,997.0,No,2.4,8,4,3,3,0,52.0,20.0,7.57,No
+EMP0078,Engineering,Process Engineer,MGR-E02,Ngo Bao Chau,Day,2024-04-24,,Active,,53,2202.0,No,5.1,1,3,2,2,0,46.9,3.3,1.69,No
+EMP0079,Production,Line Leader,MGR-P01,Nguyen Minh Anh,Night,2021-02-04,2024-11-16,Exited,Performance,30,1150.0,Yes,20.0,6,2,4,4,3,23.3,2.4,3.78,Yes
+EMP0080,Quality,Quality Technician,MGR-Q01,Vo Thu Ha,Night,2019-05-27,,Active,,50,1459.0,No,5.6,2,3,3,3,3,21.8,8.7,6.6,No
+EMP0081,Maintenance,Maintenance Technician,MGR-M02,Hoang Van Nam,Night,2024-08-28,,Active,,24,1409.0,No,4.6,11,5,4,4,0,25.0,3.3,1.34,No
+EMP0082,Engineering,Industrial Engineer,MGR-E01,Truong Minh Duc,Day,2018-10-17,2024-11-02,Exited,Better opportunity,42,1878.0,Yes,36.1,12,4,4,3,2,49.5,19.7,6.05,Yes
+EMP0083,Maintenance,Equipment Engineer,MGR-M01,Do Tuan Kiet,Day,2023-10-01,,Active,,43,1922.0,Yes,29.8,4,1,4,4,2,48.8,34.1,2.25,No
+EMP0084,Production,Line Leader,MGR-P01,Nguyen Minh Anh,Day,2024-10-05,,Active,,26,1084.0,Yes,43.1,7,2,3,3,1,39.6,32.3,1.24,No
+EMP0085,Engineering,Industrial Engineer,MGR-E03,Huynh Gia Han,Day,2024-08-06,,Active,,31,2211.0,No,5.3,1,4,2,3,0,19.4,10.6,1.4,No
+EMP0086,Supply Chain,Logistics Analyst,MGR-S01,Phan Ngoc Mai,Day,2018-07-11,,Active,,26,1606.0,No,5.2,2,3,4,2,1,33.8,12.7,7.47,No
+EMP0087,Quality,Quality Engineer,MGR-Q02,Bui Thanh Lan,Day,2019-08-30,,Active,,25,1423.0,Yes,29.7,6,4,3,1,1,33.6,32.6,6.34,No
+EMP0088,Production,Production Technician,MGR-P03,Le Thanh Cong,Day,2019-05-03,,Active,,20,1064.0,No,4.2,13,5,4,3,1,13.8,14.7,6.66,No
+EMP0089,Engineering,Industrial Engineer,MGR-E02,Ngo Bao Chau,Day,2022-09-05,,Active,,38,1935.0,No,3.2,12,2,4,4,0,34.7,8.9,3.32,No
+EMP0090,Production,Production Operator,MGR-P02,Tran Quoc Bao,Rotating,2019-11-19,,Active,,34,997.0,No,7.0,3,4,4,5,0,32.1,17.8,6.12,No
+EMP0091,Quality,Quality Engineer,MGR-Q02,Bui Thanh Lan,Day,2024-12-01,2025-05-01,Exited,Better opportunity,35,1423.0,Yes,30.9,4,2,4,3,1,33.3,31.2,0.41,Yes
+EMP0092,Engineering,Process Engineer,MGR-E01,Truong Minh Duc,Day,2022-10-18,,Active,,41,2042.0,No,3.5,7,4,2,3,3,23.4,20.3,3.2,No
+EMP0093,Production,Production Technician,MGR-P03,Le Thanh Cong,Night,2024-02-03,,Active,,22,1021.0,Yes,21.4,12,3,4,3,0,37.4,23.9,1.91,No
+EMP0094,Production,Line Leader,MGR-P02,Tran Quoc Bao,Day,2021-04-19,,Active,,39,1371.0,No,2.5,12,3,4,4,4,30.9,19.5,4.7,No
+EMP0095,Production,Production Technician,MGR-P02,Tran Quoc Bao,Rotating,2022-07-04,,Active,,38,1136.0,No,1.6,7,4,3,4,0,28.3,11.0,3.49,No
+EMP0096,Production,Line Leader,MGR-P02,Tran Quoc Bao,Day,2018-09-26,,Active,,29,1162.0,No,5.1,10,2,3,3,2,46.5,39.2,7.26,No
+EMP0097,Engineering,Automation Engineer,MGR-E01,Truong Minh Duc,Day,2023-12-20,,Active,,23,2079.0,No,4.3,4,4,3,3,1,33.1,27.2,2.03,No
+EMP0098,Production,Line Leader,MGR-P04,Pham Hoang Duy,Day,2021-10-10,,Active,,22,1290.0,Yes,21.1,10,3,4,3,1,42.9,15.2,4.22,No
+EMP0099,Supply Chain,Warehouse Coordinator,MGR-S01,Phan Ngoc Mai,Day,2025-10-13,,Active,,27,1112.0,No,4.3,4,4,3,3,0,47.8,15.5,0.22,No
+EMP0100,Production,Production Operator,MGR-P03,Le Thanh Cong,Day,2023-09-05,,Active,,53,994.0,No,7.0,14,4,5,2,0,17.8,10.5,2.32,No
+EMP0101,Quality,Quality Inspector,MGR-Q01,Vo Thu Ha,Day,2020-04-22,,Active,,41,1330.0,Yes,23.2,9,1,5,4,2,47.2,32.7,5.69,No
+EMP0102,HR & Administration,HR Specialist,MGR-H01,Luong Phuong Thao,Day,2021-03-27,,Active,,43,1161.0,Yes,19.4,4,3,3,4,3,46.7,21.0,4.76,No
+EMP0103,Supply Chain,Material Planner,MGR-S01,Phan Ngoc Mai,Night,2022-12-13,,Active,,27,1658.0,Yes,35.2,7,2,5,3,1,46.9,23.5,3.05,No
+EMP0104,Supply Chain,Material Planner,MGR-S01,Phan Ngoc Mai,Night,2018-04-28,,Active,,39,1542.0,Yes,25.9,12,4,3,3,1,56.9,28.4,7.68,No
+EMP0105,Production,Line Leader,MGR-P02,Tran Quoc Bao,Day,2019-04-25,,Active,,35,1239.0,No,3.2,11,4,5,3,4,28.6,16.1,6.69,No
+EMP0106,Engineering,Industrial Engineer,MGR-E02,Ngo Bao Chau,Day,2021-09-15,,Active,,23,1715.0,No,3.5,5,4,4,3,3,30.1,19.5,4.29,No
+EMP0107,Production,Production Technician,MGR-P04,Pham Hoang Duy,Rotating,2020-02-24,,Active,,36,1170.0,No,2.4,3,4,1,2,2,20.3,11.8,5.85,No
+EMP0108,Production,Production Technician,MGR-P01,Nguyen Minh Anh,Day,2025-06-02,2025-10-20,Exited,Better opportunity,50,1128.0,Yes,17.4,6,3,3,3,0,18.6,39.5,0.38,Yes
+EMP0109,Production,Production Technician,MGR-P01,Nguyen Minh Anh,Night,2018-02-20,2025-12-16,Exited,Performance,50,1101.0,Yes,35.5,16,4,4,4,5,18.3,20.1,7.82,Yes
+EMP0110,Production,Production Operator,MGR-P03,Le Thanh Cong,Day,2023-05-26,,Active,,23,991.0,Yes,32.7,10,3,3,4,0,20.7,20.1,2.6,No
+EMP0111,Production,Production Operator,MGR-P01,Nguyen Minh Anh,Day,2023-01-22,,Active,,23,806.0,No,4.6,16,4,3,4,0,46.0,8.0,2.94,No
+EMP0112,Production,Production Technician,MGR-P02,Tran Quoc Bao,Day,2022-06-28,2025-11-19,Exited,Performance,47,1083.0,Yes,28.1,6,4,2,2,0,38.0,25.4,3.39,Yes
+EMP0113,Maintenance,Facilities Technician,MGR-M01,Do Tuan Kiet,Rotating,2025-03-19,,Active,,51,1228.0,No,8.1,5,1,4,3,0,34.1,34.3,0.79,No
+EMP0114,Engineering,Industrial Engineer,MGR-E01,Truong Minh Duc,Day,2021-12-24,,Active,,47,2093.0,No,6.7,4,5,5,3,4,51.0,16.4,4.02,No
+EMP0115,Supply Chain,Material Planner,MGR-S01,Phan Ngoc Mai,Rotating,2021-04-27,2025-12-08,Exited,Performance,53,1510.0,No,2.7,1,5,4,1,4,28.7,17.8,4.62,Yes
+EMP0116,Production,Production Technician,MGR-P02,Tran Quoc Bao,Rotating,2019-05-06,,Active,,31,1168.0,Yes,26.0,8,2,4,4,2,38.5,8.8,6.66,No
+EMP0117,Production,Line Leader,MGR-P04,Pham Hoang Duy,Day,2019-12-24,,Active,,43,1326.0,No,7.1,5,3,4,4,2,54.3,26.1,6.02,No
+EMP0118,Quality,Quality Technician,MGR-Q01,Vo Thu Ha,Night,2022-04-29,,Active,,28,1299.0,No,7.5,11,2,3,2,1,40.3,37.5,3.67,No
+EMP0119,Production,Line Leader,MGR-P03,Le Thanh Cong,Day,2021-01-01,,Active,,29,1340.0,Yes,23.5,4,2,2,3,4,32.8,27.6,5.0,No
+EMP0120,Production,Production Technician,MGR-P04,Pham Hoang Duy,Day,2021-11-19,,Active,,26,1013.0,Yes,35.3,7,4,4,3,1,44.0,4.1,4.11,No
+EMP0121,Supply Chain,Logistics Analyst,MGR-S02,Dang Quang Huy,Day,2019-05-29,,Active,,47,1596.0,No,3.1,6,3,4,3,6,39.2,25.6,6.59,No
+EMP0122,Quality,Quality Inspector,MGR-Q01,Vo Thu Ha,Day,2018-09-05,,Active,,37,1315.0,Yes,36.2,3,4,5,4,1,49.7,12.8,7.32,No
+EMP0123,HR & Administration,HR Specialist,MGR-H01,Luong Phuong Thao,Day,2024-06-19,2025-08-06,Exited,Better opportunity,33,1080.0,Yes,31.0,8,2,3,3,1,29.7,27.8,1.13,Yes
+EMP0124,Production,Production Operator,MGR-P03,Le Thanh Cong,Rotating,2025-11-06,,Active,,36,929.0,No,2.8,5,4,5,4,0,13.9,31.9,0.15,No
+EMP0125,Engineering,Process Engineer,MGR-E01,Truong Minh Duc,Day,2022-03-08,,Active,,25,2247.0,No,0.7,4,4,5,4,3,36.0,20.7,3.82,No
+EMP0126,HR & Administration,HR Specialist,MGR-H01,Luong Phuong Thao,Day,2020-03-13,,Active,,29,1212.0,Yes,20.6,5,4,3,4,3,15.6,8.6,5.8,No
+EMP0127,Quality,Quality Engineer,MGR-Q01,Vo Thu Ha,Day,2024-06-17,,Active,,28,1843.0,Yes,44.1,10,4,4,4,0,49.8,30.1,1.54,No
+EMP0128,Production,Production Operator,MGR-P04,Pham Hoang Duy,Day,2018-12-15,,Active,,44,875.0,No,2.5,6,5,4,2,2,51.3,9.9,7.04,No
+EMP0129,Production,Production Operator,MGR-P03,Le Thanh Cong,Day,2020-05-25,,Active,,46,773.0,No,2.4,2,3,4,4,2,47.4,13.2,5.6,No
+EMP0130,Finance,Finance Specialist,MGR-F01,Mai Thanh Son,Day,2023-08-19,,Active,,41,1809.0,No,8.1,6,1,4,3,0,33.5,35.0,2.37,No
+EMP0131,Quality,Quality Technician,MGR-Q01,Vo Thu Ha,Day,2019-05-16,,Active,,47,1317.0,No,5.2,3,3,1,2,0,44.9,22.9,6.63,No
+EMP0132,Production,Production Technician,MGR-P02,Tran Quoc Bao,Day,2019-03-09,,Active,,37,898.0,No,5.2,5,4,2,3,1,40.8,23.3,6.81,No
+EMP0133,Engineering,Industrial Engineer,MGR-E01,Truong Minh Duc,Day,2020-07-23,,Active,,34,2075.0,No,5.6,10,3,5,4,2,33.1,24.8,5.44,No
+EMP0134,Quality,Quality Technician,MGR-Q01,Vo Thu Ha,Day,2022-05-14,,Active,,44,1135.0,Yes,23.3,10,4,3,3,1,49.7,5.6,3.63,No
+EMP0135,Production,Production Technician,MGR-P03,Le Thanh Cong,Night,2023-02-06,,Active,,21,1034.0,Yes,23.3,3,3,4,3,0,30.8,22.3,2.9,No
+EMP0136,Production,Production Technician,MGR-P04,Pham Hoang Duy,Day,2023-05-10,2024-05-02,Exited,Relocation,44,1123.0,No,8.4,2,3,4,5,1,18.1,14.5,0.98,Yes
+EMP0137,Quality,Quality Inspector,MGR-Q01,Vo Thu Ha,Night,2021-03-30,,Active,,32,1098.0,No,2.2,7,3,5,3,1,8.4,16.7,4.76,No
+EMP0138,Engineering,Industrial Engineer,MGR-E02,Ngo Bao Chau,Day,2022-10-25,,Active,,48,1830.0,Yes,27.4,8,3,4,4,2,56.2,16.0,3.18,No
+EMP0139,Production,Line Leader,MGR-P04,Pham Hoang Duy,Day,2018-05-14,,Active,,38,1335.0,No,2.6,10,5,2,3,5,51.4,10.5,7.63,No
+EMP0140,Production,Production Operator,MGR-P03,Le Thanh Cong,Rotating,2021-03-26,,Active,,47,965.0,No,2.8,7,2,4,3,2,37.1,19.4,4.77,No
+EMP0141,Production,Production Technician,MGR-P03,Le Thanh Cong,Night,2024-03-05,,Active,,30,916.0,No,4.8,9,4,3,3,1,15.3,19.8,1.82,No
+EMP0142,Finance,Cost Analyst,MGR-F01,Mai Thanh Son,Day,2021-02-22,,Active,,30,1964.0,No,2.4,10,3,3,5,2,42.5,8.4,4.85,No
+EMP0143,Quality,Quality Inspector,MGR-Q01,Vo Thu Ha,Day,2021-11-16,,Active,,53,1387.0,No,6.1,13,1,1,3,2,18.9,26.2,4.12,No
+EMP0144,Production,Production Technician,MGR-P03,Le Thanh Cong,Day,2019-12-31,,Active,,26,914.0,Yes,15.3,3,5,3,2,0,47.4,38.4,6.0,No
+EMP0145,Production,Production Operator,MGR-P04,Pham Hoang Duy,Day,2023-09-26,,Active,,35,992.0,No,4.1,7,4,1,3,1,20.5,32.5,2.26,No
+EMP0146,Production,Production Technician,MGR-P02,Tran Quoc Bao,Day,2018-09-04,,Active,,40,1169.0,Yes,25.0,7,3,4,2,2,36.8,13.0,7.32,No
+EMP0147,Production,Production Technician,MGR-P01,Nguyen Minh Anh,Day,2018-01-22,,Active,,44,998.0,Yes,31.2,8,4,4,3,1,23.1,6.9,7.94,No
+EMP0148,Production,Line Leader,MGR-P03,Le Thanh Cong,Day,2023-11-24,,Active,,45,1274.0,Yes,13.1,1,4,3,5,2,40.6,22.4,2.1,No
+EMP0149,Supply Chain,Warehouse Coordinator,MGR-S01,Phan Ngoc Mai,Night,2025-01-23,2025-12-12,Exited,Relocation,25,1200.0,No,6.8,10,4,3,4,0,35.4,9.6,0.88,Yes
+EMP0150,Production,Production Operator,MGR-P04,Pham Hoang Duy,Rotating,2024-03-25,,Active,,39,873.0,Yes,31.6,3,5,2,3,0,42.6,19.6,1.77,No
+EMP0151,Production,Line Leader,MGR-P01,Nguyen Minh Anh,Night,2024-11-30,,Active,,39,1209.0,No,4.1,14,3,3,4,0,9.5,5.8,1.08,No
+EMP0152,Production,Production Operator,MGR-P03,Le Thanh Cong,Day,2018-02-14,,Active,,24,997.0,Yes,30.3,6,4,3,4,1,22.0,12.7,7.88,No
+EMP0153,Supply Chain,Logistics Analyst,MGR-S01,Phan Ngoc Mai,Day,2024-07-21,2025-02-12,Exited,Compensation,25,1320.0,No,4.5,12,3,3,4,1,45.5,17.3,0.56,Yes
+EMP0154,Production,Production Technician,MGR-P04,Pham Hoang Duy,Day,2021-04-26,,Active,,34,1019.0,No,3.5,4,4,2,3,1,15.8,25.3,4.68,No
+EMP0155,Production,Production Technician,MGR-P04,Pham Hoang Duy,Day,2022-02-08,,Active,,32,1108.0,No,9.8,11,3,2,4,0,28.4,18.7,3.89,No
+EMP0156,Quality,Quality Technician,MGR-Q02,Bui Thanh Lan,Day,2021-07-05,,Active,,52,1150.0,No,3.6,16,2,2,3,2,47.3,5.5,4.49,No
+EMP0157,Production,Production Operator,MGR-P04,Pham Hoang Duy,Day,2024-12-19,,Active,,26,989.0,No,3.9,15,4,5,3,1,22.7,10.7,1.03,No
+EMP0158,Production,Production Operator,MGR-P03,Le Thanh Cong,Day,2019-10-12,,Active,,37,931.0,Yes,31.3,7,2,3,3,2,43.4,11.8,6.22,No
+EMP0159,Engineering,Industrial Engineer,MGR-E01,Truong Minh Duc,Day,2020-08-22,,Active,,24,1955.0,No,5.7,2,2,3,5,0,31.1,23.1,5.36,No
+EMP0160,Engineering,Automation Engineer,MGR-E03,Huynh Gia Han,Day,2025-06-03,,Active,,26,2025.0,Yes,33.3,12,3,3,3,0,29.6,32.9,0.58,No
+EMP0161,Supply Chain,Warehouse Coordinator,MGR-S01,Phan Ngoc Mai,Day,2018-03-03,,Active,,30,1224.0,No,9.5,3,4,4,3,5,29.4,15.4,7.83,No
+EMP0162,Engineering,Automation Engineer,MGR-E01,Truong Minh Duc,Night,2022-10-15,,Active,,53,2145.0,Yes,31.6,8,4,4,1,0,36.2,10.0,3.21,No
+EMP0163,Production,Line Leader,MGR-P03,Le Thanh Cong,Rotating,2018-11-23,,Active,,21,1154.0,No,5.5,3,4,2,3,2,27.9,13.3,7.1,No
+EMP0164,Supply Chain,Logistics Analyst,MGR-S02,Dang Quang Huy,Night,2020-08-18,,Active,,50,1341.0,No,3.2,5,3,3,3,3,36.8,23.2,5.37,No
+EMP0165,Production,Production Technician,MGR-P04,Pham Hoang Duy,Day,2019-05-03,,Active,,42,1045.0,Yes,28.5,2,2,2,3,5,33.6,10.4,6.66,No
+EMP0166,Production,Production Technician,MGR-P03,Le Thanh Cong,Night,2020-02-21,,Active,,42,1125.0,No,5.2,5,3,3,5,1,6.3,8.4,5.86,No
+EMP0167,Production,Production Operator,MGR-P02,Tran Quoc Bao,Night,2021-04-17,,Active,,28,911.0,No,2.1,7,3,4,4,4,25.0,15.5,4.71,No
+EMP0168,Supply Chain,Logistics Analyst,MGR-S02,Dang Quang Huy,Night,2024-09-08,,Active,,29,1415.0,No,3.3,3,3,4,3,1,30.2,11.9,1.31,No
+EMP0169,Production,Production Operator,MGR-P01,Nguyen Minh Anh,Rotating,2021-12-17,2025-01-03,Exited,Better opportunity,31,950.0,No,6.7,15,3,1,3,3,25.5,22.6,3.05,Yes
+EMP0170,Engineering,Industrial Engineer,MGR-E03,Huynh Gia Han,Day,2024-07-09,,Active,,51,2213.0,Yes,29.6,2,5,2,3,1,16.2,41.0,1.48,No
+EMP0171,Engineering,Industrial Engineer,MGR-E01,Truong Minh Duc,Day,2020-09-26,,Active,,52,2067.0,No,6.8,11,5,3,2,3,48.9,31.5,5.26,No
+EMP0172,Production,Line Leader,MGR-P01,Nguyen Minh Anh,Day,2024-01-27,2024-08-30,Exited,Personal reasons,47,1337.0,No,2.7,6,5,5,5,1,24.8,24.6,0.59,Yes
+EMP0173,Production,Line Leader,MGR-P03,Le Thanh Cong,Rotating,2024-12-31,,Active,,29,1226.0,Yes,23.0,6,3,5,4,1,32.9,17.7,1.0,No
+EMP0174,Production,Production Operator,MGR-P04,Pham Hoang Duy,Rotating,2022-11-28,,Active,,40,917.0,No,6.4,3,4,4,4,1,35.1,32.1,3.09,No
+EMP0175,Finance,Finance Specialist,MGR-F01,Mai Thanh Son,Day,2018-08-23,,Active,,37,1640.0,No,5.3,6,2,3,2,2,16.1,6.6,7.36,No
+EMP0176,Quality,Quality Inspector,MGR-Q01,Vo Thu Ha,Night,2022-08-18,,Active,,38,1175.0,No,6.7,11,4,4,3,3,54.0,11.3,3.37,No
+EMP0177,Finance,Cost Analyst,MGR-F01,Mai Thanh Son,Day,2020-08-26,,Active,,20,1945.0,No,2.7,3,3,3,3,2,32.8,34.9,5.35,No
+EMP0178,Supply Chain,Material Planner,MGR-S01,Phan Ngoc Mai,Rotating,2024-05-30,,Active,,47,1309.0,No,1.8,1,4,3,1,1,12.1,27.8,1.59,No
+EMP0179,HR & Administration,HR Specialist,MGR-H01,Luong Phuong Thao,Day,2018-07-09,,Active,,31,1176.0,Yes,34.2,7,4,3,4,3,51.2,23.8,7.48,No
+EMP0180,Production,Production Operator,MGR-P03,Le Thanh Cong,Day,2022-11-23,,Active,,47,948.0,No,2.1,5,2,5,4,0,41.2,13.9,3.1,No
+EMP0181,Production,Line Leader,MGR-P01,Nguyen Minh Anh,Day,2023-04-13,,Active,,46,1126.0,No,2.2,12,3,3,3,2,51.2,25.6,2.72,No
+EMP0182,Maintenance,Equipment Engineer,MGR-M02,Hoang Van Nam,Night,2025-09-09,,Active,,28,1888.0,No,8.6,3,1,4,4,0,35.2,9.6,0.31,No
+EMP0183,Maintenance,Maintenance Technician,MGR-M01,Do Tuan Kiet,Day,2021-01-09,,Active,,45,1427.0,No,8.8,10,4,3,3,0,17.9,3.8,4.97,No
+EMP0184,Engineering,Industrial Engineer,MGR-E02,Ngo Bao Chau,Day,2024-11-29,,Active,,29,1815.0,No,2.4,5,4,3,2,0,28.8,10.8,1.09,No
+EMP0185,Production,Line Leader,MGR-P03,Le Thanh Cong,Night,2022-11-23,,Active,,47,1202.0,No,5.2,2,4,2,3,1,43.9,22.2,3.1,No
+EMP0186,Supply Chain,Logistics Analyst,MGR-S02,Dang Quang Huy,Day,2025-09-18,2025-11-18,Exited,Personal reasons,47,1609.0,No,3.9,2,4,4,3,0,48.8,31.7,0.17,Yes
+EMP0187,Production,Production Technician,MGR-P01,Nguyen Minh Anh,Day,2024-11-28,,Active,,28,1019.0,No,1.9,7,5,2,3,1,31.6,33.5,1.09,No
+EMP0188,Production,Production Technician,MGR-P01,Nguyen Minh Anh,Night,2018-05-01,,Active,,47,904.0,No,3.5,13,5,5,3,4,10.3,22.5,7.67,No
+EMP0189,Engineering,Industrial Engineer,MGR-E03,Huynh Gia Han,Day,2021-10-31,,Active,,52,1752.0,No,2.1,13,3,1,3,3,26.7,3.7,4.17,No
+EMP0190,Quality,Quality Technician,MGR-Q01,Vo Thu Ha,Rotating,2021-04-09,,Active,,51,1362.0,No,1.9,8,4,4,3,1,31.3,21.5,4.73,No
+EMP0191,Engineering,Automation Engineer,MGR-E01,Truong Minh Duc,Day,2023-10-18,,Active,,36,2293.0,Yes,35.2,13,4,4,3,0,35.2,12.1,2.2,No
+EMP0192,Supply Chain,Logistics Analyst,MGR-S01,Phan Ngoc Mai,Day,2024-01-24,2025-06-25,Exited,Performance,52,1365.0,No,2.7,4,4,3,5,1,36.0,21.4,1.42,Yes
+EMP0193,Production,Production Operator,MGR-P03,Le Thanh Cong,Day,2023-02-08,,Active,,34,950.0,No,1.8,2,4,2,3,2,18.1,12.5,2.89,No
+EMP0194,Production,Production Operator,MGR-P01,Nguyen Minh Anh,Rotating,2018-01-15,2024-06-03,Exited,Relocation,44,916.0,Yes,13.6,7,3,1,3,6,30.8,17.4,6.38,Yes
+EMP0195,Maintenance,Equipment Engineer,MGR-M01,Do Tuan Kiet,Night,2025-05-31,,Active,,23,1802.0,No,3.9,8,3,3,3,0,8.4,10.8,0.59,No
+EMP0196,Production,Production Operator,MGR-P01,Nguyen Minh Anh,Day,2023-01-16,,Active,,29,782.0,No,6.2,2,4,4,3,2,24.5,14.8,2.96,No
+EMP0197,Production,Production Technician,MGR-P02,Tran Quoc Bao,Rotating,2025-10-25,,Active,,23,930.0,No,2.9,4,4,4,5,0,24.9,21.1,0.18,No
+EMP0198,Production,Line Leader,MGR-P03,Le Thanh Cong,Rotating,2023-05-07,,Active,,30,1244.0,No,9.1,1,4,2,2,0,55.1,3.4,2.65,No
+EMP0199,Production,Production Technician,MGR-P01,Nguyen Minh Anh,Rotating,2023-05-21,2024-07-23,Exited,Relocation,50,1092.0,Yes,25.8,9,2,4,3,0,27.6,37.8,1.17,Yes
+EMP0200,Production,Production Technician,MGR-P04,Pham Hoang Duy,Day,2025-09-26,,Active,,49,979.0,No,3.6,6,3,3,3,0,20.6,9.0,0.26,No
+EMP0201,Engineering,Process Engineer,MGR-E01,Truong Minh Duc,Day,2021-10-27,,Active,,48,1973.0,Yes,23.7,16,3,3,3,4,37.3,36.7,4.18,No
+EMP0202,Production,Production Technician,MGR-P01,Nguyen Minh Anh,Night,2018-12-27,,Active,,46,995.0,No,5.4,11,2,4,1,0,45.5,5.7,7.01,No
+EMP0203,Production,Production Technician,MGR-P02,Tran Quoc Bao,Day,2018-05-25,,Active,,20,1093.0,Yes,28.0,8,4,3,3,4,58.9,35.7,7.6,No
+EMP0204,Maintenance,Facilities Technician,MGR-M01,Do Tuan Kiet,Rotating,2019-11-08,,Active,,38,1205.0,No,3.0,5,2,3,5,1,29.4,9.3,6.15,No
+EMP0205,Production,Production Technician,MGR-P01,Nguyen Minh Anh,Day,2020-07-22,,Active,,53,991.0,No,3.7,12,4,2,3,5,15.0,16.7,5.44,No
+EMP0206,Maintenance,Equipment Engineer,MGR-M02,Hoang Van Nam,Rotating,2018-01-13,,Active,,50,1744.0,No,5.0,7,5,3,4,0,20.5,27.6,7.96,No
+EMP0207,Production,Production Technician,MGR-P03,Le Thanh Cong,Rotating,2023-10-16,,Active,,49,923.0,No,1.4,8,5,3,4,2,41.7,22.6,2.21,No
+EMP0208,Maintenance,Facilities Technician,MGR-M01,Do Tuan Kiet,Rotating,2023-06-30,,Active,,30,1501.0,Yes,27.8,6,4,4,4,0,28.3,9.5,2.51,No
+EMP0209,HR & Administration,HR Specialist,MGR-H01,Luong Phuong Thao,Day,2025-04-06,,Active,,30,1255.0,Yes,22.2,3,4,2,4,0,49.4,23.1,0.74,No
+EMP0210,Supply Chain,Warehouse Coordinator,MGR-S01,Phan Ngoc Mai,Rotating,2021-08-09,,Active,,21,1289.0,No,2.2,2,3,4,3,4,17.1,3.0,4.39,No
+EMP0211,Supply Chain,Warehouse Coordinator,MGR-S02,Dang Quang Huy,Day,2023-09-23,2024-05-15,Exited,Personal reasons,40,1242.0,Yes,30.1,6,1,3,3,1,52.4,38.0,0.64,Yes
+EMP0212,Production,Line Leader,MGR-P02,Tran Quoc Bao,Rotating,2018-03-29,,Active,,47,1152.0,No,3.3,4,3,4,3,2,20.2,17.1,7.76,No
+EMP0213,Maintenance,Maintenance Technician,MGR-M02,Hoang Van Nam,Day,2023-04-08,,Active,,45,1592.0,Yes,20.1,3,3,1,3,0,35.2,21.1,2.73,No
+EMP0214,HR & Administration,Payroll Specialist,MGR-H01,Luong Phuong Thao,Day,2021-05-21,,Active,,31,1097.0,Yes,33.4,12,5,3,2,2,46.8,10.4,4.61,No
+EMP0215,Maintenance,Equipment Engineer,MGR-M02,Hoang Van Nam,Night,2022-02-22,,Active,,23,1717.0,No,4.5,15,3,3,2,3,29.2,10.8,3.85,No
+EMP0216,Production,Production Technician,MGR-P02,Tran Quoc Bao,Night,2018-11-28,,Active,,33,1128.0,Yes,24.5,4,2,3,3,0,24.9,23.5,7.09,No
+EMP0217,Quality,Quality Engineer,MGR-Q02,Bui Thanh Lan,Day,2021-06-15,,Active,,53,1528.0,No,2.2,5,1,4,1,1,18.7,24.7,4.54,No
+EMP0218,Supply Chain,Material Planner,MGR-S02,Dang Quang Huy,Day,2023-11-24,,Active,,27,1521.0,No,3.9,7,2,3,4,1,18.8,8.7,2.1,No
+EMP0219,Engineering,Industrial Engineer,MGR-E03,Huynh Gia Han,Day,2020-09-05,,Active,,27,1951.0,Yes,22.9,7,3,5,3,2,17.6,6.1,5.32,No
+EMP0220,Supply Chain,Logistics Analyst,MGR-S02,Dang Quang Huy,Rotating,2025-01-18,,Active,,35,1470.0,Yes,30.4,13,1,1,3,0,37.3,7.3,0.95,No
+EMP0221,Production,Production Operator,MGR-P04,Pham Hoang Duy,Night,2018-10-27,2024-02-25,Exited,Compensation,51,870.0,No,9.1,4,4,1,3,4,21.4,11.7,5.33,Yes
+EMP0222,Maintenance,Maintenance Technician,MGR-M02,Hoang Van Nam,Night,2022-09-25,2025-08-10,Exited,Personal reasons,38,1247.0,Yes,26.5,9,4,3,4,3,13.2,26.3,2.87,Yes
+EMP0223,Production,Line Leader,MGR-P01,Nguyen Minh Anh,Rotating,2018-02-15,,Active,,47,1329.0,No,5.8,11,2,2,3,1,8.4,10.0,7.87,No
+EMP0224,Production,Production Operator,MGR-P02,Tran Quoc Bao,Day,2020-05-03,,Active,,20,987.0,No,1.3,8,5,3,4,2,32.8,21.5,5.66,No
+EMP0225,Engineering,Automation Engineer,MGR-E01,Truong Minh Duc,Day,2018-03-17,,Active,,46,2272.0,Yes,37.4,2,2,2,4,6,11.8,20.6,7.79,No
+EMP0226,Production,Production Technician,MGR-P04,Pham Hoang Duy,Day,2025-03-23,,Active,,20,1070.0,No,2.7,5,3,3,5,0,31.2,35.0,0.77,No
+EMP0227,Quality,Quality Technician,MGR-Q02,Bui Thanh Lan,Night,2021-07-20,,Active,,45,1212.0,No,2.9,2,4,5,3,4,27.6,25.4,4.45,No
+EMP0228,Production,Production Technician,MGR-P01,Nguyen Minh Anh,Day,2022-06-09,,Active,,33,1080.0,No,5.4,4,4,3,4,3,26.7,5.6,3.56,No
+EMP0229,Production,Line Leader,MGR-P01,Nguyen Minh Anh,Day,2022-12-29,,Active,,20,1121.0,No,2.9,5,4,4,2,0,19.9,10.1,3.01,No
+EMP0230,Supply Chain,Warehouse Coordinator,MGR-S02,Dang Quang Huy,Day,2022-07-12,,Active,,27,1312.0,Yes,33.7,3,3,3,3,2,37.5,17.1,3.47,No
+EMP0231,Production,Production Operator,MGR-P02,Tran Quoc Bao,Day,2025-07-22,,Active,,43,1006.0,No,2.4,2,4,3,3,0,37.7,20.8,0.44,No
+EMP0232,HR & Administration,Administrative Coordinator,MGR-H01,Luong Phuong Thao,Day,2022-07-10,,Active,,49,1210.0,No,3.9,5,1,3,3,3,9.9,7.4,3.48,No
+EMP0233,Engineering,Industrial Engineer,MGR-E02,Ngo Bao Chau,Day,2025-11-03,,Active,,21,2141.0,No,4.9,6,3,4,2,0,29.0,16.6,0.16,No
+EMP0234,Engineering,Industrial Engineer,MGR-E03,Huynh Gia Han,Day,2025-10-13,,Active,,27,1841.0,No,4.8,3,3,5,2,0,49.1,27.3,0.22,No
+EMP0235,HR & Administration,Administrative Coordinator,MGR-H01,Luong Phuong Thao,Day,2018-01-04,2025-09-26,Exited,Career change,52,942.0,Yes,20.8,6,2,2,4,3,20.5,19.2,7.73,Yes
+EMP0236,Quality,Quality Technician,MGR-Q01,Vo Thu Ha,Night,2018-08-26,,Active,,44,1401.0,Yes,45.7,2,3,4,4,3,53.1,17.1,7.35,No
+EMP0237,Production,Production Technician,MGR-P03,Le Thanh Cong,Day,2025-01-08,,Active,,23,980.0,No,5.3,1,2,2,3,0,32.3,8.2,0.98,No
+EMP0238,Engineering,Process Engineer,MGR-E02,Ngo Bao Chau,Day,2020-05-11,,Active,,26,2066.0,No,4.2,1,3,3,3,4,19.6,6.6,5.64,No
+EMP0239,Production,Production Technician,MGR-P03,Le Thanh Cong,Rotating,2025-04-13,,Active,,22,1111.0,No,3.1,14,2,3,3,0,37.8,30.8,0.72,No
+EMP0240,Production,Line Leader,MGR-P03,Le Thanh Cong,Rotating,2021-05-25,,Active,,21,1352.0,Yes,33.4,8,3,2,3,2,26.5,28.8,4.6,No
+EMP0241,HR & Administration,HR Specialist,MGR-H01,Luong Phuong Thao,Day,2024-02-13,,Active,,36,1060.0,Yes,38.4,8,2,1,4,0,33.9,41.5,1.88,No
+EMP0242,Production,Production Operator,MGR-P04,Pham Hoang Duy,Night,2024-05-12,,Active,,31,827.0,Yes,39.5,10,1,4,3,0,46.7,12.0,1.64,No
+EMP0243,Maintenance,Maintenance Technician,MGR-M01,Do Tuan Kiet,Day,2018-06-20,,Active,,37,1582.0,Yes,16.2,4,4,4,3,4,37.0,17.1,7.53,No
+EMP0244,HR & Administration,Payroll Specialist,MGR-H01,Luong Phuong Thao,Day,2019-10-23,,Active,,48,1352.0,Yes,32.2,3,2,2,3,4,10.8,21.2,6.19,No
+EMP0245,Production,Production Technician,MGR-P04,Pham Hoang Duy,Rotating,2019-10-12,,Active,,30,923.0,No,4.7,11,4,3,4,3,49.4,25.7,6.22,No
+EMP0246,Production,Production Operator,MGR-P04,Pham Hoang Duy,Day,2018-02-25,,Active,,35,858.0,No,4.4,11,4,5,3,6,40.1,22.2,7.85,No
+EMP0247,Quality,Quality Engineer,MGR-Q01,Vo Thu Ha,Day,2022-02-07,2025-03-10,Exited,Performance,48,1665.0,Yes,42.6,9,3,3,4,2,20.8,2.7,3.09,Yes
+EMP0248,Production,Production Technician,MGR-P03,Le Thanh Cong,Rotating,2023-04-17,,Active,,46,1143.0,No,6.4,4,3,3,3,0,21.7,10.7,2.71,No
+EMP0249,Production,Production Technician,MGR-P03,Le Thanh Cong,Rotating,2020-09-02,,Active,,49,1013.0,No,2.3,13,1,4,2,0,29.3,13.5,5.33,No
+EMP0250,Supply Chain,Logistics Analyst,MGR-S01,Phan Ngoc Mai,Night,2022-08-11,2024-08-17,Exited,Career change,29,1506.0,Yes,18.0,10,5,4,4,3,35.1,28.7,2.02,Yes
+EMP0251,Engineering,Industrial Engineer,MGR-E03,Huynh Gia Han,Day,2025-03-08,,Active,,43,1846.0,Yes,30.9,8,3,3,3,0,24.9,13.3,0.82,No
+EMP0252,Production,Production Technician,MGR-P01,Nguyen Minh Anh,Day,2021-11-18,,Active,,42,919.0,Yes,25.7,1,1,4,5,0,27.5,34.0,4.12,No
+EMP0253,HR & Administration,Payroll Specialist,MGR-H01,Luong Phuong Thao,Day,2021-10-16,2025-10-20,Exited,Career change,49,1261.0,Yes,24.9,12,1,4,4,0,24.1,18.9,4.01,Yes
+EMP0254,Engineering,Automation Engineer,MGR-E02,Ngo Bao Chau,Night,2021-07-10,,Active,,39,1997.0,Yes,31.3,12,3,2,3,2,16.9,17.1,4.48,No
+EMP0255,Production,Line Leader,MGR-P03,Le Thanh Cong,Night,2021-05-05,,Active,,20,1106.0,Yes,17.1,16,5,3,3,0,44.7,5.4,4.66,No
+EMP0256,Production,Line Leader,MGR-P01,Nguyen Minh Anh,Night,2020-07-22,2024-04-25,Exited,Compensation,51,1191.0,No,8.6,11,5,5,3,0,12.1,22.4,3.76,Yes
+EMP0257,Production,Production Technician,MGR-P03,Le Thanh Cong,Day,2022-09-09,2025-02-03,Exited,Career change,24,947.0,Yes,22.9,6,4,4,3,1,42.5,26.0,2.4,Yes
+EMP0258,Engineering,Industrial Engineer,MGR-E03,Huynh Gia Han,Day,2021-07-27,,Active,,48,2053.0,No,3.7,3,4,4,3,3,24.5,17.1,4.43,No
+EMP0259,Engineering,Automation Engineer,MGR-E03,Huynh Gia Han,Day,2018-07-11,,Active,,51,2570.0,Yes,28.2,4,2,4,3,2,17.3,42.5,7.47,No
+EMP0260,Production,Production Technician,MGR-P03,Le Thanh Cong,Day,2018-11-16,2024-01-02,Exited,Career change,43,1141.0,No,8.2,9,5,4,3,0,13.5,16.2,5.13,Yes
+EMP0261,Production,Production Operator,MGR-P04,Pham Hoang Duy,Night,2019-06-24,2024-06-27,Exited,Personal reasons,24,846.0,Yes,34.0,10,4,4,3,6,17.1,14.0,5.01,Yes
+EMP0262,Production,Production Operator,MGR-P03,Le Thanh Cong,Night,2020-04-09,,Active,,23,933.0,Yes,30.7,2,3,3,4,2,24.2,37.6,5.73,No
+EMP0263,Production,Production Technician,MGR-P04,Pham Hoang Duy,Day,2023-04-17,2024-09-30,Exited,Career change,20,1089.0,No,5.2,4,2,4,3,2,28.9,25.0,1.46,Yes
+EMP0264,Engineering,Process Engineer,MGR-E01,Truong Minh Duc,Day,2018-03-29,2025-03-22,Exited,Career change,25,1985.0,Yes,21.6,9,4,2,3,5,25.5,10.1,6.98,Yes
+EMP0265,Engineering,Industrial Engineer,MGR-E03,Huynh Gia Han,Day,2022-01-15,,Active,,22,2127.0,No,6.2,1,4,2,4,1,21.8,18.6,3.96,No
+EMP0266,Supply Chain,Material Planner,MGR-S01,Phan Ngoc Mai,Night,2020-04-20,2024-10-08,Exited,Relocation,25,1402.0,Yes,20.8,5,3,3,3,1,16.3,31.9,4.47,Yes
+EMP0267,Production,Line Leader,MGR-P04,Pham Hoang Duy,Day,2020-01-21,,Active,,53,1107.0,No,2.6,14,3,5,3,4,35.7,18.3,5.94,No
+EMP0268,Production,Line Leader,MGR-P02,Tran Quoc Bao,Day,2025-04-24,,Active,,51,1392.0,No,4.3,13,2,3,3,0,31.3,10.9,0.69,No
+EMP0269,Supply Chain,Warehouse Coordinator,MGR-S01,Phan Ngoc Mai,Day,2019-12-27,,Active,,25,1085.0,Yes,14.6,7,2,1,4,4,26.1,22.4,6.01,No
+EMP0270,Engineering,Automation Engineer,MGR-E01,Truong Minh Duc,Day,2023-05-20,2024-04-06,Exited,Relocation,24,2501.0,No,5.2,12,5,3,4,0,54.9,27.0,0.88,Yes
+EMP0271,Production,Line Leader,MGR-P02,Tran Quoc Bao,Night,2020-01-08,,Active,,39,1221.0,No,4.6,3,3,3,4,2,15.1,13.4,5.98,No
+EMP0272,Engineering,Industrial Engineer,MGR-E03,Huynh Gia Han,Day,2019-02-10,,Active,,49,1848.0,Yes,31.6,9,1,3,4,1,48.4,16.7,6.89,No
+EMP0273,Quality,Quality Inspector,MGR-Q01,Vo Thu Ha,Night,2024-06-21,,Active,,35,1202.0,No,3.8,14,2,4,5,0,33.7,6.7,1.53,No
+EMP0274,Production,Line Leader,MGR-P04,Pham Hoang Duy,Night,2018-03-17,,Active,,53,1271.0,No,2.6,5,1,4,4,2,10.1,13.3,7.79,No
+EMP0275,Supply Chain,Material Planner,MGR-S01,Phan Ngoc Mai,Night,2022-05-20,,Active,,34,1371.0,No,5.8,2,3,3,3,1,31.6,31.5,3.62,No
+EMP0276,Supply Chain,Logistics Analyst,MGR-S01,Phan Ngoc Mai,Night,2024-02-10,2024-08-30,Exited,Work schedule,30,1598.0,Yes,33.6,4,3,3,3,1,28.3,7.5,0.55,Yes
+EMP0277,Production,Production Operator,MGR-P04,Pham Hoang Duy,Day,2024-05-29,2025-12-23,Exited,Compensation,21,787.0,No,2.8,8,3,5,3,1,16.5,36.0,1.57,Yes
+EMP0278,Production,Line Leader,MGR-P02,Tran Quoc Bao,Rotating,2020-07-30,2024-03-30,Exited,Personal reasons,32,1166.0,No,2.2,5,3,1,3,2,35.0,8.9,3.67,Yes
+EMP0279,Production,Production Technician,MGR-P01,Nguyen Minh Anh,Night,2018-08-20,,Active,,20,1081.0,No,1.2,4,3,4,4,4,24.9,30.2,7.36,No
+EMP0280,Production,Line Leader,MGR-P02,Tran Quoc Bao,Night,2018-11-19,,Active,,21,1119.0,No,6.9,4,5,3,4,6,30.7,13.7,7.12,No
+EMP0281,Production,Production Technician,MGR-P02,Tran Quoc Bao,Rotating,2018-03-07,,Active,,45,954.0,Yes,18.4,9,3,3,3,0,13.1,19.6,7.82,No
+EMP0282,Production,Production Technician,MGR-P04,Pham Hoang Duy,Rotating,2025-02-13,,Active,,29,1029.0,Yes,30.5,9,5,4,3,0,40.4,16.0,0.88,No
+EMP0283,Production,Line Leader,MGR-P02,Tran Quoc Bao,Day,2019-12-19,,Active,,38,1195.0,No,1.8,6,5,4,3,6,42.0,21.4,6.03,No
+EMP0284,Production,Production Operator,MGR-P01,Nguyen Minh Anh,Night,2019-09-03,,Active,,27,964.0,No,1.7,6,3,4,3,6,28.3,21.1,6.33,No
+EMP0285,Production,Line Leader,MGR-P01,Nguyen Minh Anh,Night,2021-06-01,2024-02-27,Exited,Better opportunity,25,1395.0,Yes,46.5,11,5,3,4,3,20.2,6.6,2.74,Yes
+EMP0286,Production,Production Operator,MGR-P04,Pham Hoang Duy,Day,2024-10-09,,Active,,22,815.0,Yes,15.2,2,4,3,5,1,22.5,10.0,1.23,No
+EMP0287,Supply Chain,Logistics Analyst,MGR-S02,Dang Quang Huy,Day,2025-06-14,,Active,,28,1461.0,Yes,20.4,5,4,3,4,0,15.4,22.7,0.55,No
+EMP0288,Production,Production Technician,MGR-P01,Nguyen Minh Anh,Night,2018-10-10,,Active,,30,1082.0,Yes,22.1,2,4,5,3,6,10.5,23.7,7.23,No
+EMP0289,Maintenance,Facilities Technician,MGR-M01,Do Tuan Kiet,Night,2020-10-28,,Active,,25,1241.0,Yes,25.3,6,2,3,3,5,10.7,10.6,5.17,No
+EMP0290,Production,Line Leader,MGR-P01,Nguyen Minh Anh,Day,2023-12-05,,Active,,24,1152.0,No,3.6,14,4,5,3,2,15.0,36.8,2.07,No
+EMP0291,Finance,Accountant,MGR-F01,Mai Thanh Son,Day,2022-06-17,,Active,,38,1662.0,No,7.3,5,4,4,3,3,41.6,13.6,3.54,No
+EMP0292,Engineering,Process Engineer,MGR-E02,Ngo Bao Chau,Day,2022-07-18,,Active,,45,2154.0,Yes,23.9,3,2,3,3,3,17.8,5.4,3.46,No
+EMP0293,Production,Production Operator,MGR-P01,Nguyen Minh Anh,Rotating,2025-05-15,,Active,,47,798.0,No,4.0,7,1,3,2,0,20.7,25.5,0.63,No
+EMP0294,Production,Production Operator,MGR-P01,Nguyen Minh Anh,Night,2021-02-23,,Active,,49,932.0,No,2.7,3,2,3,3,2,11.5,22.4,4.85,No
+EMP0295,Production,Production Operator,MGR-P02,Tran Quoc Bao,Day,2018-02-18,,Active,,49,805.0,Yes,27.0,5,4,4,3,3,27.2,5.7,7.87,No
+EMP0296,Engineering,Industrial Engineer,MGR-E03,Huynh Gia Han,Day,2019-07-24,,Active,,24,1851.0,No,7.8,2,3,5,1,5,53.2,6.4,6.44,No
+EMP0297,HR & Administration,Payroll Specialist,MGR-H01,Luong Phuong Thao,Day,2025-01-01,,Active,,47,1379.0,Yes,36.5,7,3,2,4,0,21.1,7.6,1.0,No
+EMP0298,Maintenance,Facilities Technician,MGR-M02,Hoang Van Nam,Night,2019-07-30,,Active,,22,1430.0,No,6.1,11,2,3,4,3,30.3,15.0,6.42,No
+EMP0299,Production,Production Operator,MGR-P04,Pham Hoang Duy,Rotating,2021-10-11,,Active,,31,951.0,Yes,29.5,12,3,2,3,2,21.0,14.7,4.22,No
+EMP0300,Production,Line Leader,MGR-P01,Nguyen Minh Anh,Night,2025-08-04,,Active,,27,1131.0,No,2.4,5,4,4,3,0,32.1,19.5,0.41,No
+EMP0301,Supply Chain,Material Planner,MGR-S01,Phan Ngoc Mai,Day,2020-02-21,,Active,,32,1504.0,No,3.5,2,2,3,4,0,14.8,4.7,5.86,No
+EMP0302,Production,Production Operator,MGR-P04,Pham Hoang Duy,Night,2025-06-16,,Active,,38,1005.0,No,8.0,2,4,2,3,0,26.4,31.2,0.54,No
+EMP0303,Quality,Quality Technician,MGR-Q01,Vo Thu Ha,Night,2018-01-03,2024-12-28,Exited,Career change,52,1426.0,No,5.0,4,2,4,3,2,27.9,12.7,6.98,Yes
+EMP0304,Maintenance,Maintenance Technician,MGR-M01,Do Tuan Kiet,Night,2022-03-10,,Active,,27,1383.0,Yes,25.6,1,2,4,3,2,18.9,5.0,3.81,No
+EMP0305,Engineering,Automation Engineer,MGR-E01,Truong Minh Duc,Day,2019-11-04,2025-06-27,Exited,Compensation,31,2151.0,Yes,41.6,6,2,3,2,5,35.4,9.7,5.65,Yes
+EMP0306,HR & Administration,Administrative Coordinator,MGR-H01,Luong Phuong Thao,Day,2018-11-23,2024-07-16,Exited,Performance,41,1209.0,No,5.5,8,1,3,2,6,26.5,26.5,5.65,Yes
+EMP0307,Production,Line Leader,MGR-P04,Pham Hoang Duy,Day,2020-03-22,,Active,,52,1292.0,No,5.5,4,1,3,3,3,31.2,6.7,5.78,No
+EMP0308,Production,Production Operator,MGR-P03,Le Thanh Cong,Day,2023-12-30,,Active,,51,958.0,Yes,17.6,16,3,3,4,2,52.8,18.6,2.0,No
+EMP0309,Maintenance,Maintenance Technician,MGR-M01,Do Tuan Kiet,Night,2025-10-24,,Active,,41,1374.0,Yes,28.4,5,3,4,4,0,34.1,7.2,0.19,No
+EMP0310,Production,Line Leader,MGR-P04,Pham Hoang Duy,Day,2021-01-03,2025-09-22,Exited,Better opportunity,25,1137.0,Yes,31.1,12,1,4,3,0,47.0,38.4,4.72,Yes
+EMP0311,Production,Production Technician,MGR-P01,Nguyen Minh Anh,Night,2020-03-18,,Active,,47,1156.0,No,4.5,3,5,4,3,2,42.5,24.7,5.79,No
+EMP0312,Engineering,Automation Engineer,MGR-E01,Truong Minh Duc,Night,2023-11-08,,Active,,30,2002.0,No,2.3,10,4,4,3,1,11.7,5.7,2.15,No
+EMP0313,Maintenance,Maintenance Technician,MGR-M01,Do Tuan Kiet,Rotating,2020-05-09,,Active,,34,1386.0,Yes,15.6,1,5,4,3,3,46.1,27.4,5.65,No
+EMP0314,Production,Line Leader,MGR-P04,Pham Hoang Duy,Night,2019-01-10,,Active,,25,1129.0,No,6.4,14,2,3,3,3,7.9,6.5,6.97,No
+EMP0315,Production,Line Leader,MGR-P04,Pham Hoang Duy,Rotating,2018-09-12,,Active,,45,1244.0,Yes,29.4,9,3,4,3,4,36.9,14.3,7.3,No
+EMP0316,Engineering,Process Engineer,MGR-E03,Huynh Gia Han,Night,2018-08-07,,Active,,41,1965.0,No,9.2,8,3,3,3,2,15.0,19.7,7.4,No
+EMP0317,Production,Production Technician,MGR-P03,Le Thanh Cong,Day,2020-02-09,,Active,,47,1128.0,Yes,27.1,3,4,3,3,5,41.9,20.1,5.89,No
+EMP0318,Quality,Quality Technician,MGR-Q02,Bui Thanh Lan,Day,2018-10-16,,Active,,26,1350.0,Yes,35.9,15,4,3,3,5,25.8,29.4,7.21,No
+EMP0319,Quality,Quality Engineer,MGR-Q02,Bui Thanh Lan,Night,2024-12-29,,Active,,52,1651.0,No,6.8,4,4,4,1,1,31.1,26.1,1.0,No
+EMP0320,Production,Production Operator,MGR-P04,Pham Hoang Duy,Day,2024-09-02,2025-05-21,Exited,Performance,25,902.0,Yes,41.0,4,4,3,3,1,40.6,32.4,0.71,Yes
+EMP0321,Quality,Quality Engineer,MGR-Q02,Bui Thanh Lan,Day,2018-11-21,2024-06-01,Exited,Better opportunity,23,1496.0,Yes,24.7,9,2,4,3,4,24.2,9.9,5.53,Yes
+EMP0322,Production,Line Leader,MGR-P03,Le Thanh Cong,Day,2022-05-22,2024-02-21,Exited,Personal reasons,38,1131.0,No,7.0,4,2,4,3,0,32.9,26.0,1.75,Yes
+EMP0323,Finance,Finance Specialist,MGR-F01,Mai Thanh Son,Day,2020-05-30,,Active,,50,1768.0,No,3.6,7,5,2,3,2,35.1,3.9,5.59,No
+EMP0324,Quality,Quality Inspector,MGR-Q01,Vo Thu Ha,Rotating,2023-07-07,,Active,,26,1160.0,No,9.2,10,4,3,3,0,44.0,14.7,2.49,No
+EMP0325,Supply Chain,Material Planner,MGR-S02,Dang Quang Huy,Day,2020-07-30,,Active,,44,1460.0,No,1.9,13,4,3,3,4,40.9,32.4,5.42,No
+EMP0326,Production,Production Technician,MGR-P04,Pham Hoang Duy,Rotating,2019-10-10,,Active,,28,1038.0,No,4.6,10,4,5,4,0,13.9,18.5,6.23,No
+EMP0327,Production,Line Leader,MGR-P01,Nguyen Minh Anh,Day,2018-09-21,,Active,,39,1374.0,No,3.6,8,3,2,2,6,10.0,33.1,7.28,No
+EMP0328,Production,Production Operator,MGR-P03,Le Thanh Cong,Day,2018-02-27,2024-12-07,Exited,Better opportunity,27,792.0,Yes,23.2,4,2,4,3,4,25.5,12.2,6.78,Yes
+EMP0329,Production,Line Leader,MGR-P03,Le Thanh Cong,Day,2019-02-03,,Active,,46,1188.0,No,8.4,2,4,3,3,0,26.7,25.3,6.91,No
+EMP0330,Supply Chain,Warehouse Coordinator,MGR-S01,Phan Ngoc Mai,Day,2019-01-03,,Active,,48,1122.0,Yes,22.9,2,5,5,1,6,18.3,9.1,6.99,No
+EMP0331,Production,Line Leader,MGR-P02,Tran Quoc Bao,Day,2018-03-22,,Active,,38,1149.0,No,6.2,8,4,4,3,0,25.8,5.4,7.78,No
+EMP0332,Production,Production Operator,MGR-P02,Tran Quoc Bao,Day,2023-10-28,2025-07-25,Exited,Performance,21,846.0,Yes,25.9,14,2,3,4,0,19.0,37.3,1.74,Yes
+EMP0333,HR & Administration,Administrative Coordinator,MGR-H01,Luong Phuong Thao,Day,2021-07-25,,Active,,53,1159.0,No,3.9,3,3,4,4,4,35.5,3.6,4.44,No
+EMP0334,Supply Chain,Logistics Analyst,MGR-S02,Dang Quang Huy,Day,2018-08-01,,Active,,51,1468.0,Yes,33.6,5,3,4,2,0,21.2,37.5,7.42,No
+EMP0335,Production,Line Leader,MGR-P01,Nguyen Minh Anh,Day,2021-02-04,,Active,,35,1178.0,Yes,42.6,5,3,4,2,3,34.9,11.3,4.9,No
+EMP0336,Production,Production Technician,MGR-P02,Tran Quoc Bao,Night,2019-12-31,2025-06-16,Exited,Better opportunity,37,1173.0,No,7.2,11,2,2,5,1,18.5,11.8,5.46,Yes
+EMP0337,Production,Production Operator,MGR-P02,Tran Quoc Bao,Day,2024-04-29,2024-07-03,Exited,Compensation,24,837.0,No,2.8,11,4,3,3,1,54.7,19.2,0.18,Yes
+EMP0338,Production,Production Operator,MGR-P04,Pham Hoang Duy,Night,2024-08-31,,Active,,34,932.0,No,5.1,5,3,1,4,1,18.0,21.8,1.33,No
+EMP0339,Production,Production Operator,MGR-P03,Le Thanh Cong,Rotating,2024-09-30,,Active,,31,783.0,Yes,31.3,11,4,3,3,1,24.1,14.1,1.25,No
+EMP0340,Engineering,Automation Engineer,MGR-E03,Huynh Gia Han,Day,2018-11-21,,Active,,32,2513.0,No,2.3,4,4,4,3,5,8.5,9.2,7.11,No
+EMP0341,Maintenance,Maintenance Technician,MGR-M01,Do Tuan Kiet,Day,2018-06-04,2025-10-23,Exited,Compensation,48,1517.0,No,6.4,15,5,3,4,4,50.2,13.2,7.39,Yes
+EMP0342,Production,Line Leader,MGR-P01,Nguyen Minh Anh,Night,2025-02-14,2025-07-23,Exited,Better opportunity,28,1165.0,No,1.2,5,3,3,5,0,38.1,31.0,0.44,Yes
+EMP0343,Engineering,Process Engineer,MGR-E01,Truong Minh Duc,Day,2019-07-17,2025-12-19,Exited,Personal reasons,38,2253.0,No,1.7,4,3,3,3,2,24.9,24.0,6.43,Yes
+EMP0344,Maintenance,Equipment Engineer,MGR-M01,Do Tuan Kiet,Night,2023-09-17,,Active,,46,1895.0,Yes,32.4,10,4,4,4,0,13.7,19.1,2.29,No
+EMP0345,Supply Chain,Logistics Analyst,MGR-S01,Phan Ngoc Mai,Day,2025-04-16,,Active,,20,1478.0,Yes,28.5,2,3,5,4,0,27.5,12.5,0.71,No
+EMP0346,Finance,Finance Specialist,MGR-F01,Mai Thanh Son,Day,2024-04-05,,Active,,23,1476.0,No,8.1,12,2,5,1,1,19.6,27.9,1.74,No
+EMP0347,Quality,Quality Engineer,MGR-Q01,Vo Thu Ha,Rotating,2021-10-08,2025-10-31,Exited,Better opportunity,26,1447.0,Yes,34.6,14,3,3,4,3,33.2,19.8,4.06,Yes
+EMP0348,Production,Production Operator,MGR-P01,Nguyen Minh Anh,Rotating,2022-11-24,2025-10-01,Exited,Performance,45,849.0,No,0.6,11,1,1,3,3,22.8,14.7,2.85,Yes
+EMP0349,Quality,Quality Technician,MGR-Q01,Vo Thu Ha,Day,2023-09-08,,Active,,45,1447.0,No,2.2,13,3,3,2,2,10.7,9.7,2.31,No
+EMP0350,HR & Administration,HR Specialist,MGR-H01,Luong Phuong Thao,Day,2021-01-15,,Active,,41,1103.0,No,3.4,3,4,3,3,2,49.6,23.0,4.96,No
+EMP0351,Production,Line Leader,MGR-P01,Nguyen Minh Anh,Day,2025-11-07,,Active,,22,1359.0,No,3.3,11,1,4,4,0,40.5,36.1,0.15,No
+EMP0352,Finance,Finance Specialist,MGR-F01,Mai Thanh Son,Night,2025-11-04,,Active,,30,1743.0,Yes,29.9,6,4,4,3,0,22.4,23.4,0.16,No
+EMP0353,Maintenance,Maintenance Technician,MGR-M02,Hoang Van Nam,Rotating,2023-04-01,,Active,,39,1291.0,Yes,20.0,3,3,3,4,0,37.5,6.0,2.75,No
+EMP0354,Production,Line Leader,MGR-P04,Pham Hoang Duy,Rotating,2023-12-28,,Active,,36,1102.0,No,2.9,7,2,3,3,1,11.8,21.0,2.01,No
+EMP0355,Engineering,Automation Engineer,MGR-E03,Huynh Gia Han,Day,2021-12-29,,Active,,48,2120.0,No,3.4,9,4,3,2,3,22.5,6.7,4.01,No
+EMP0356,Production,Line Leader,MGR-P02,Tran Quoc Bao,Night,2023-09-18,,Active,,22,1085.0,No,5.9,6,5,1,2,0,16.6,23.0,2.29,No
+EMP0357,Supply Chain,Material Planner,MGR-S02,Dang Quang Huy,Rotating,2025-03-27,,Active,,51,1487.0,No,2.5,2,1,5,3,0,49.7,40.7,0.76,No
+EMP0358,Finance,Finance Specialist,MGR-F01,Mai Thanh Son,Day,2020-10-06,,Active,,25,1833.0,Yes,20.5,2,4,2,3,4,39.5,34.4,5.23,No
+EMP0359,Finance,Finance Specialist,MGR-F01,Mai Thanh Son,Day,2024-12-26,,Active,,25,1564.0,Yes,24.9,5,4,3,4,1,46.9,28.5,1.01,No
+EMP0360,Production,Production Operator,MGR-P04,Pham Hoang Duy,Rotating,2025-05-14,,Active,,51,838.0,Yes,23.1,12,4,3,3,0,38.1,4.6,0.63,No
+EMP0361,Maintenance,Maintenance Technician,MGR-M01,Do Tuan Kiet,Rotating,2020-12-15,,Active,,26,1590.0,No,5.6,14,4,3,4,1,37.4,8.7,5.04,No
+EMP0362,Maintenance,Maintenance Technician,MGR-M01,Do Tuan Kiet,Day,2025-01-09,,Active,,51,1515.0,No,1.8,4,3,3,3,0,34.7,29.7,0.97,No
+EMP0363,Finance,Finance Specialist,MGR-F01,Mai Thanh Son,Day,2021-02-27,,Active,,50,1820.0,Yes,17.7,11,3,3,2,3,19.9,22.6,4.84,No
+EMP0364,Quality,Quality Engineer,MGR-Q02,Bui Thanh Lan,Night,2021-07-05,,Active,,37,1650.0,Yes,30.1,9,1,3,4,1,25.1,12.2,4.49,No
+EMP0365,HR & Administration,Payroll Specialist,MGR-H01,Luong Phuong Thao,Day,2020-05-08,,Active,,33,1267.0,No,2.0,6,2,2,3,4,14.9,4.1,5.65,No
+EMP0366,Quality,Quality Engineer,MGR-Q01,Vo Thu Ha,Day,2022-02-19,,Active,,50,1838.0,Yes,18.2,10,1,1,2,0,29.5,2.8,3.86,No
+EMP0367,Production,Line Leader,MGR-P03,Le Thanh Cong,Night,2022-04-01,,Active,,35,1283.0,Yes,15.4,5,2,1,4,1,25.3,13.8,3.75,No
+EMP0368,Production,Line Leader,MGR-P03,Le Thanh Cong,Rotating,2019-12-22,,Active,,39,1317.0,No,3.9,4,4,5,4,5,45.0,12.3,6.03,No
+EMP0369,Maintenance,Equipment Engineer,MGR-M02,Hoang Van Nam,Day,2020-05-31,,Active,,49,1824.0,No,1.7,11,4,4,3,5,46.8,9.7,5.59,No
+EMP0370,Quality,Quality Inspector,MGR-Q02,Bui Thanh Lan,Day,2021-03-16,,Active,,25,1380.0,No,8.3,4,2,3,3,1,21.7,19.3,4.79,No
+EMP0371,Production,Production Technician,MGR-P04,Pham Hoang Duy,Rotating,2022-09-17,,Active,,23,1098.0,Yes,14.2,9,3,2,4,1,17.8,5.4,3.29,No
+EMP0372,Engineering,Industrial Engineer,MGR-E01,Truong Minh Duc,Day,2019-12-16,,Active,,21,2138.0,No,5.2,5,4,2,4,4,27.9,36.0,6.04,No
+EMP0373,Production,Line Leader,MGR-P01,Nguyen Minh Anh,Day,2018-06-02,,Active,,22,1071.0,No,5.2,3,4,3,2,6,48.0,8.0,7.58,No
+EMP0374,Production,Production Operator,MGR-P02,Tran Quoc Bao,Rotating,2025-01-08,,Active,,23,950.0,No,4.5,7,3,5,4,0,35.0,24.5,0.98,No
+EMP0375,HR & Administration,Administrative Coordinator,MGR-H01,Luong Phuong Thao,Day,2018-09-24,,Active,,50,1084.0,Yes,21.3,14,3,3,3,3,30.2,30.6,7.27,No
+EMP0376,Engineering,Industrial Engineer,MGR-E01,Truong Minh Duc,Day,2024-01-09,2024-08-19,Exited,Relocation,46,1926.0,Yes,28.5,8,3,2,3,1,16.2,21.1,0.61,Yes
+EMP0377,Production,Line Leader,MGR-P02,Tran Quoc Bao,Day,2018-05-05,,Active,,42,1269.0,Yes,22.8,3,3,4,3,4,31.4,6.7,7.66,No
+EMP0378,Quality,Quality Inspector,MGR-Q01,Vo Thu Ha,Rotating,2021-09-28,,Active,,46,1259.0,No,3.3,3,5,4,3,2,48.3,10.8,4.26,No
+EMP0379,Production,Production Technician,MGR-P03,Le Thanh Cong,Night,2024-03-27,2024-12-13,Exited,Relocation,35,1137.0,No,4.3,13,4,4,3,0,47.0,36.1,0.71,Yes
+EMP0380,Production,Production Technician,MGR-P04,Pham Hoang Duy,Day,2020-09-08,2024-06-20,Exited,Better opportunity,51,1027.0,No,6.0,4,3,5,3,2,36.1,11.2,3.78,Yes
+EMP0381,Supply Chain,Material Planner,MGR-S02,Dang Quang Huy,Night,2025-06-06,,Active,,51,1310.0,No,5.2,2,4,3,3,0,17.4,16.8,0.57,No
+EMP0382,Production,Production Operator,MGR-P03,Le Thanh Cong,Rotating,2021-02-09,,Active,,38,844.0,Yes,36.9,5,2,2,3,3,42.3,12.7,4.89,No
+EMP0383,Maintenance,Maintenance Technician,MGR-M02,Hoang Van Nam,Night,2022-08-15,,Active,,21,1396.0,No,4.2,14,4,3,3,2,32.2,32.6,3.38,No
+EMP0384,Production,Production Operator,MGR-P02,Tran Quoc Bao,Day,2022-03-12,2024-04-09,Exited,Work schedule,33,853.0,Yes,30.8,4,4,3,3,3,13.6,8.3,2.08,Yes
+EMP0385,HR & Administration,Payroll Specialist,MGR-H01,Luong Phuong Thao,Day,2020-01-04,,Active,,34,1210.0,Yes,29.0,7,2,3,3,0,33.1,32.4,5.99,No
+EMP0386,Engineering,Automation Engineer,MGR-E03,Huynh Gia Han,Day,2022-10-24,,Active,,52,2564.0,No,2.2,11,3,3,1,0,22.9,20.7,3.19,No
+EMP0387,Engineering,Process Engineer,MGR-E01,Truong Minh Duc,Day,2023-08-04,,Active,,52,1808.0,No,4.5,0,4,4,4,1,9.4,17.3,2.41,No
+EMP0388,Production,Production Operator,MGR-P04,Pham Hoang Duy,Day,2019-06-21,,Active,,33,989.0,No,2.5,15,3,3,3,3,30.3,10.7,6.53,No
+EMP0389,Quality,Quality Inspector,MGR-Q01,Vo Thu Ha,Night,2024-12-29,,Active,,50,1351.0,Yes,31.1,2,3,4,4,0,36.0,13.9,1.0,No
+EMP0390,Finance,Finance Specialist,MGR-F01,Mai Thanh Son,Day,2024-12-30,,Active,,45,1450.0,Yes,26.4,2,4,2,3,0,21.9,23.3,1.0,No
+EMP0391,Production,Production Technician,MGR-P04,Pham Hoang Duy,Rotating,2025-05-12,,Active,,52,1171.0,Yes,31.6,2,4,2,3,0,30.2,33.2,0.64,No
+EMP0392,Quality,Quality Inspector,MGR-Q02,Bui Thanh Lan,Day,2024-04-02,,Active,,52,1390.0,No,3.2,9,4,2,2,0,49.5,19.0,1.75,No
+EMP0393,Production,Line Leader,MGR-P03,Le Thanh Cong,Night,2025-01-16,2025-05-20,Exited,Personal reasons,44,1205.0,Yes,30.1,2,2,2,3,0,38.1,30.2,0.34,Yes
+EMP0394,Supply Chain,Logistics Analyst,MGR-S02,Dang Quang Huy,Day,2020-08-13,2024-12-23,Exited,Performance,45,1317.0,Yes,25.2,2,4,5,4,3,18.5,16.4,4.36,Yes
+EMP0395,Finance,Accountant,MGR-F01,Mai Thanh Son,Day,2020-12-02,,Active,,49,1505.0,Yes,30.3,3,2,2,5,4,34.2,40.5,5.08,No
+EMP0396,Maintenance,Facilities Technician,MGR-M01,Do Tuan Kiet,Night,2023-11-18,,Active,,30,1390.0,No,4.9,11,2,3,1,2,39.1,17.0,2.12,No
+EMP0397,Production,Line Leader,MGR-P03,Le Thanh Cong,Day,2018-10-24,2024-02-24,Exited,Performance,44,1252.0,No,4.1,5,3,3,3,6,39.5,17.8,5.34,Yes
+EMP0398,Maintenance,Equipment Engineer,MGR-M02,Hoang Van Nam,Day,2021-01-14,,Active,,39,1860.0,No,4.3,4,4,1,4,1,25.4,6.8,4.96,No
+EMP0399,Production,Line Leader,MGR-P03,Le Thanh Cong,Day,2022-12-24,,Active,,33,1265.0,Yes,18.7,7,1,5,3,1,21.9,11.1,3.02,No
+EMP0400,HR & Administration,HR Specialist,MGR-H01,Luong Phuong Thao,Day,2018-12-20,,Active,,31,1202.0,Yes,38.9,4,3,1,4,3,29.6,9.6,7.03,No
+EMP0401,Production,Line Leader,MGR-P04,Pham Hoang Duy,Day,2023-12-23,,Active,,50,1283.0,No,2.9,10,3,3,4,1,40.0,15.0,2.02,No
+EMP0402,Quality,Quality Technician,MGR-Q02,Bui Thanh Lan,Night,2018-11-11,,Active,,43,1420.0,Yes,37.2,8,4,4,3,1,50.2,31.9,7.14,No
+EMP0403,Production,Production Operator,MGR-P03,Le Thanh Cong,Day,2022-05-21,2025-09-16,Exited,Better opportunity,44,918.0,No,5.6,6,1,4,3,2,21.2,9.7,3.32,Yes
+EMP0404,Maintenance,Maintenance Technician,MGR-M02,Hoang Van Nam,Day,2018-08-27,,Active,,34,1486.0,No,0.6,4,4,1,3,4,28.7,11.7,7.35,No
+EMP0405,Production,Production Technician,MGR-P01,Nguyen Minh Anh,Night,2020-01-11,,Active,,37,1074.0,No,2.4,10,2,3,2,4,51.3,22.0,5.97,No
+EMP0406,Production,Production Technician,MGR-P02,Tran Quoc Bao,Rotating,2021-09-20,,Active,,53,988.0,No,3.5,6,4,4,4,1,24.2,18.8,4.28,No
+EMP0407,Finance,Cost Analyst,MGR-F01,Mai Thanh Son,Day,2023-10-17,,Active,,37,1834.0,No,2.8,12,5,3,5,0,9.6,17.2,2.21,No
+EMP0408,Production,Production Technician,MGR-P04,Pham Hoang Duy,Day,2025-08-28,,Active,,39,1027.0,No,2.8,7,4,4,3,0,39.8,8.7,0.34,No
+EMP0409,Production,Line Leader,MGR-P03,Le Thanh Cong,Day,2022-09-28,,Active,,47,1314.0,No,3.4,9,5,5,3,0,39.7,25.6,3.26,No
+EMP0410,Production,Production Operator,MGR-P03,Le Thanh Cong,Day,2018-01-26,,Active,,40,794.0,No,1.6,8,3,5,3,1,40.4,30.9,7.93,No
+EMP0411,Production,Line Leader,MGR-P01,Nguyen Minh Anh,Day,2022-01-17,,Active,,30,1164.0,Yes,23.4,4,3,3,5,0,22.9,15.2,3.95,No
+EMP0412,Production,Production Technician,MGR-P02,Tran Quoc Bao,Rotating,2020-01-25,2025-11-05,Exited,Career change,49,901.0,Yes,34.1,9,4,3,4,1,24.3,38.4,5.78,Yes
+EMP0413,Maintenance,Facilities Technician,MGR-M02,Hoang Van Nam,Night,2021-01-06,,Active,,38,1277.0,Yes,26.3,7,4,3,2,0,26.2,21.1,4.98,No
+EMP0414,Production,Line Leader,MGR-P01,Nguyen Minh Anh,Rotating,2020-11-08,,Active,,28,1348.0,No,4.3,4,1,2,4,0,35.2,17.2,5.14,No
+EMP0415,Maintenance,Equipment Engineer,MGR-M02,Hoang Van Nam,Day,2024-04-05,,Active,,45,2067.0,No,3.4,4,3,4,3,0,14.1,25.6,1.74,No
+EMP0416,Supply Chain,Logistics Analyst,MGR-S02,Dang Quang Huy,Night,2024-03-19,,Active,,34,1388.0,Yes,21.5,3,4,4,4,0,45.0,17.3,1.79,No
+EMP0417,Engineering,Automation Engineer,MGR-E01,Truong Minh Duc,Day,2021-01-06,,Active,,44,2446.0,No,7.2,6,2,4,3,1,35.4,27.1,4.98,No
+EMP0418,Maintenance,Maintenance Technician,MGR-M02,Hoang Van Nam,Day,2020-08-04,,Active,,35,1526.0,Yes,38.9,2,4,1,4,1,19.7,8.9,5.41,No
+EMP0419,Production,Production Technician,MGR-P04,Pham Hoang Duy,Rotating,2025-10-25,,Active,,50,906.0,Yes,26.5,7,4,4,3,0,38.5,6.6,0.18,No
+EMP0420,Supply Chain,Material Planner,MGR-S02,Dang Quang Huy,Day,2019-10-04,,Active,,47,1468.0,No,9.0,8,3,3,3,3,51.9,24.8,6.24,No
+EMP0421,Maintenance,Equipment Engineer,MGR-M02,Hoang Van Nam,Day,2019-06-21,,Active,,23,1625.0,No,6.4,4,4,2,5,0,23.3,20.5,6.53,No
+EMP0422,Quality,Quality Technician,MGR-Q02,Bui Thanh Lan,Day,2025-10-23,,Active,,46,1388.0,Yes,26.7,3,4,5,4,0,47.7,12.4,0.19,No
+EMP0423,Quality,Quality Technician,MGR-Q02,Bui Thanh Lan,Day,2024-12-23,,Active,,20,1459.0,No,1.9,4,3,3,2,0,34.0,8.0,1.02,No
+EMP0424,Finance,Cost Analyst,MGR-F01,Mai Thanh Son,Day,2024-10-16,2025-01-13,Exited,Performance,40,1730.0,No,2.5,2,4,4,3,1,24.0,19.8,0.24,Yes
+EMP0425,Production,Production Technician,MGR-P02,Tran Quoc Bao,Rotating,2021-11-23,,Active,,22,1138.0,Yes,21.6,5,2,3,3,2,50.6,10.4,4.1,No
+EMP0426,Quality,Quality Inspector,MGR-Q01,Vo Thu Ha,Day,2022-05-11,,Active,,26,1355.0,No,8.6,5,2,5,5,0,29.9,23.0,3.64,No
+EMP0427,Production,Production Technician,MGR-P03,Le Thanh Cong,Night,2019-09-17,,Active,,36,1049.0,No,2.0,5,3,3,3,6,55.9,40.6,6.29,No
+EMP0428,Quality,Quality Engineer,MGR-Q02,Bui Thanh Lan,Day,2024-05-10,,Active,,20,1443.0,No,1.7,7,5,3,5,0,30.4,4.8,1.64,No
+EMP0429,Production,Production Operator,MGR-P02,Tran Quoc Bao,Day,2018-07-19,,Active,,51,845.0,No,8.5,12,3,3,3,6,22.2,10.6,7.45,No
+EMP0430,Maintenance,Maintenance Technician,MGR-M02,Hoang Van Nam,Night,2022-03-18,2024-06-15,Exited,Better opportunity,28,1476.0,Yes,27.4,13,4,3,3,1,45.6,33.1,2.25,Yes
+EMP0431,Finance,Accountant,MGR-F01,Mai Thanh Son,Day,2019-08-21,2024-01-18,Exited,Compensation,38,1342.0,No,0.9,12,3,3,2,0,29.4,29.2,4.41,Yes
+EMP0432,Maintenance,Maintenance Technician,MGR-M01,Do Tuan Kiet,Day,2019-05-22,2024-02-04,Exited,Better opportunity,29,1314.0,No,6.9,7,1,2,4,6,38.7,21.1,4.71,Yes
+EMP0433,Production,Production Technician,MGR-P01,Nguyen Minh Anh,Rotating,2025-03-15,,Active,,21,1069.0,No,5.8,12,2,3,5,0,20.5,17.2,0.8,No
+EMP0434,Production,Production Operator,MGR-P03,Le Thanh Cong,Rotating,2018-03-21,,Active,,41,977.0,Yes,39.8,9,4,3,4,1,20.8,18.8,7.78,No
+EMP0435,HR & Administration,Administrative Coordinator,MGR-H01,Luong Phuong Thao,Night,2022-09-12,,Active,,35,1214.0,No,8.2,2,4,3,3,3,22.9,16.4,3.3,No
+EMP0436,HR & Administration,Administrative Coordinator,MGR-H01,Luong Phuong Thao,Day,2018-04-08,,Active,,34,1124.0,Yes,27.2,3,3,2,3,1,15.2,24.7,7.73,No
+EMP0437,Production,Production Technician,MGR-P02,Tran Quoc Bao,Day,2020-10-28,,Active,,42,1136.0,Yes,25.9,5,3,3,3,1,43.2,23.6,5.17,No
+EMP0438,Quality,Quality Engineer,MGR-Q02,Bui Thanh Lan,Night,2021-05-28,,Active,,42,1785.0,Yes,26.8,8,5,4,5,0,25.4,25.1,4.59,No
+EMP0439,Engineering,Industrial Engineer,MGR-E01,Truong Minh Duc,Day,2020-12-14,,Active,,25,2090.0,No,3.6,4,2,4,3,1,17.3,12.8,5.05,No
+EMP0440,Production,Production Operator,MGR-P04,Pham Hoang Duy,Day,2023-06-12,,Active,,23,939.0,Yes,28.2,16,2,3,5,2,33.0,9.6,2.55,No
+EMP0441,Production,Production Technician,MGR-P02,Tran Quoc Bao,Night,2023-09-13,,Active,,24,1037.0,No,2.4,4,3,5,2,1,31.1,16.1,2.3,No
+EMP0442,Maintenance,Equipment Engineer,MGR-M02,Hoang Van Nam,Night,2025-10-09,2025-12-18,Exited,Career change,25,2068.0,Yes,19.5,2,2,4,3,0,44.8,15.2,0.19,Yes
+EMP0443,Production,Line Leader,MGR-P03,Le Thanh Cong,Rotating,2020-07-21,2024-11-26,Exited,Compensation,40,1355.0,Yes,21.3,0,4,5,2,1,40.8,15.5,4.35,Yes
+EMP0444,Production,Line Leader,MGR-P03,Le Thanh Cong,Rotating,2023-04-20,2024-05-09,Exited,Work schedule,46,1135.0,Yes,25.4,2,2,1,4,1,41.7,13.5,1.05,Yes
+EMP0445,Production,Line Leader,MGR-P04,Pham Hoang Duy,Night,2019-06-26,,Active,,40,1076.0,No,3.0,8,4,4,3,6,21.5,4.5,6.52,No
+EMP0446,Finance,Cost Analyst,MGR-F01,Mai Thanh Son,Day,2021-07-18,,Active,,31,1634.0,No,3.4,7,3,3,2,0,30.6,31.7,4.45,No
+EMP0447,HR & Administration,HR Specialist,MGR-H01,Luong Phuong Thao,Day,2025-01-20,,Active,,27,1091.0,No,2.6,6,4,3,4,0,39.6,6.0,0.94,No
+EMP0448,Production,Line Leader,MGR-P02,Tran Quoc Bao,Rotating,2023-04-27,,Active,,46,1372.0,No,4.2,15,4,4,3,1,20.8,12.2,2.68,No
+EMP0449,Engineering,Process Engineer,MGR-E03,Huynh Gia Han,Day,2024-07-01,,Active,,47,2118.0,Yes,32.6,3,2,5,4,0,5.3,37.2,1.5,No
+EMP0450,Finance,Finance Specialist,MGR-F01,Mai Thanh Son,Day,2023-08-23,,Active,,46,1773.0,Yes,38.7,1,3,3,3,0,9.6,28.4,2.36,No
+EMP0451,Production,Production Operator,MGR-P02,Tran Quoc Bao,Day,2018-12-06,,Active,,22,887.0,No,3.0,9,3,3,3,6,13.1,20.0,7.07,No
+EMP0452,Maintenance,Equipment Engineer,MGR-M02,Hoang Van Nam,Day,2023-10-23,,Active,,52,1910.0,No,5.7,11,3,4,4,1,23.6,15.9,2.19,No
+EMP0453,Production,Production Operator,MGR-P04,Pham Hoang Duy,Day,2022-10-08,2025-06-19,Exited,Compensation,31,986.0,No,6.8,6,3,3,4,2,37.7,16.7,2.7,Yes
+EMP0454,Quality,Quality Inspector,MGR-Q02,Bui Thanh Lan,Day,2025-04-10,,Active,,38,1329.0,Yes,14.6,3,3,1,3,0,29.8,9.9,0.73,No
+EMP0455,Quality,Quality Engineer,MGR-Q02,Bui Thanh Lan,Day,2019-10-31,,Active,,29,1841.0,Yes,32.9,2,4,3,1,3,28.4,17.2,6.17,No
+EMP0456,Maintenance,Equipment Engineer,MGR-M02,Hoang Van Nam,Day,2022-02-19,2024-07-23,Exited,Relocation,34,1929.0,Yes,24.2,3,4,1,5,1,28.2,13.8,2.42,Yes
+EMP0457,Maintenance,Equipment Engineer,MGR-M01,Do Tuan Kiet,Night,2025-04-29,,Active,,52,1658.0,No,5.9,8,5,5,5,0,26.2,13.6,0.67,No
+EMP0458,Production,Production Operator,MGR-P02,Tran Quoc Bao,Day,2021-11-20,,Active,,25,938.0,Yes,26.2,4,4,5,4,2,30.9,26.5,4.11,No
+EMP0459,HR & Administration,Payroll Specialist,MGR-H01,Luong Phuong Thao,Day,2018-02-12,,Active,,44,1133.0,No,3.8,4,5,1,3,1,24.2,15.9,7.88,No
+EMP0460,Production,Production Operator,MGR-P04,Pham Hoang Duy,Day,2022-05-18,,Active,,44,973.0,No,4.5,10,4,3,2,3,13.9,20.1,3.62,No
+EMP0461,Production,Production Operator,MGR-P04,Pham Hoang Duy,Day,2024-07-08,,Active,,36,825.0,No,6.2,5,3,5,4,1,30.9,7.5,1.48,No
+EMP0462,Production,Production Operator,MGR-P01,Nguyen Minh Anh,Day,2023-02-24,,Active,,49,779.0,No,3.8,3,3,2,3,0,24.9,26.8,2.85,No
+EMP0463,Quality,Quality Technician,MGR-Q01,Vo Thu Ha,Night,2018-03-07,2025-03-04,Exited,Career change,48,1144.0,No,5.9,3,3,4,4,6,25.7,11.6,6.99,Yes
+EMP0464,Production,Production Technician,MGR-P02,Tran Quoc Bao,Night,2021-06-27,,Active,,22,1141.0,No,3.3,3,4,3,4,4,21.1,19.1,4.51,No
+EMP0465,Quality,Quality Engineer,MGR-Q01,Vo Thu Ha,Rotating,2019-06-14,,Active,,28,1658.0,No,1.9,7,3,1,3,2,22.1,23.0,6.55,No
+EMP0466,Production,Production Technician,MGR-P01,Nguyen Minh Anh,Rotating,2020-10-28,,Active,,23,984.0,No,7.6,6,1,4,3,0,25.7,15.7,5.17,No
+EMP0467,Production,Production Technician,MGR-P02,Tran Quoc Bao,Rotating,2021-01-01,,Active,,37,1049.0,Yes,21.7,5,2,4,5,0,28.2,10.6,5.0,No
+EMP0468,Production,Production Technician,MGR-P03,Le Thanh Cong,Day,2022-06-10,,Active,,49,1011.0,Yes,28.8,5,3,3,3,3,38.5,14.2,3.56,No
+EMP0469,Maintenance,Maintenance Technician,MGR-M02,Hoang Van Nam,Rotating,2022-04-17,,Active,,24,1500.0,Yes,40.8,1,4,4,3,0,32.8,25.8,3.71,No
+EMP0470,Quality,Quality Technician,MGR-Q01,Vo Thu Ha,Day,2025-11-13,,Active,,46,1401.0,No,3.0,4,2,3,4,0,39.8,9.9,0.13,No
+EMP0471,Supply Chain,Warehouse Coordinator,MGR-S01,Phan Ngoc Mai,Rotating,2019-08-20,,Active,,22,1288.0,No,4.8,3,3,4,5,6,14.0,8.0,6.37,No
+EMP0472,Engineering,Automation Engineer,MGR-E02,Ngo Bao Chau,Day,2019-05-01,2025-03-31,Exited,Career change,37,2524.0,No,4.0,8,3,3,3,5,18.7,31.0,5.92,Yes
+EMP0473,Production,Line Leader,MGR-P01,Nguyen Minh Anh,Day,2020-10-12,,Active,,50,1171.0,No,5.1,2,4,3,2,1,29.7,20.2,5.22,No
+EMP0474,Maintenance,Maintenance Technician,MGR-M01,Do Tuan Kiet,Day,2023-05-05,,Active,,40,1349.0,No,7.7,3,1,2,3,1,28.8,29.4,2.66,No
+EMP0475,HR & Administration,Administrative Coordinator,MGR-H01,Luong Phuong Thao,Day,2018-07-07,,Active,,44,974.0,Yes,23.0,4,1,4,5,1,45.1,15.9,7.49,No
+EMP0476,Supply Chain,Logistics Analyst,MGR-S01,Phan Ngoc Mai,Day,2019-11-13,,Active,,24,1547.0,No,5.0,9,3,5,5,1,21.6,15.3,6.13,No
+EMP0477,HR & Administration,Administrative Coordinator,MGR-H01,Luong Phuong Thao,Day,2019-07-04,,Active,,27,1042.0,No,6.4,1,4,3,3,0,17.0,16.1,6.49,No
+EMP0478,Engineering,Automation Engineer,MGR-E02,Ngo Bao Chau,Day,2020-10-01,,Active,,38,2579.0,No,3.3,1,2,3,4,2,16.3,40.6,5.25,No
+EMP0479,Production,Line Leader,MGR-P04,Pham Hoang Duy,Rotating,2018-03-04,,Active,,50,1180.0,Yes,20.1,9,5,4,3,6,42.1,8.0,7.83,No
+EMP0480,Production,Line Leader,MGR-P04,Pham Hoang Duy,Day,2023-09-23,2024-03-20,Exited,Relocation,40,1220.0,Yes,14.4,12,3,3,3,1,37.4,42.4,0.49,Yes
+EMP0481,Production,Production Technician,MGR-P04,Pham Hoang Duy,Day,2025-08-07,,Active,,28,1044.0,No,3.3,1,2,2,4,0,21.9,18.5,0.4,No
+EMP0482,Quality,Quality Technician,MGR-Q01,Vo Thu Ha,Day,2022-11-29,,Active,,48,1175.0,No,6.2,2,4,2,2,2,52.3,25.7,3.09,No
+EMP0483,Production,Line Leader,MGR-P03,Le Thanh Cong,Night,2018-10-12,,Active,,49,1101.0,No,2.9,5,2,4,3,6,23.8,43.3,7.22,No
+EMP0484,Supply Chain,Material Planner,MGR-S01,Phan Ngoc Mai,Day,2019-11-20,,Active,,52,1578.0,No,4.4,4,3,1,3,5,45.7,22.3,6.11,No
+EMP0485,Production,Line Leader,MGR-P02,Tran Quoc Bao,Rotating,2025-01-18,,Active,,39,1381.0,No,0.8,7,4,5,4,0,20.3,15.9,0.95,No
+EMP0486,Engineering,Industrial Engineer,MGR-E01,Truong Minh Duc,Day,2018-01-29,,Active,,46,1972.0,No,8.8,5,2,4,3,6,28.2,12.8,7.92,No
+EMP0487,Production,Line Leader,MGR-P01,Nguyen Minh Anh,Night,2021-01-30,,Active,,22,1090.0,No,2.7,9,2,4,4,2,41.2,29.8,4.92,No
+EMP0488,Production,Line Leader,MGR-P03,Le Thanh Cong,Rotating,2023-02-21,,Active,,42,1291.0,Yes,27.4,7,4,5,4,1,25.1,13.7,2.86,No
+EMP0489,Production,Production Operator,MGR-P04,Pham Hoang Duy,Day,2019-03-25,2025-08-29,Exited,Relocation,35,875.0,No,0.5,7,3,4,4,4,51.4,11.2,6.43,Yes
+EMP0490,Maintenance,Equipment Engineer,MGR-M02,Hoang Van Nam,Rotating,2020-10-13,,Active,,45,1928.0,Yes,37.4,9,4,2,1,0,53.3,20.4,5.22,No
+EMP0491,Supply Chain,Warehouse Coordinator,MGR-S02,Dang Quang Huy,Rotating,2022-07-15,,Active,,47,1111.0,No,3.0,5,3,3,4,3,42.1,4.8,3.46,No
+EMP0492,Production,Production Operator,MGR-P04,Pham Hoang Duy,Night,2018-08-02,,Active,,48,906.0,No,6.8,8,5,2,3,6,38.5,12.1,7.41,No
+EMP0493,Production,Production Technician,MGR-P02,Tran Quoc Bao,Day,2020-02-12,,Active,,49,1132.0,No,2.0,10,4,4,4,2,33.6,17.8,5.88,No
+EMP0494,Maintenance,Equipment Engineer,MGR-M01,Do Tuan Kiet,Day,2022-08-17,,Active,,50,1625.0,No,3.1,5,4,4,3,2,37.0,17.9,3.37,No
+EMP0495,Production,Production Technician,MGR-P03,Le Thanh Cong,Night,2020-12-02,,Active,,24,1083.0,No,1.4,6,4,3,2,2,24.9,24.6,5.08,No
+EMP0496,HR & Administration,HR Specialist,MGR-H01,Luong Phuong Thao,Day,2021-02-12,,Active,,41,1126.0,No,4.1,2,2,4,3,1,21.1,19.4,4.88,No
+EMP0497,Finance,Finance Specialist,MGR-F01,Mai Thanh Son,Day,2025-07-26,,Active,,35,1685.0,No,2.6,4,5,3,4,0,20.2,21.5,0.43,No
+EMP0498,Production,Production Operator,MGR-P04,Pham Hoang Duy,Rotating,2020-05-31,,Active,,40,958.0,No,7.3,14,2,5,3,2,32.0,15.4,5.59,No
+EMP0499,Production,Production Operator,MGR-P04,Pham Hoang Duy,Day,2024-07-08,2025-01-15,Exited,Career change,36,814.0,No,7.0,9,3,3,4,1,21.3,6.3,0.52,Yes
+EMP0500,Production,Line Leader,MGR-P02,Tran Quoc Bao,Day,2025-09-16,,Active,,47,1331.0,Yes,27.1,12,5,3,1,0,14.4,24.1,0.29,No
+EMP0501,Finance,Accountant,MGR-F01,Mai Thanh Son,Day,2019-09-17,,Active,,52,1623.0,No,4.7,15,2,3,2,5,11.3,19.1,6.29,No
+EMP0502,Supply Chain,Material Planner,MGR-S02,Dang Quang Huy,Day,2022-05-10,,Active,,36,1512.0,No,5.0,1,4,1,4,1,37.1,5.5,3.64,No
+EMP0503,Production,Production Technician,MGR-P01,Nguyen Minh Anh,Day,2019-02-22,,Active,,32,1053.0,No,1.7,3,3,2,4,3,12.3,13.4,6.86,No
+EMP0504,Engineering,Automation Engineer,MGR-E01,Truong Minh Duc,Day,2024-01-14,,Active,,35,2451.0,Yes,27.1,8,5,4,3,1,30.1,22.1,1.96,No
+EMP0505,Production,Production Technician,MGR-P02,Tran Quoc Bao,Day,2024-10-10,,Active,,49,1085.0,Yes,27.4,8,4,4,4,1,46.2,4.8,1.22,No
+EMP0506,Production,Production Technician,MGR-P01,Nguyen Minh Anh,Day,2018-02-01,,Active,,36,949.0,No,4.0,11,4,3,4,2,20.5,34.5,7.91,No
+EMP0507,Production,Production Operator,MGR-P03,Le Thanh Cong,Day,2025-06-24,2025-12-30,Exited,Performance,25,774.0,Yes,21.0,17,3,2,3,0,29.0,5.0,0.52,Yes
+EMP0508,Production,Production Technician,MGR-P02,Tran Quoc Bao,Night,2020-07-29,,Active,,43,1102.0,Yes,39.1,15,2,2,3,2,17.5,17.7,5.42,No
+EMP0509,Production,Line Leader,MGR-P04,Pham Hoang Duy,Day,2023-11-03,,Active,,30,1279.0,No,7.7,14,3,4,3,2,25.5,21.3,2.16,No
+EMP0510,Production,Production Operator,MGR-P02,Tran Quoc Bao,Day,2025-08-11,2025-10-21,Exited,Work schedule,30,910.0,No,2.5,6,3,3,4,0,18.6,16.2,0.19,Yes
+EMP0511,Supply Chain,Logistics Analyst,MGR-S01,Phan Ngoc Mai,Day,2019-06-10,,Active,,49,1441.0,No,2.6,8,4,3,3,2,48.2,17.8,6.56,No
+EMP0512,Production,Line Leader,MGR-P01,Nguyen Minh Anh,Day,2018-11-30,,Active,,43,1247.0,No,3.3,6,4,1,4,4,37.1,13.6,7.09,No
+EMP0513,Quality,Quality Engineer,MGR-Q02,Bui Thanh Lan,Rotating,2023-02-08,2025-02-28,Exited,Career change,50,1711.0,Yes,17.4,13,1,3,4,2,25.3,32.7,2.06,Yes
+EMP0514,Production,Production Technician,MGR-P03,Le Thanh Cong,Night,2025-04-10,2025-08-24,Exited,Work schedule,47,1015.0,No,3.6,9,4,4,4,0,31.5,13.9,0.37,Yes
+EMP0515,Production,Production Operator,MGR-P04,Pham Hoang Duy,Night,2023-01-21,,Active,,49,970.0,No,6.4,5,5,4,4,2,17.6,38.5,2.94,No
+EMP0516,Quality,Quality Inspector,MGR-Q02,Bui Thanh Lan,Night,2020-06-04,,Active,,45,1146.0,No,2.1,2,4,4,3,0,22.9,20.0,5.57,No
+EMP0517,Finance,Accountant,MGR-F01,Mai Thanh Son,Day,2018-10-23,,Active,,53,1480.0,Yes,29.9,5,3,3,3,5,28.2,13.1,7.19,No
+EMP0518,Production,Line Leader,MGR-P01,Nguyen Minh Anh,Night,2021-05-23,,Active,,27,1207.0,Yes,25.1,11,4,3,3,1,33.0,7.7,4.61,No
+EMP0519,Production,Line Leader,MGR-P03,Le Thanh Cong,Rotating,2018-09-23,2024-03-25,Exited,Better opportunity,38,1192.0,Yes,27.8,8,4,4,3,6,17.2,27.0,5.5,Yes
+EMP0520,Production,Production Operator,MGR-P02,Tran Quoc Bao,Day,2024-08-02,,Active,,30,1008.0,Yes,24.1,5,5,3,4,1,31.4,31.2,1.41,No
+EMP0521,Production,Production Technician,MGR-P04,Pham Hoang Duy,Day,2020-07-17,,Active,,50,1154.0,No,7.6,7,4,4,1,1,30.3,3.1,5.46,No
+EMP0522,Finance,Finance Specialist,MGR-F01,Mai Thanh Son,Day,2021-05-31,,Active,,33,1723.0,No,4.0,6,2,3,3,3,32.3,11.1,4.59,No
+EMP0523,Supply Chain,Warehouse Coordinator,MGR-S02,Dang Quang Huy,Night,2025-06-28,,Active,,46,1172.0,No,3.2,7,1,2,4,0,27.1,36.0,0.51,No
+EMP0524,Maintenance,Maintenance Technician,MGR-M02,Hoang Van Nam,Day,2018-01-02,,Active,,28,1439.0,No,2.8,6,1,4,3,4,34.7,19.5,7.99,No
+EMP0525,Production,Production Technician,MGR-P04,Pham Hoang Duy,Night,2020-12-02,2024-04-28,Exited,Better opportunity,47,900.0,Yes,18.8,13,4,2,4,1,31.3,5.4,3.4,Yes
+EMP0526,Supply Chain,Material Planner,MGR-S02,Dang Quang Huy,Day,2022-05-23,,Active,,43,1359.0,No,3.3,2,3,3,3,2,25.7,39.3,3.61,No
+EMP0527,Production,Production Operator,MGR-P03,Le Thanh Cong,Night,2022-11-19,,Active,,28,952.0,No,7.0,12,3,3,3,1,32.1,9.1,3.12,No
+EMP0528,Production,Production Technician,MGR-P01,Nguyen Minh Anh,Rotating,2018-04-07,,Active,,51,973.0,No,4.7,8,3,3,2,4,21.3,35.9,7.73,No
+EMP0529,Production,Production Technician,MGR-P01,Nguyen Minh Anh,Day,2021-04-30,,Active,,35,1003.0,Yes,24.3,14,1,4,4,4,16.1,21.6,4.67,No
+EMP0530,Production,Production Technician,MGR-P04,Pham Hoang Duy,Night,2022-11-10,2024-08-12,Exited,Personal reasons,28,1078.0,Yes,29.2,2,4,4,2,0,36.7,40.4,1.75,Yes
+EMP0531,Finance,Finance Specialist,MGR-F01,Mai Thanh Son,Day,2023-11-04,,Active,,53,1532.0,No,4.2,8,2,4,3,1,46.2,19.4,2.16,No
+EMP0532,Production,Line Leader,MGR-P01,Nguyen Minh Anh,Day,2025-02-21,,Active,,30,1349.0,No,1.2,12,3,3,3,0,35.0,6.5,0.86,No
+EMP0533,Production,Production Technician,MGR-P04,Pham Hoang Duy,Day,2024-11-28,2025-11-06,Exited,Work schedule,51,979.0,Yes,35.3,8,1,3,3,0,17.6,6.4,0.94,Yes
+EMP0534,Supply Chain,Warehouse Coordinator,MGR-S01,Phan Ngoc Mai,Night,2021-12-03,,Active,,44,1291.0,No,2.6,5,1,4,3,3,21.6,18.1,4.08,No
+EMP0535,Production,Production Operator,MGR-P01,Nguyen Minh Anh,Rotating,2022-02-18,,Active,,37,830.0,Yes,18.6,3,3,3,3,2,31.9,10.3,3.87,No
+EMP0536,Maintenance,Maintenance Technician,MGR-M02,Hoang Van Nam,Day,2020-07-03,,Active,,40,1502.0,Yes,21.2,12,4,2,4,4,18.2,13.4,5.49,No
+EMP0537,Quality,Quality Engineer,MGR-Q02,Bui Thanh Lan,Day,2022-08-30,2025-09-29,Exited,Performance,51,1722.0,No,5.2,5,3,4,2,1,17.5,30.0,3.08,Yes
+EMP0538,Production,Line Leader,MGR-P04,Pham Hoang Duy,Rotating,2021-12-11,,Active,,35,1220.0,Yes,25.4,4,3,4,3,2,35.8,18.0,4.05,No
+EMP0539,Finance,Cost Analyst,MGR-F01,Mai Thanh Son,Day,2021-07-09,,Active,,29,1557.0,No,4.9,7,4,2,5,4,27.3,11.5,4.48,No
+EMP0540,Production,Line Leader,MGR-P03,Le Thanh Cong,Day,2025-09-09,,Active,,27,1376.0,No,5.4,6,3,3,3,0,46.3,14.9,0.31,No
+EMP0541,Quality,Quality Technician,MGR-Q01,Vo Thu Ha,Night,2021-01-07,,Active,,28,1327.0,Yes,34.9,2,3,3,4,1,19.4,40.3,4.98,No
+EMP0542,Production,Line Leader,MGR-P04,Pham Hoang Duy,Night,2025-03-20,,Active,,44,1196.0,No,2.9,5,2,4,4,0,9.4,7.1,0.78,No
+EMP0543,Production,Production Operator,MGR-P02,Tran Quoc Bao,Day,2021-11-10,,Active,,42,918.0,No,1.8,5,3,2,3,1,33.6,27.4,4.14,No
+EMP0544,Supply Chain,Material Planner,MGR-S01,Phan Ngoc Mai,Day,2024-07-04,,Active,,25,1434.0,No,8.8,2,4,4,5,1,25.4,33.5,1.49,No
+EMP0545,Production,Production Operator,MGR-P03,Le Thanh Cong,Day,2018-11-18,,Active,,22,856.0,No,3.7,2,4,2,5,6,38.8,34.0,7.12,No
+EMP0546,Production,Line Leader,MGR-P02,Tran Quoc Bao,Day,2020-12-16,,Active,,39,1396.0,Yes,25.5,16,1,3,4,2,54.8,28.6,5.04,No
+EMP0547,Production,Production Operator,MGR-P02,Tran Quoc Bao,Day,2024-09-10,2025-02-05,Exited,Better opportunity,24,796.0,No,5.3,12,3,4,3,0,22.5,12.1,0.41,Yes
+EMP0548,Quality,Quality Inspector,MGR-Q01,Vo Thu Ha,Day,2025-11-12,,Active,,22,1377.0,No,4.4,1,3,4,3,0,42.3,22.5,0.13,No
+EMP0549,HR & Administration,Administrative Coordinator,MGR-H01,Luong Phuong Thao,Day,2025-05-04,,Active,,29,1197.0,Yes,28.8,12,3,1,3,0,12.6,6.1,0.66,No
+EMP0550,Production,Production Technician,MGR-P03,Le Thanh Cong,Day,2018-03-14,,Active,,37,1142.0,No,3.8,4,5,5,4,5,29.8,30.1,7.8,No
+EMP0551,Production,Production Operator,MGR-P03,Le Thanh Cong,Night,2021-01-30,2025-08-19,Exited,Better opportunity,27,935.0,Yes,41.8,12,3,2,3,4,11.1,13.8,4.55,Yes
+EMP0552,Production,Production Operator,MGR-P02,Tran Quoc Bao,Rotating,2020-05-25,,Active,,50,969.0,Yes,19.4,8,2,3,3,4,20.7,37.9,5.6,No
+EMP0553,Engineering,Automation Engineer,MGR-E02,Ngo Bao Chau,Day,2025-04-12,,Active,,53,2245.0,No,5.3,8,4,2,3,0,19.8,7.5,0.72,No
+EMP0554,Production,Line Leader,MGR-P03,Le Thanh Cong,Night,2025-03-06,,Active,,37,1323.0,Yes,30.6,9,3,4,3,0,25.2,6.9,0.82,No
+EMP0555,Engineering,Process Engineer,MGR-E03,Huynh Gia Han,Day,2021-05-11,,Active,,21,1744.0,No,7.1,9,3,1,2,2,15.9,17.0,4.64,No
+EMP0556,Maintenance,Maintenance Technician,MGR-M01,Do Tuan Kiet,Day,2024-07-29,,Active,,31,1289.0,Yes,23.0,4,5,3,4,1,34.0,38.1,1.42,No
+EMP0557,Supply Chain,Material Planner,MGR-S01,Phan Ngoc Mai,Day,2019-10-13,,Active,,46,1574.0,No,7.7,4,4,4,4,2,25.6,5.8,6.22,No
+EMP0558,Finance,Finance Specialist,MGR-F01,Mai Thanh Son,Day,2025-10-03,,Active,,40,1531.0,No,7.2,3,3,3,4,0,48.6,28.5,0.24,No
+EMP0559,Production,Production Technician,MGR-P01,Nguyen Minh Anh,Day,2025-05-06,2025-09-06,Exited,Personal reasons,25,977.0,Yes,32.3,8,4,2,4,0,15.2,13.6,0.34,Yes
+EMP0560,HR & Administration,HR Specialist,MGR-H01,Luong Phuong Thao,Day,2020-06-21,,Active,,33,1072.0,Yes,27.3,2,5,4,3,3,24.7,20.4,5.53,No
+EMP0561,Supply Chain,Logistics Analyst,MGR-S01,Phan Ngoc Mai,Day,2022-10-09,,Active,,47,1563.0,Yes,35.2,10,3,3,3,2,36.9,31.6,3.23,No
+EMP0562,Production,Line Leader,MGR-P01,Nguyen Minh Anh,Rotating,2025-06-20,,Active,,49,1297.0,Yes,34.4,5,3,4,3,0,31.2,23.8,0.53,No
+EMP0563,Engineering,Automation Engineer,MGR-E01,Truong Minh Duc,Day,2022-11-20,,Active,,30,2156.0,No,4.7,13,4,4,4,3,21.1,12.8,3.11,No
+EMP0564,Maintenance,Equipment Engineer,MGR-M01,Do Tuan Kiet,Rotating,2025-02-22,2025-04-27,Exited,Compensation,35,1743.0,No,8.7,11,3,3,1,0,52.2,10.0,0.18,Yes
+EMP0565,Engineering,Automation Engineer,MGR-E02,Ngo Bao Chau,Day,2023-03-26,,Active,,20,2331.0,No,8.7,4,5,3,3,2,43.1,34.1,2.77,No
+EMP0566,Supply Chain,Warehouse Coordinator,MGR-S01,Phan Ngoc Mai,Day,2025-05-31,,Active,,37,1202.0,Yes,26.0,5,5,2,2,0,41.0,23.6,0.59,No
+EMP0567,Supply Chain,Warehouse Coordinator,MGR-S02,Dang Quang Huy,Day,2019-04-11,,Active,,46,1098.0,No,7.5,2,4,4,3,5,27.6,23.8,6.72,No
+EMP0568,Production,Production Technician,MGR-P03,Le Thanh Cong,Day,2024-08-19,,Active,,48,1014.0,No,4.3,11,3,4,3,1,41.1,7.0,1.37,No
+EMP0569,Maintenance,Maintenance Technician,MGR-M02,Hoang Van Nam,Rotating,2023-12-29,2024-05-23,Exited,Performance,44,1363.0,Yes,22.7,10,2,4,3,2,15.5,16.6,0.4,Yes
+EMP0570,Production,Line Leader,MGR-P01,Nguyen Minh Anh,Rotating,2020-09-11,2024-08-12,Exited,Personal reasons,28,1227.0,Yes,13.9,6,5,3,1,3,20.5,18.7,3.92,Yes
+EMP0571,Production,Line Leader,MGR-P01,Nguyen Minh Anh,Day,2020-11-14,,Active,,47,1195.0,Yes,32.0,6,3,4,3,5,15.6,19.7,5.13,No
+EMP0572,Finance,Accountant,MGR-F01,Mai Thanh Son,Day,2022-03-16,,Active,,28,1515.0,No,4.7,4,1,3,3,0,50.3,16.2,3.79,No
+EMP0573,Quality,Quality Technician,MGR-Q01,Vo Thu Ha,Night,2018-11-07,,Active,,31,1148.0,No,4.1,12,4,1,3,3,47.0,13.8,7.15,No
+EMP0574,Maintenance,Equipment Engineer,MGR-M01,Do Tuan Kiet,Day,2021-05-05,,Active,,29,1958.0,Yes,29.3,7,3,3,2,2,32.2,22.9,4.66,No
+EMP0575,Production,Production Operator,MGR-P01,Nguyen Minh Anh,Rotating,2018-08-13,,Active,,51,972.0,No,2.8,12,2,3,1,5,31.1,27.4,7.38,No
+EMP0576,Quality,Quality Engineer,MGR-Q02,Bui Thanh Lan,Day,2025-04-14,,Active,,34,1763.0,Yes,26.8,3,3,4,5,0,39.8,5.0,0.71,No
+EMP0577,Production,Production Operator,MGR-P04,Pham Hoang Duy,Rotating,2021-01-12,,Active,,36,934.0,Yes,23.7,6,4,4,3,2,54.4,19.9,4.97,No
+EMP0578,Maintenance,Facilities Technician,MGR-M01,Do Tuan Kiet,Rotating,2019-08-09,,Active,,24,1394.0,No,3.5,5,3,5,5,1,46.1,28.2,6.4,No
+EMP0579,Production,Production Technician,MGR-P01,Nguyen Minh Anh,Day,2019-04-21,,Active,,33,1095.0,No,2.0,10,2,3,4,4,31.0,28.8,6.7,No
+EMP0580,Production,Production Operator,MGR-P01,Nguyen Minh Anh,Night,2023-04-20,,Active,,44,966.0,Yes,39.6,7,3,4,3,0,26.5,38.0,2.7,No
+EMP0581,Maintenance,Maintenance Technician,MGR-M02,Hoang Van Nam,Night,2022-06-25,,Active,,52,1467.0,Yes,25.1,12,4,3,4,0,26.2,13.8,3.52,No
+EMP0582,Production,Line Leader,MGR-P04,Pham Hoang Duy,Day,2020-07-21,2024-07-23,Exited,Career change,23,1303.0,No,5.1,4,2,4,4,5,22.5,14.2,4.01,Yes
+EMP0583,Production,Line Leader,MGR-P03,Le Thanh Cong,Night,2022-07-23,2025-04-28,Exited,Compensation,52,1308.0,No,2.0,7,4,3,2,1,33.1,9.8,2.77,Yes
+EMP0584,Supply Chain,Material Planner,MGR-S01,Phan Ngoc Mai,Night,2023-07-17,,Active,,41,1699.0,No,4.3,8,2,4,4,1,34.0,29.4,2.46,No
+EMP0585,Production,Production Operator,MGR-P04,Pham Hoang Duy,Day,2019-03-15,,Active,,21,854.0,Yes,43.0,8,3,4,3,0,25.0,14.9,6.8,No
+EMP0586,Production,Production Technician,MGR-P03,Le Thanh Cong,Night,2025-02-08,,Active,,44,1044.0,Yes,24.1,3,3,4,2,0,22.1,10.2,0.89,No
+EMP0587,Maintenance,Equipment Engineer,MGR-M02,Hoang Van Nam,Day,2023-12-17,2024-04-25,Exited,Personal reasons,28,2012.0,Yes,25.3,8,3,4,4,0,40.4,26.6,0.36,Yes
+EMP0588,Production,Production Operator,MGR-P02,Tran Quoc Bao,Day,2019-04-20,2024-10-22,Exited,Work schedule,22,1002.0,Yes,19.7,14,2,3,4,0,30.9,39.0,5.51,Yes
+EMP0589,Supply Chain,Warehouse Coordinator,MGR-S02,Dang Quang Huy,Night,2022-01-24,,Active,,31,1256.0,Yes,31.6,1,1,3,3,3,46.9,16.4,3.93,No
+EMP0590,Production,Production Operator,MGR-P02,Tran Quoc Bao,Night,2018-10-24,,Active,,26,926.0,No,2.9,7,2,5,4,0,25.1,8.1,7.19,No
+EMP0591,Maintenance,Facilities Technician,MGR-M01,Do Tuan Kiet,Night,2021-02-03,,Active,,30,1552.0,Yes,24.2,2,3,4,3,0,55.1,9.2,4.91,No
+EMP0592,Production,Production Technician,MGR-P04,Pham Hoang Duy,Rotating,2023-01-14,,Active,,51,1158.0,No,1.5,3,4,4,2,0,11.0,11.6,2.96,No
+EMP0593,Production,Production Operator,MGR-P03,Le Thanh Cong,Day,2021-05-21,,Active,,31,888.0,No,5.5,3,3,2,3,3,47.5,9.4,4.61,No
+EMP0594,Supply Chain,Logistics Analyst,MGR-S01,Phan Ngoc Mai,Rotating,2018-01-04,,Active,,50,1446.0,No,4.0,9,5,2,3,2,34.5,9.1,7.99,No
+EMP0595,Engineering,Industrial Engineer,MGR-E02,Ngo Bao Chau,Day,2022-05-12,,Active,,36,1811.0,No,6.3,7,5,3,2,0,8.7,28.8,3.64,No
+EMP0596,Production,Production Technician,MGR-P02,Tran Quoc Bao,Day,2018-09-09,,Active,,29,1008.0,No,4.8,11,3,2,5,0,18.8,41.5,7.31,No
+EMP0597,HR & Administration,HR Specialist,MGR-H01,Luong Phuong Thao,Day,2025-03-13,,Active,,53,1143.0,No,1.4,4,4,3,4,0,47.9,35.6,0.8,No
+EMP0598,Production,Line Leader,MGR-P01,Nguyen Minh Anh,Rotating,2023-04-05,,Active,,51,1128.0,No,2.7,9,3,1,4,1,12.1,19.5,2.74,No
+EMP0599,Maintenance,Equipment Engineer,MGR-M02,Hoang Van Nam,Day,2018-09-11,,Active,,27,1924.0,Yes,29.3,7,4,3,4,2,42.0,33.2,7.3,No
+EMP0600,Quality,Quality Engineer,MGR-Q01,Vo Thu Ha,Night,2019-12-18,,Active,,41,1700.0,No,5.6,11,4,4,5,4,22.6,29.2,6.04,No
+EMP0601,Production,Production Technician,MGR-P04,Pham Hoang Duy,Day,2023-04-22,,Active,,49,1099.0,No,8.1,3,5,4,3,2,40.7,5.8,2.69,No
+EMP0602,Production,Production Technician,MGR-P01,Nguyen Minh Anh,Rotating,2018-04-23,2025-12-06,Exited,Career change,48,1062.0,Yes,24.9,6,4,3,2,0,34.0,17.7,7.62,Yes
+EMP0603,Production,Production Technician,MGR-P01,Nguyen Minh Anh,Day,2025-06-16,,Active,,20,1003.0,No,5.7,4,3,4,4,0,29.5,6.9,0.54,No
+EMP0604,HR & Administration,Administrative Coordinator,MGR-H01,Luong Phuong Thao,Day,2020-03-16,,Active,,46,954.0,No,6.7,2,4,2,3,1,25.5,13.5,5.79,No
+EMP0605,Engineering,Process Engineer,MGR-E02,Ngo Bao Chau,Day,2022-04-05,,Active,,33,1932.0,No,5.1,2,5,3,2,0,50.9,2.6,3.74,No
+EMP0606,Production,Line Leader,MGR-P01,Nguyen Minh Anh,Night,2024-11-09,,Active,,26,1327.0,No,6.9,2,4,3,3,0,49.0,2.2,1.14,No
+EMP0607,Production,Line Leader,MGR-P04,Pham Hoang Duy,Rotating,2024-04-04,,Active,,45,1206.0,No,8.2,5,3,4,3,0,19.8,15.9,1.74,No
+EMP0608,Supply Chain,Material Planner,MGR-S01,Phan Ngoc Mai,Rotating,2021-08-12,,Active,,48,1430.0,Yes,22.8,6,2,4,3,4,30.3,40.4,4.39,No
+EMP0609,Maintenance,Maintenance Technician,MGR-M02,Hoang Van Nam,Rotating,2025-01-18,,Active,,46,1253.0,No,2.7,5,4,2,2,0,23.4,22.0,0.95,No
+EMP0610,Production,Production Technician,MGR-P04,Pham Hoang Duy,Day,2020-01-15,,Active,,51,903.0,No,4.1,3,4,3,4,5,34.2,25.8,5.96,No
+EMP0611,Quality,Quality Engineer,MGR-Q02,Bui Thanh Lan,Day,2020-10-05,,Active,,50,1611.0,No,4.6,6,4,1,3,0,28.7,35.1,5.24,No
+EMP0612,Quality,Quality Technician,MGR-Q02,Bui Thanh Lan,Night,2020-02-29,,Active,,44,1347.0,No,8.6,4,5,2,5,2,51.2,20.7,5.84,No
+EMP0613,Production,Line Leader,MGR-P04,Pham Hoang Duy,Day,2018-12-15,,Active,,40,1124.0,No,2.6,4,2,4,3,5,23.8,13.2,7.04,No
+EMP0614,Production,Production Operator,MGR-P01,Nguyen Minh Anh,Day,2021-01-18,,Active,,31,961.0,Yes,36.0,2,4,3,3,4,46.5,15.7,4.95,No
+EMP0615,Quality,Quality Technician,MGR-Q02,Bui Thanh Lan,Day,2021-04-15,,Active,,40,1383.0,No,5.6,6,1,1,3,3,41.5,20.5,4.71,No
+EMP0616,Quality,Quality Inspector,MGR-Q02,Bui Thanh Lan,Day,2021-06-25,,Active,,43,1161.0,No,2.0,12,3,3,3,4,31.5,25.9,4.52,No
+EMP0617,HR & Administration,Administrative Coordinator,MGR-H01,Luong Phuong Thao,Day,2025-08-24,,Active,,48,952.0,No,7.8,10,5,3,2,0,38.4,21.5,0.35,No
+EMP0618,Quality,Quality Technician,MGR-Q02,Bui Thanh Lan,Rotating,2023-04-28,2025-07-24,Exited,Personal reasons,30,1204.0,No,5.4,2,1,2,3,1,15.5,23.3,2.24,Yes
+EMP0619,Quality,Quality Technician,MGR-Q01,Vo Thu Ha,Night,2019-03-05,,Active,,23,1422.0,No,2.2,9,3,5,2,4,19.7,27.9,6.83,No
+EMP0620,Production,Production Technician,MGR-P02,Tran Quoc Bao,Day,2024-12-31,2025-08-27,Exited,Career change,52,1106.0,No,7.7,5,3,3,5,0,26.8,24.2,0.65,Yes
+EMP0621,Maintenance,Facilities Technician,MGR-M02,Hoang Van Nam,Day,2018-04-16,,Active,,24,1257.0,No,6.4,14,4,2,5,1,24.6,4.7,7.71,No
+EMP0622,Maintenance,Maintenance Technician,MGR-M02,Hoang Van Nam,Day,2020-05-04,,Active,,52,1238.0,No,2.6,13,3,4,4,5,48.5,20.9,5.66,No
+EMP0623,Engineering,Industrial Engineer,MGR-E03,Huynh Gia Han,Day,2022-04-08,,Active,,35,2094.0,Yes,33.0,6,4,4,4,0,50.8,7.2,3.73,No
+EMP0624,HR & Administration,Administrative Coordinator,MGR-H01,Luong Phuong Thao,Day,2023-03-02,,Active,,42,1063.0,Yes,32.8,2,4,2,5,1,53.9,13.3,2.83,No
+EMP0625,Production,Production Operator,MGR-P01,Nguyen Minh Anh,Day,2022-08-17,,Active,,32,777.0,Yes,24.0,7,4,3,3,1,29.2,19.9,3.37,No
+EMP0626,Production,Line Leader,MGR-P04,Pham Hoang Duy,Rotating,2021-07-17,,Active,,25,1351.0,No,7.2,5,3,4,5,0,53.7,8.8,4.46,No
+EMP0627,Maintenance,Maintenance Technician,MGR-M01,Do Tuan Kiet,Day,2022-09-24,2025-04-30,Exited,Career change,35,1546.0,Yes,28.1,11,3,4,4,0,34.2,12.2,2.6,Yes
+EMP0628,Production,Line Leader,MGR-P04,Pham Hoang Duy,Day,2024-04-12,,Active,,40,1297.0,Yes,15.4,10,2,4,3,0,21.0,2.1,1.72,No
+EMP0629,Production,Production Technician,MGR-P03,Le Thanh Cong,Day,2018-11-19,,Active,,36,1124.0,No,3.8,2,4,2,3,2,27.8,12.0,7.12,No
+EMP0630,Engineering,Automation Engineer,MGR-E02,Ngo Bao Chau,Day,2023-02-28,,Active,,25,2407.0,No,2.9,5,3,2,3,2,34.1,17.8,2.84,No
+EMP0631,Engineering,Process Engineer,MGR-E02,Ngo Bao Chau,Day,2018-06-13,,Active,,47,2106.0,No,1.8,4,4,4,3,2,36.0,17.3,7.55,No
+EMP0632,Maintenance,Maintenance Technician,MGR-M01,Do Tuan Kiet,Day,2019-05-02,,Active,,40,1420.0,No,2.7,4,1,3,4,1,12.8,30.2,6.67,No
+EMP0633,Production,Production Technician,MGR-P03,Le Thanh Cong,Day,2022-07-04,,Active,,45,1167.0,No,4.5,6,4,3,3,3,15.6,10.6,3.49,No
+EMP0634,Quality,Quality Engineer,MGR-Q02,Bui Thanh Lan,Rotating,2018-05-12,,Active,,35,1449.0,No,3.0,7,4,4,4,6,51.5,33.6,7.64,No
+EMP0635,Production,Line Leader,MGR-P03,Le Thanh Cong,Day,2024-02-21,,Active,,22,1213.0,No,5.2,3,1,2,3,0,20.1,9.4,1.86,No
+EMP0636,Engineering,Process Engineer,MGR-E01,Truong Minh Duc,Day,2023-08-28,,Active,,51,2053.0,No,4.8,12,4,4,3,2,26.9,29.2,2.34,No
+EMP0637,Production,Line Leader,MGR-P02,Tran Quoc Bao,Rotating,2023-09-23,,Active,,52,1377.0,Yes,23.8,7,3,5,4,2,34.0,15.4,2.27,No
+EMP0638,Maintenance,Facilities Technician,MGR-M01,Do Tuan Kiet,Rotating,2019-12-06,,Active,,24,1312.0,No,5.5,11,1,3,4,2,19.8,20.4,6.07,No
+EMP0639,Production,Line Leader,MGR-P01,Nguyen Minh Anh,Day,2020-02-08,,Active,,48,1291.0,Yes,20.0,6,3,4,3,2,26.8,7.0,5.89,No
+EMP0640,Production,Line Leader,MGR-P03,Le Thanh Cong,Rotating,2020-12-05,,Active,,50,1077.0,No,3.4,8,4,2,3,2,26.1,15.8,5.07,No
+EMP0641,Production,Production Technician,MGR-P02,Tran Quoc Bao,Night,2025-07-03,,Active,,35,986.0,No,2.9,10,5,4,1,0,9.0,5.8,0.5,No
+EMP0642,Production,Production Technician,MGR-P02,Tran Quoc Bao,Rotating,2023-11-10,,Active,,31,923.0,No,2.5,9,4,1,4,2,43.4,18.8,2.14,No
+EMP0643,Supply Chain,Logistics Analyst,MGR-S02,Dang Quang Huy,Day,2019-03-06,,Active,,34,1561.0,No,3.6,5,4,3,3,3,24.9,9.9,6.82,No
+EMP0644,HR & Administration,Administrative Coordinator,MGR-H01,Luong Phuong Thao,Day,2019-05-19,,Active,,42,1188.0,Yes,22.6,6,3,2,5,5,17.0,8.5,6.62,No
+EMP0645,Production,Line Leader,MGR-P04,Pham Hoang Duy,Rotating,2018-07-06,,Active,,50,1186.0,No,2.3,6,2,4,4,6,21.6,40.4,7.49,No
+EMP0646,HR & Administration,Payroll Specialist,MGR-H01,Luong Phuong Thao,Day,2019-07-18,,Active,,23,1205.0,No,7.6,3,2,4,3,0,50.7,17.7,6.46,No
+EMP0647,Production,Production Technician,MGR-P04,Pham Hoang Duy,Day,2020-05-03,,Active,,36,995.0,No,1.3,6,1,3,4,4,23.8,23.0,5.66,No
+EMP0648,Engineering,Automation Engineer,MGR-E03,Huynh Gia Han,Day,2023-09-05,,Active,,35,2004.0,Yes,27.2,5,1,3,4,1,32.1,28.8,2.32,No
+EMP0649,Production,Production Operator,MGR-P01,Nguyen Minh Anh,Night,2022-07-25,,Active,,25,871.0,No,0.7,13,2,5,3,0,39.1,37.9,3.44,No
+EMP0650,Quality,Quality Inspector,MGR-Q02,Bui Thanh Lan,Night,2025-09-10,,Active,,36,1304.0,No,1.6,8,3,4,3,0,17.7,23.0,0.31,No
+EMP0651,Production,Line Leader,MGR-P04,Pham Hoang Duy,Night,2025-04-10,,Active,,21,1164.0,No,4.4,3,4,5,5,0,23.8,28.3,0.73,No
+EMP0652,Quality,Quality Inspector,MGR-Q01,Vo Thu Ha,Day,2025-03-08,,Active,,41,1213.0,Yes,41.2,4,3,4,3,0,17.8,23.1,0.82,No
+EMP0653,Engineering,Automation Engineer,MGR-E03,Huynh Gia Han,Day,2025-01-27,,Active,,29,2047.0,No,3.9,6,4,4,3,0,42.5,25.7,0.93,No
+EMP0654,Maintenance,Facilities Technician,MGR-M02,Hoang Van Nam,Rotating,2019-07-13,,Active,,27,1489.0,No,3.9,9,4,4,3,1,19.7,36.2,6.47,No
+EMP0655,Maintenance,Maintenance Technician,MGR-M02,Hoang Van Nam,Night,2020-05-14,2025-01-08,Exited,Career change,48,1216.0,Yes,25.4,2,2,3,3,2,37.9,19.1,4.65,Yes
+EMP0656,Quality,Quality Inspector,MGR-Q02,Bui Thanh Lan,Rotating,2018-06-12,,Active,,40,1153.0,No,4.9,5,2,2,4,5,27.4,4.4,7.55,No
+EMP0657,Quality,Quality Inspector,MGR-Q01,Vo Thu Ha,Rotating,2021-05-26,,Active,,40,1297.0,No,5.3,3,3,4,4,0,44.5,22.1,4.6,No
+EMP0658,Production,Line Leader,MGR-P01,Nguyen Minh Anh,Rotating,2023-05-01,,Active,,42,1145.0,No,1.5,5,5,4,1,1,18.6,5.3,2.67,No
+EMP0659,HR & Administration,Administrative Coordinator,MGR-H01,Luong Phuong Thao,Day,2021-03-10,,Active,,43,1035.0,No,9.1,2,4,3,3,1,30.6,14.8,4.81,No
+EMP0660,Production,Line Leader,MGR-P03,Le Thanh Cong,Day,2022-08-14,,Active,,44,1104.0,No,5.0,7,3,4,3,1,51.2,29.5,3.38,No
+EMP0661,Quality,Quality Technician,MGR-Q02,Bui Thanh Lan,Day,2022-05-06,,Active,,38,1212.0,No,8.5,2,5,4,3,3,11.5,1.5,3.66,No
+EMP0662,Quality,Quality Inspector,MGR-Q02,Bui Thanh Lan,Rotating,2021-06-11,,Active,,50,1186.0,No,3.4,4,5,5,3,0,11.4,13.7,4.56,No
+EMP0663,Engineering,Industrial Engineer,MGR-E02,Ngo Bao Chau,Day,2023-08-19,,Active,,47,1799.0,No,5.0,5,4,5,4,0,31.6,23.3,2.37,No
+EMP0664,HR & Administration,HR Specialist,MGR-H01,Luong Phuong Thao,Day,2018-02-19,2025-01-26,Exited,Personal reasons,26,1044.0,Yes,15.0,7,3,4,4,5,26.6,22.6,6.93,Yes
+EMP0665,Production,Line Leader,MGR-P01,Nguyen Minh Anh,Night,2024-08-28,,Active,,39,1077.0,Yes,32.7,8,2,3,4,1,18.7,23.2,1.34,No
+EMP0666,Finance,Cost Analyst,MGR-F01,Mai Thanh Son,Day,2023-12-12,,Active,,47,1782.0,No,5.0,2,3,3,4,1,41.3,31.8,2.05,No
+EMP0667,Supply Chain,Logistics Analyst,MGR-S02,Dang Quang Huy,Rotating,2023-02-05,,Active,,25,1417.0,No,2.2,8,5,3,3,2,6.9,13.6,2.9,No
+EMP0668,Production,Line Leader,MGR-P01,Nguyen Minh Anh,Day,2020-03-25,,Active,,24,1343.0,Yes,44.4,6,3,2,3,3,24.9,24.4,5.77,No
+EMP0669,Finance,Finance Specialist,MGR-F01,Mai Thanh Son,Day,2023-10-13,,Active,,30,1491.0,Yes,19.5,12,3,3,3,0,38.4,3.4,2.22,No
+EMP0670,HR & Administration,Administrative Coordinator,MGR-H01,Luong Phuong Thao,Day,2025-02-02,,Active,,49,1156.0,Yes,27.5,2,5,3,5,0,21.3,23.4,0.91,No
+EMP0671,HR & Administration,Administrative Coordinator,MGR-H01,Luong Phuong Thao,Night,2018-01-22,,Active,,30,1025.0,No,4.2,7,5,4,3,5,39.4,19.9,7.94,No
+EMP0672,Engineering,Automation Engineer,MGR-E01,Truong Minh Duc,Day,2022-08-30,,Active,,41,2227.0,No,2.2,11,3,2,3,3,24.6,10.6,3.34,No
+EMP0673,Production,Production Operator,MGR-P01,Nguyen Minh Anh,Day,2023-03-15,2024-10-31,Exited,Career change,47,956.0,No,3.4,15,1,5,3,1,39.9,25.7,1.63,Yes
+EMP0674,Production,Line Leader,MGR-P02,Tran Quoc Bao,Day,2019-08-06,,Active,,36,1314.0,No,1.2,3,4,5,3,3,47.2,18.1,6.4,No
+EMP0675,Supply Chain,Logistics Analyst,MGR-S01,Phan Ngoc Mai,Day,2023-06-08,,Active,,46,1402.0,No,4.8,10,3,4,3,0,17.0,6.9,2.57,No
+EMP0676,Production,Production Technician,MGR-P03,Le Thanh Cong,Day,2025-10-03,,Active,,48,1035.0,No,2.2,3,2,5,5,0,24.5,20.6,0.24,No
+EMP0677,Production,Line Leader,MGR-P03,Le Thanh Cong,Night,2021-03-30,,Active,,44,1267.0,No,1.9,8,3,4,3,0,13.2,13.7,4.76,No
+EMP0678,Quality,Quality Inspector,MGR-Q01,Vo Thu Ha,Day,2018-12-16,,Active,,39,1233.0,No,2.7,16,5,1,3,1,33.7,12.1,7.04,No
+EMP0679,Production,Production Technician,MGR-P03,Le Thanh Cong,Rotating,2025-11-28,,Active,,25,1006.0,No,4.0,6,3,3,4,0,38.1,16.6,0.09,No
+EMP0680,Production,Production Technician,MGR-P02,Tran Quoc Bao,Rotating,2019-11-12,2024-09-16,Exited,Relocation,23,952.0,No,6.5,13,1,2,3,2,23.2,9.2,4.85,Yes
+EMP0681,Production,Production Operator,MGR-P02,Tran Quoc Bao,Night,2018-09-04,,Active,,24,812.0,No,9.7,1,2,2,3,0,26.8,15.4,7.32,No
+EMP0682,Engineering,Automation Engineer,MGR-E03,Huynh Gia Han,Day,2020-09-25,,Active,,31,2403.0,No,4.3,13,4,4,4,3,10.6,35.1,5.26,No
+EMP0683,Maintenance,Equipment Engineer,MGR-M01,Do Tuan Kiet,Night,2025-09-28,2025-12-06,Exited,Better opportunity,42,1750.0,Yes,38.1,6,3,5,4,0,45.7,4.1,0.19,Yes
+EMP0684,Production,Line Leader,MGR-P01,Nguyen Minh Anh,Night,2020-06-14,,Active,,39,1342.0,Yes,20.9,2,3,3,3,2,31.0,6.8,5.55,No
+EMP0685,Supply Chain,Logistics Analyst,MGR-S01,Phan Ngoc Mai,Night,2022-05-07,2025-04-13,Exited,Relocation,53,1535.0,Yes,27.3,3,3,2,4,3,29.4,21.0,2.93,Yes
+EMP0686,Production,Production Operator,MGR-P01,Nguyen Minh Anh,Day,2019-01-26,,Active,,31,892.0,No,5.6,6,5,3,4,5,30.4,3.9,6.93,No
+EMP0687,Production,Production Operator,MGR-P03,Le Thanh Cong,Day,2024-07-05,,Active,,50,891.0,Yes,26.3,9,2,3,3,1,29.4,20.1,1.49,No
+EMP0688,Supply Chain,Material Planner,MGR-S02,Dang Quang Huy,Rotating,2025-10-06,,Active,,48,1651.0,Yes,43.4,5,4,4,5,0,24.9,13.2,0.24,No
+EMP0689,Production,Line Leader,MGR-P03,Le Thanh Cong,Night,2023-11-04,,Active,,36,1339.0,Yes,41.1,11,4,4,3,1,48.6,10.0,2.16,No
+EMP0690,Engineering,Industrial Engineer,MGR-E02,Ngo Bao Chau,Day,2023-10-14,2025-06-02,Exited,Personal reasons,46,2134.0,Yes,14.1,3,4,3,5,1,9.6,28.8,1.63,Yes
+EMP0691,Supply Chain,Logistics Analyst,MGR-S02,Dang Quang Huy,Night,2022-02-22,,Active,,21,1269.0,No,4.7,6,5,2,2,2,31.8,12.3,3.85,No
+EMP0692,Production,Production Technician,MGR-P02,Tran Quoc Bao,Rotating,2019-03-23,,Active,,47,1018.0,No,5.7,16,4,2,3,3,32.4,28.8,6.78,No
+EMP0693,Maintenance,Maintenance Technician,MGR-M02,Hoang Van Nam,Night,2022-03-04,,Active,,24,1241.0,No,6.2,1,3,1,4,1,24.9,23.5,3.83,No
+EMP0694,Engineering,Automation Engineer,MGR-E02,Ngo Bao Chau,Day,2024-09-26,,Active,,38,2177.0,No,6.5,8,4,1,3,0,19.8,29.7,1.26,No
+EMP0695,Engineering,Automation Engineer,MGR-E01,Truong Minh Duc,Day,2021-04-30,,Active,,26,2057.0,Yes,39.5,8,4,3,3,2,12.7,21.0,4.67,No
+EMP0696,Engineering,Automation Engineer,MGR-E03,Huynh Gia Han,Day,2021-10-27,,Active,,21,1970.0,No,3.3,9,3,3,5,4,33.4,14.8,4.18,No
+EMP0697,Production,Production Technician,MGR-P04,Pham Hoang Duy,Night,2018-07-17,,Active,,21,1141.0,Yes,16.6,3,2,4,2,2,21.7,10.9,7.46,No
+EMP0698,Production,Production Operator,MGR-P04,Pham Hoang Duy,Night,2019-10-29,2025-03-10,Exited,Relocation,47,870.0,Yes,21.7,5,4,4,3,2,23.6,13.1,5.36,Yes
+EMP0699,Maintenance,Maintenance Technician,MGR-M01,Do Tuan Kiet,Day,2021-04-29,,Active,,49,1355.0,No,3.0,10,3,4,3,3,23.2,12.2,4.67,No
+EMP0700,Production,Production Operator,MGR-P04,Pham Hoang Duy,Rotating,2020-09-25,,Active,,22,969.0,No,6.3,3,3,3,3,5,31.8,15.6,5.26,No
+EMP0701,Maintenance,Equipment Engineer,MGR-M01,Do Tuan Kiet,Night,2019-07-18,,Active,,53,1793.0,Yes,25.5,3,4,4,3,0,24.9,10.9,6.46,No
+EMP0702,Engineering,Process Engineer,MGR-E02,Ngo Bao Chau,Day,2020-12-22,,Active,,47,2122.0,Yes,24.4,3,4,2,3,5,33.0,9.0,5.02,No
+EMP0703,Supply Chain,Warehouse Coordinator,MGR-S01,Phan Ngoc Mai,Day,2023-05-10,2025-10-14,Exited,Relocation,36,1044.0,Yes,21.9,11,3,2,4,1,34.0,12.2,2.43,Yes
+EMP0704,Production,Production Operator,MGR-P01,Nguyen Minh Anh,Day,2018-10-30,,Active,,39,884.0,No,4.2,4,2,2,4,0,39.8,8.9,7.17,No
+EMP0705,Finance,Cost Analyst,MGR-F01,Mai Thanh Son,Day,2022-06-03,,Active,,41,1863.0,Yes,24.6,1,2,5,3,2,21.4,14.6,3.58,No
+EMP0706,Quality,Quality Technician,MGR-Q01,Vo Thu Ha,Day,2020-12-31,,Active,,33,1148.0,No,6.2,3,5,4,4,1,26.2,5.9,5.0,No
+EMP0707,Production,Line Leader,MGR-P02,Tran Quoc Bao,Night,2025-07-07,2025-10-27,Exited,Performance,25,1242.0,No,6.0,6,3,2,3,0,19.1,17.7,0.31,Yes
+EMP0708,Production,Production Technician,MGR-P01,Nguyen Minh Anh,Day,2025-06-05,,Active,,48,1039.0,No,3.3,5,2,5,3,0,41.3,37.5,0.57,No
+EMP0709,Maintenance,Maintenance Technician,MGR-M01,Do Tuan Kiet,Day,2018-08-02,2024-06-19,Exited,Career change,24,1236.0,Yes,22.6,4,3,3,4,6,35.3,24.3,5.88,Yes
+EMP0710,Production,Line Leader,MGR-P01,Nguyen Minh Anh,Day,2022-02-04,,Active,,50,1299.0,Yes,27.1,2,5,4,2,3,38.1,33.4,3.9,No
+EMP0711,Production,Line Leader,MGR-P04,Pham Hoang Duy,Day,2023-04-02,,Active,,42,1145.0,No,2.8,13,3,4,3,1,43.3,8.3,2.75,No
+EMP0712,Production,Production Operator,MGR-P02,Tran Quoc Bao,Night,2023-07-14,,Active,,22,929.0,No,5.8,5,4,4,4,0,28.4,6.2,2.47,No
+EMP0713,HR & Administration,HR Specialist,MGR-H01,Luong Phuong Thao,Day,2019-07-24,,Active,,44,1215.0,No,9.0,5,3,4,4,2,46.5,25.9,6.44,No
+EMP0714,Quality,Quality Inspector,MGR-Q02,Bui Thanh Lan,Day,2018-12-30,,Active,,31,1241.0,Yes,37.5,5,2,4,4,6,47.3,19.7,7.0,No
+EMP0715,Production,Production Operator,MGR-P01,Nguyen Minh Anh,Night,2023-12-31,,Active,,38,963.0,Yes,36.3,6,1,4,4,1,33.6,35.3,2.0,No
+EMP0716,Production,Production Technician,MGR-P01,Nguyen Minh Anh,Day,2022-04-21,,Active,,39,942.0,No,2.2,1,4,3,3,1,21.0,16.3,3.7,No
+EMP0717,Quality,Quality Technician,MGR-Q01,Vo Thu Ha,Day,2018-09-14,2025-06-15,Exited,Career change,36,1314.0,No,1.2,9,3,4,4,4,44.1,23.4,6.75,Yes
+EMP0718,Maintenance,Equipment Engineer,MGR-M01,Do Tuan Kiet,Rotating,2022-09-28,2025-08-04,Exited,Career change,41,1906.0,Yes,25.0,12,2,3,2,1,40.5,12.0,2.85,Yes
+EMP0719,Production,Line Leader,MGR-P01,Nguyen Minh Anh,Rotating,2025-03-02,,Active,,52,1337.0,No,3.7,14,4,4,3,0,18.1,20.6,0.83,No
+EMP0720,Production,Line Leader,MGR-P02,Tran Quoc Bao,Night,2024-05-29,,Active,,49,1087.0,No,2.5,3,2,5,4,0,21.0,11.7,1.59,No
+EMP0721,Production,Line Leader,MGR-P01,Nguyen Minh Anh,Night,2019-08-20,2025-08-04,Exited,Compensation,21,1242.0,No,2.1,13,3,5,5,6,32.2,25.3,5.96,Yes
+EMP0722,Production,Line Leader,MGR-P01,Nguyen Minh Anh,Night,2024-05-26,,Active,,26,1206.0,No,4.7,3,4,3,3,0,18.9,15.0,1.6,No
+EMP0723,HR & Administration,Administrative Coordinator,MGR-H01,Luong Phuong Thao,Day,2020-06-22,,Active,,49,1017.0,No,5.0,10,3,3,3,0,32.4,29.9,5.52,No
+EMP0724,Quality,Quality Inspector,MGR-Q02,Bui Thanh Lan,Day,2018-12-20,,Active,,39,1074.0,No,5.3,3,3,5,3,5,22.9,10.7,7.03,No
+EMP0725,Quality,Quality Technician,MGR-Q01,Vo Thu Ha,Day,2019-09-29,,Active,,25,1459.0,Yes,37.1,2,1,5,3,2,50.8,6.6,6.26,No
+EMP0726,Supply Chain,Logistics Analyst,MGR-S01,Phan Ngoc Mai,Day,2020-04-03,,Active,,38,1540.0,No,7.1,12,2,2,5,4,23.5,22.9,5.74,No
+EMP0727,Finance,Cost Analyst,MGR-F01,Mai Thanh Son,Day,2020-04-27,,Active,,51,1765.0,No,3.2,10,3,3,5,3,11.6,28.3,5.68,No
+EMP0728,Production,Line Leader,MGR-P04,Pham Hoang Duy,Rotating,2024-04-08,,Active,,52,1383.0,Yes,21.2,3,3,3,3,1,38.9,34.5,1.73,No
+EMP0729,Maintenance,Equipment Engineer,MGR-M01,Do Tuan Kiet,Day,2018-12-19,,Active,,41,1843.0,No,5.0,7,2,1,4,1,46.8,37.6,7.03,No
+EMP0730,HR & Administration,Payroll Specialist,MGR-H01,Luong Phuong Thao,Day,2019-10-11,,Active,,35,1234.0,No,4.4,4,5,4,4,2,20.9,40.9,6.22,No
+EMP0731,Production,Line Leader,MGR-P02,Tran Quoc Bao,Rotating,2022-05-22,,Active,,43,1166.0,No,1.5,14,4,5,1,1,22.1,18.6,3.61,No
+EMP0732,Finance,Accountant,MGR-F01,Mai Thanh Son,Day,2020-05-09,2025-03-14,Exited,Better opportunity,52,1460.0,Yes,18.0,4,1,2,3,0,21.7,25.0,4.85,Yes
+EMP0733,Production,Production Operator,MGR-P01,Nguyen Minh Anh,Day,2025-02-03,,Active,,50,843.0,Yes,20.2,10,3,3,3,0,23.2,15.4,0.91,No
+EMP0734,Production,Line Leader,MGR-P02,Tran Quoc Bao,Rotating,2024-07-21,,Active,,25,1229.0,Yes,30.2,13,3,5,2,0,20.4,10.7,1.45,No
+EMP0735,Finance,Finance Specialist,MGR-F01,Mai Thanh Son,Day,2024-10-02,,Active,,52,1508.0,No,4.2,12,1,3,3,0,23.7,4.2,1.25,No
+EMP0736,Quality,Quality Inspector,MGR-Q01,Vo Thu Ha,Night,2019-12-28,,Active,,40,1081.0,No,3.9,4,1,2,5,1,29.6,13.2,6.01,No
+EMP0737,Supply Chain,Material Planner,MGR-S01,Phan Ngoc Mai,Day,2022-04-02,,Active,,28,1560.0,No,2.4,2,3,4,2,0,17.7,10.3,3.75,No
+EMP0738,Quality,Quality Technician,MGR-Q02,Bui Thanh Lan,Night,2025-09-17,2025-12-20,Exited,Personal reasons,33,1247.0,No,8.7,11,3,4,3,0,21.3,11.9,0.26,Yes
+EMP0739,Quality,Quality Inspector,MGR-Q01,Vo Thu Ha,Day,2019-05-27,,Active,,48,1294.0,No,4.4,6,3,3,3,4,10.6,11.2,6.6,No
+EMP0740,Maintenance,Facilities Technician,MGR-M02,Hoang Van Nam,Night,2024-02-16,,Active,,50,1498.0,Yes,44.2,4,3,2,4,1,22.9,8.2,1.87,No
+EMP0741,Quality,Quality Engineer,MGR-Q01,Vo Thu Ha,Rotating,2020-09-22,,Active,,32,1697.0,Yes,25.7,7,3,4,3,4,41.6,12.8,5.27,No
+EMP0742,Production,Production Operator,MGR-P01,Nguyen Minh Anh,Rotating,2019-06-15,,Active,,38,936.0,No,6.1,9,3,3,3,5,40.8,19.5,6.55,No
+EMP0743,Finance,Finance Specialist,MGR-F01,Mai Thanh Son,Night,2022-01-14,,Active,,33,1792.0,Yes,14.7,2,2,5,3,0,48.2,31.9,3.96,No
+EMP0744,HR & Administration,Administrative Coordinator,MGR-H01,Luong Phuong Thao,Day,2023-09-08,,Active,,53,957.0,Yes,21.5,7,4,5,3,1,47.9,23.7,2.31,No
+EMP0745,Production,Line Leader,MGR-P01,Nguyen Minh Anh,Day,2020-11-30,,Active,,25,1310.0,Yes,35.1,8,2,3,1,4,28.1,10.2,5.08,No
+EMP0746,Production,Production Operator,MGR-P01,Nguyen Minh Anh,Day,2019-08-04,,Active,,44,894.0,No,3.6,4,3,2,3,1,34.9,31.7,6.41,No
+EMP0747,Production,Production Operator,MGR-P01,Nguyen Minh Anh,Rotating,2021-09-12,,Active,,51,969.0,No,1.8,4,1,4,3,3,29.4,19.3,4.3,No
+EMP0748,Production,Production Operator,MGR-P04,Pham Hoang Duy,Rotating,2020-01-25,,Active,,30,965.0,No,7.4,9,4,3,5,2,8.9,3.0,5.93,No
+EMP0749,Engineering,Process Engineer,MGR-E02,Ngo Bao Chau,Day,2022-11-06,,Active,,28,2079.0,No,8.3,6,5,3,1,3,19.4,17.3,3.15,No
+EMP0750,Production,Line Leader,MGR-P02,Tran Quoc Bao,Rotating,2021-12-24,,Active,,30,1237.0,No,4.7,2,2,2,3,0,42.8,10.5,4.02,No
+EMP0751,Production,Production Technician,MGR-P04,Pham Hoang Duy,Day,2019-03-03,,Active,,27,1009.0,No,0.8,3,3,3,4,0,19.0,10.0,6.83,No
+EMP0752,Maintenance,Equipment Engineer,MGR-M01,Do Tuan Kiet,Night,2019-02-13,,Active,,39,1652.0,No,4.8,4,4,2,2,1,17.7,25.6,6.88,No
+EMP0753,Quality,Quality Engineer,MGR-Q01,Vo Thu Ha,Rotating,2019-11-05,,Active,,23,1593.0,No,5.0,16,2,1,2,3,23.6,15.0,6.15,No
+EMP0754,Production,Production Operator,MGR-P04,Pham Hoang Duy,Night,2024-06-19,2025-11-08,Exited,Better opportunity,26,836.0,Yes,35.0,6,4,4,4,1,42.7,17.3,1.39,Yes
+EMP0755,Production,Production Technician,MGR-P02,Tran Quoc Bao,Day,2019-09-24,,Active,,35,1135.0,Yes,32.1,10,5,2,3,4,41.6,24.3,6.27,No
+EMP0756,Maintenance,Facilities Technician,MGR-M02,Hoang Van Nam,Day,2020-08-19,,Active,,40,1400.0,No,5.1,13,3,3,3,4,53.7,16.3,5.37,No
+EMP0757,HR & Administration,Administrative Coordinator,MGR-H01,Luong Phuong Thao,Day,2024-02-09,,Active,,36,992.0,No,1.5,3,3,4,3,1,43.3,35.0,1.89,No
+EMP0758,Production,Production Operator,MGR-P04,Pham Hoang Duy,Day,2019-03-08,,Active,,48,975.0,No,8.6,6,5,4,2,0,13.2,37.5,6.82,No
+EMP0759,Quality,Quality Inspector,MGR-Q02,Bui Thanh Lan,Day,2018-08-25,,Active,,29,1106.0,Yes,29.4,2,4,3,5,4,32.9,11.1,7.35,No
+EMP0760,Supply Chain,Warehouse Coordinator,MGR-S02,Dang Quang Huy,Night,2020-09-19,,Active,,25,1164.0,Yes,29.0,4,4,3,1,0,35.1,21.4,5.28,No
+EMP0761,Production,Production Technician,MGR-P02,Tran Quoc Bao,Day,2020-07-04,,Active,,31,961.0,No,1.6,12,4,3,3,5,18.3,8.0,5.49,No
+EMP0762,Engineering,Process Engineer,MGR-E01,Truong Minh Duc,Day,2022-03-03,,Active,,43,1807.0,Yes,42.2,3,4,3,5,0,14.5,31.2,3.83,No
+EMP0763,Production,Production Technician,MGR-P02,Tran Quoc Bao,Rotating,2023-01-11,,Active,,48,1111.0,No,6.9,5,4,2,2,0,10.0,30.9,2.97,No
+EMP0764,Production,Line Leader,MGR-P03,Le Thanh Cong,Day,2022-10-27,,Active,,28,1228.0,No,7.8,2,3,3,2,2,23.6,12.4,3.18,No
+EMP0765,Production,Line Leader,MGR-P02,Tran Quoc Bao,Day,2022-12-01,,Active,,43,1355.0,No,1.9,3,2,2,3,0,35.6,13.3,3.08,No
+EMP0766,Engineering,Process Engineer,MGR-E02,Ngo Bao Chau,Day,2020-11-22,2024-06-17,Exited,Performance,27,2061.0,No,5.4,9,2,2,3,2,20.7,19.9,3.57,Yes
+EMP0767,Production,Production Operator,MGR-P03,Le Thanh Cong,Day,2023-09-29,,Active,,32,809.0,Yes,29.4,8,4,4,4,1,28.7,4.5,2.26,No
+EMP0768,HR & Administration,Administrative Coordinator,MGR-H01,Luong Phuong Thao,Day,2018-11-16,,Active,,28,998.0,No,4.8,10,4,3,4,6,24.5,29.0,7.12,No
+EMP0769,Production,Production Technician,MGR-P01,Nguyen Minh Anh,Day,2020-03-01,,Active,,25,972.0,No,7.4,5,3,4,3,0,10.1,8.1,5.83,No
+EMP0770,HR & Administration,Payroll Specialist,MGR-H01,Luong Phuong Thao,Day,2023-10-29,,Active,,34,1136.0,No,2.1,10,2,4,4,2,30.4,23.4,2.17,No
+EMP0771,Quality,Quality Engineer,MGR-Q02,Bui Thanh Lan,Day,2018-11-28,,Active,,27,1599.0,No,3.6,12,1,5,4,0,24.4,16.3,7.09,No
+EMP0772,Engineering,Automation Engineer,MGR-E02,Ngo Bao Chau,Day,2018-10-01,,Active,,50,2319.0,No,5.3,5,2,4,1,5,35.8,32.4,7.25,No
+EMP0773,Production,Production Technician,MGR-P03,Le Thanh Cong,Day,2022-06-29,,Active,,31,1147.0,No,3.2,6,5,3,4,0,39.6,30.4,3.51,No
+EMP0774,Finance,Accountant,MGR-F01,Mai Thanh Son,Day,2018-09-02,2025-04-24,Exited,Compensation,50,1669.0,Yes,37.1,5,4,3,4,1,42.3,6.0,6.64,Yes
+EMP0775,Production,Line Leader,MGR-P03,Le Thanh Cong,Night,2020-01-05,,Active,,32,1201.0,No,3.6,9,3,2,5,3,51.5,15.9,5.99,No
+EMP0776,Supply Chain,Logistics Analyst,MGR-S01,Phan Ngoc Mai,Night,2019-07-01,,Active,,29,1317.0,Yes,32.4,14,4,3,4,4,30.7,27.2,6.5,No
+EMP0777,Production,Production Operator,MGR-P03,Le Thanh Cong,Rotating,2020-01-22,,Active,,38,847.0,No,1.6,7,3,3,3,5,11.6,29.3,5.94,No
+EMP0778,Production,Line Leader,MGR-P04,Pham Hoang Duy,Day,2023-04-02,,Active,,51,1251.0,No,4.5,11,4,1,4,1,27.6,18.0,2.75,No
+EMP0779,Production,Line Leader,MGR-P04,Pham Hoang Duy,Day,2019-03-19,2025-07-29,Exited,Career change,23,1137.0,No,2.2,10,2,3,3,5,36.6,16.9,6.36,Yes
+EMP0780,Production,Production Operator,MGR-P03,Le Thanh Cong,Night,2018-07-08,,Active,,36,870.0,No,6.0,10,2,3,3,3,22.4,26.8,7.48,No
+EMP0781,Engineering,Industrial Engineer,MGR-E01,Truong Minh Duc,Day,2024-05-27,2025-07-08,Exited,Work schedule,30,1932.0,No,3.5,5,2,3,2,0,31.7,20.8,1.11,Yes
+EMP0782,Production,Line Leader,MGR-P02,Tran Quoc Bao,Day,2018-11-12,,Active,,31,1376.0,No,1.9,8,2,5,3,6,24.2,8.8,7.13,No
+EMP0783,Production,Production Technician,MGR-P04,Pham Hoang Duy,Day,2018-01-06,,Active,,52,920.0,No,3.8,7,3,3,3,6,8.5,22.2,7.98,No
+EMP0784,Finance,Finance Specialist,MGR-F01,Mai Thanh Son,Night,2021-04-18,,Active,,30,1785.0,No,7.4,4,3,3,2,0,31.0,15.0,4.7,No
+EMP0785,Production,Line Leader,MGR-P01,Nguyen Minh Anh,Day,2018-05-13,,Active,,23,1096.0,Yes,37.6,8,1,2,4,3,38.9,17.0,7.64,No
+EMP0786,Engineering,Automation Engineer,MGR-E02,Ngo Bao Chau,Day,2022-05-19,,Active,,21,2000.0,No,2.9,2,2,3,1,1,24.3,23.8,3.62,No
+EMP0787,HR & Administration,Payroll Specialist,MGR-H01,Luong Phuong Thao,Day,2024-08-27,,Active,,37,1227.0,No,1.8,6,4,2,5,1,11.0,10.5,1.34,No
+EMP0788,Engineering,Process Engineer,MGR-E02,Ngo Bao Chau,Day,2021-03-08,,Active,,51,1916.0,No,3.1,6,4,3,5,0,11.5,5.8,4.82,No
+EMP0789,Supply Chain,Logistics Analyst,MGR-S02,Dang Quang Huy,Day,2025-10-29,,Active,,47,1372.0,No,2.3,7,4,1,3,0,42.9,9.3,0.17,No
+EMP0790,Supply Chain,Warehouse Coordinator,MGR-S01,Phan Ngoc Mai,Night,2025-06-13,,Active,,42,1131.0,No,7.2,10,2,2,3,0,11.7,11.2,0.55,No
+EMP0791,Production,Production Operator,MGR-P04,Pham Hoang Duy,Day,2024-03-01,2025-12-16,Exited,Work schedule,20,990.0,No,4.5,6,1,5,4,1,26.5,31.3,1.79,Yes
+EMP0792,Finance,Cost Analyst,MGR-F01,Mai Thanh Son,Day,2019-06-29,,Active,,52,1929.0,No,4.4,10,4,4,4,0,11.5,6.1,6.51,No
+EMP0793,Production,Line Leader,MGR-P04,Pham Hoang Duy,Night,2023-03-19,,Active,,32,1176.0,Yes,22.9,7,4,4,5,1,40.8,25.1,2.79,No
+EMP0794,Quality,Quality Inspector,MGR-Q02,Bui Thanh Lan,Night,2018-04-20,,Active,,32,1252.0,Yes,30.6,9,4,1,4,3,30.1,22.3,7.7,No
+EMP0795,Finance,Finance Specialist,MGR-F01,Mai Thanh Son,Night,2020-12-16,,Active,,40,1580.0,Yes,32.4,2,4,3,4,3,32.7,5.8,5.04,No
+EMP0796,Production,Production Technician,MGR-P02,Tran Quoc Bao,Day,2019-08-14,,Active,,34,964.0,No,2.5,5,4,2,2,5,27.5,7.3,6.38,No
+EMP0797,Engineering,Industrial Engineer,MGR-E02,Ngo Bao Chau,Day,2018-01-09,,Active,,30,2033.0,No,0.6,2,3,3,5,5,24.9,20.9,7.98,No
+EMP0798,Production,Production Operator,MGR-P04,Pham Hoang Duy,Rotating,2023-04-27,2024-04-08,Exited,Career change,37,770.0,No,3.5,9,3,2,4,2,18.1,27.5,0.95,Yes
+EMP0799,Production,Production Technician,MGR-P01,Nguyen Minh Anh,Day,2018-11-30,,Active,,39,1100.0,No,6.2,5,5,3,3,6,44.7,34.1,7.09,No
+EMP0800,Production,Production Technician,MGR-P04,Pham Hoang Duy,Day,2022-12-10,,Active,,45,1015.0,Yes,42.3,11,3,2,3,0,9.4,8.3,3.06,No
+EMP0801,Production,Line Leader,MGR-P04,Pham Hoang Duy,Day,2021-12-31,,Active,,33,1388.0,Yes,16.1,11,4,1,3,1,53.7,12.7,4.0,No
+EMP0802,Quality,Quality Engineer,MGR-Q02,Bui Thanh Lan,Day,2021-06-30,,Active,,26,1531.0,Yes,23.7,10,3,3,3,0,56.0,18.7,4.5,No
+EMP0803,Production,Production Technician,MGR-P01,Nguyen Minh Anh,Day,2019-11-13,,Active,,25,1101.0,No,7.2,8,3,3,1,4,20.7,8.7,6.13,No
+EMP0804,Quality,Quality Inspector,MGR-Q02,Bui Thanh Lan,Day,2021-08-20,,Active,,42,1197.0,No,6.8,11,3,4,3,3,34.3,19.1,4.36,No
+EMP0805,Production,Production Operator,MGR-P04,Pham Hoang Duy,Night,2020-05-24,,Active,,33,929.0,No,3.5,9,2,4,3,4,20.8,39.1,5.6,No
+EMP0806,Production,Production Technician,MGR-P02,Tran Quoc Bao,Day,2019-01-20,,Active,,35,1158.0,Yes,37.7,8,3,3,4,2,19.4,8.7,6.95,No
+EMP0807,Supply Chain,Material Planner,MGR-S01,Phan Ngoc Mai,Day,2024-08-28,,Active,,20,1540.0,Yes,27.1,13,4,4,3,1,43.4,25.8,1.34,No
+EMP0808,Production,Line Leader,MGR-P01,Nguyen Minh Anh,Rotating,2018-08-27,,Active,,37,1278.0,Yes,21.4,5,5,2,2,3,49.1,38.5,7.35,No
+EMP0809,Production,Line Leader,MGR-P01,Nguyen Minh Anh,Day,2025-10-08,,Active,,23,1348.0,Yes,27.0,5,3,2,2,0,24.8,11.1,0.23,No
+EMP0810,Maintenance,Maintenance Technician,MGR-M01,Do Tuan Kiet,Night,2022-04-13,,Active,,46,1468.0,No,3.9,14,3,3,4,3,41.6,12.4,3.72,No
+EMP0811,Production,Production Technician,MGR-P04,Pham Hoang Duy,Rotating,2019-02-19,,Active,,40,1080.0,No,7.8,5,5,2,3,5,22.3,21.3,6.86,No
+EMP0812,Finance,Accountant,MGR-F01,Mai Thanh Son,Day,2018-03-15,,Active,,36,1543.0,No,5.6,1,1,5,2,5,25.5,7.3,7.8,No
+EMP0813,Maintenance,Equipment Engineer,MGR-M01,Do Tuan Kiet,Day,2019-07-31,,Active,,38,1858.0,No,3.3,3,5,3,4,4,25.6,24.2,6.42,No
+EMP0814,Production,Production Operator,MGR-P01,Nguyen Minh Anh,Rotating,2024-07-10,,Active,,28,998.0,Yes,38.9,7,2,3,3,1,24.5,10.1,1.48,No
+EMP0815,Production,Production Technician,MGR-P02,Tran Quoc Bao,Rotating,2018-04-13,,Active,,40,978.0,Yes,17.0,5,4,3,3,5,42.2,23.1,7.72,No
+EMP0816,Production,Production Operator,MGR-P03,Le Thanh Cong,Day,2025-05-27,,Active,,25,798.0,No,5.6,9,3,3,5,0,17.6,17.6,0.6,No
+EMP0817,Quality,Quality Inspector,MGR-Q01,Vo Thu Ha,Night,2024-05-15,,Active,,39,1102.0,Yes,25.6,11,3,3,2,1,17.6,16.7,1.63,No
+EMP0818,Production,Production Operator,MGR-P02,Tran Quoc Bao,Day,2022-01-12,,Active,,44,973.0,No,2.9,7,4,5,4,1,30.1,30.1,3.97,No
+EMP0819,Production,Line Leader,MGR-P03,Le Thanh Cong,Day,2025-03-27,2025-06-04,Exited,Performance,40,1292.0,No,3.3,2,3,4,2,0,54.5,11.1,0.19,Yes
+EMP0820,Quality,Quality Engineer,MGR-Q02,Bui Thanh Lan,Night,2022-10-28,,Active,,48,1618.0,No,3.8,5,3,4,4,0,26.3,12.8,3.18,No
+EMP0821,Engineering,Industrial Engineer,MGR-E02,Ngo Bao Chau,Day,2024-06-24,2025-11-13,Exited,Personal reasons,48,1720.0,No,6.3,3,3,3,4,1,15.9,15.9,1.39,Yes
+EMP0822,Quality,Quality Inspector,MGR-Q01,Vo Thu Ha,Day,2021-12-19,,Active,,43,1314.0,Yes,25.7,9,4,4,4,4,25.2,31.5,4.03,No
+EMP0823,Production,Production Technician,MGR-P04,Pham Hoang Duy,Day,2025-10-12,,Active,,37,1061.0,Yes,22.0,5,5,3,1,0,32.4,14.5,0.22,No
+EMP0824,Supply Chain,Warehouse Coordinator,MGR-S02,Dang Quang Huy,Day,2022-12-18,,Active,,51,1180.0,No,0.7,5,4,5,1,3,22.1,12.3,3.04,No
+EMP0825,Production,Production Operator,MGR-P02,Tran Quoc Bao,Night,2021-12-03,2025-12-04,Exited,Personal reasons,26,947.0,No,9.1,2,4,2,5,2,27.9,22.0,4.0,Yes
+EMP0826,Maintenance,Equipment Engineer,MGR-M02,Hoang Van Nam,Night,2018-09-25,,Active,,32,1908.0,Yes,31.9,4,5,3,4,3,34.2,25.9,7.27,No
+EMP0827,Engineering,Process Engineer,MGR-E01,Truong Minh Duc,Day,2020-01-26,,Active,,28,2163.0,No,3.0,8,3,3,4,3,45.6,8.3,5.93,No
+EMP0828,HR & Administration,Administrative Coordinator,MGR-H01,Luong Phuong Thao,Day,2019-11-12,,Active,,48,1121.0,No,3.7,11,3,4,3,0,24.7,31.6,6.14,No
+EMP0829,Quality,Quality Inspector,MGR-Q01,Vo Thu Ha,Day,2023-06-28,,Active,,35,1196.0,No,6.7,6,1,4,5,2,29.9,21.6,2.51,No
+EMP0830,Production,Production Technician,MGR-P03,Le Thanh Cong,Night,2023-03-17,2025-10-22,Exited,Work schedule,24,1013.0,Yes,33.2,3,3,2,3,2,17.2,27.5,2.6,Yes
+EMP0831,Quality,Quality Technician,MGR-Q01,Vo Thu Ha,Day,2025-03-14,,Active,,32,1163.0,No,3.8,11,3,4,4,0,37.3,28.6,0.8,No
+EMP0832,Production,Line Leader,MGR-P04,Pham Hoang Duy,Night,2024-05-07,,Active,,44,1198.0,Yes,25.0,0,5,5,3,0,15.7,19.0,1.65,No
+EMP0833,Production,Production Technician,MGR-P04,Pham Hoang Duy,Rotating,2020-05-27,,Active,,33,989.0,Yes,26.1,16,5,5,1,3,50.8,5.3,5.6,No
+EMP0834,Production,Production Operator,MGR-P02,Tran Quoc Bao,Day,2019-03-29,,Active,,42,933.0,No,4.7,6,3,4,4,1,54.8,31.3,6.76,No
+EMP0835,Production,Production Technician,MGR-P02,Tran Quoc Bao,Day,2023-08-19,,Active,,29,1118.0,No,4.6,2,1,5,5,0,16.8,3.4,2.37,No
+EMP0836,Maintenance,Maintenance Technician,MGR-M01,Do Tuan Kiet,Night,2022-12-22,,Active,,20,1285.0,Yes,27.2,11,3,3,5,1,14.0,14.0,3.03,No
+EMP0837,Engineering,Industrial Engineer,MGR-E03,Huynh Gia Han,Day,2018-05-02,,Active,,46,2185.0,No,4.3,12,2,1,3,3,22.4,26.5,7.67,No
+EMP0838,Production,Line Leader,MGR-P03,Le Thanh Cong,Day,2025-06-04,,Active,,46,1240.0,No,8.4,12,4,1,4,0,36.9,21.5,0.57,No
+EMP0839,Production,Line Leader,MGR-P01,Nguyen Minh Anh,Day,2023-09-02,,Active,,27,1108.0,Yes,21.5,2,3,3,5,0,48.2,11.5,2.33,No
+EMP0840,Production,Line Leader,MGR-P01,Nguyen Minh Anh,Night,2023-10-05,,Active,,51,1352.0,No,2.1,5,3,3,4,0,13.0,18.6,2.24,No
+EMP0841,Engineering,Process Engineer,MGR-E02,Ngo Bao Chau,Day,2024-04-19,,Active,,47,2179.0,Yes,25.6,14,4,5,3,1,25.1,22.5,1.7,No
+EMP0842,Quality,Quality Inspector,MGR-Q01,Vo Thu Ha,Night,2023-02-22,,Active,,52,1240.0,Yes,20.9,2,2,5,4,0,14.8,8.9,2.86,No
+EMP0843,Supply Chain,Material Planner,MGR-S01,Phan Ngoc Mai,Night,2024-03-19,2025-04-09,Exited,Work schedule,48,1411.0,No,3.1,4,4,3,3,0,51.4,20.2,1.06,Yes
+EMP0844,Production,Production Operator,MGR-P04,Pham Hoang Duy,Day,2023-01-03,,Active,,50,985.0,Yes,26.3,4,4,3,3,0,33.0,23.6,2.99,No
+EMP0845,Production,Production Operator,MGR-P01,Nguyen Minh Anh,Day,2020-02-21,,Active,,50,774.0,Yes,23.7,11,3,3,4,2,32.5,14.2,5.86,No
+EMP0846,Production,Production Technician,MGR-P01,Nguyen Minh Anh,Rotating,2024-01-17,,Active,,51,1077.0,No,6.6,7,3,4,4,1,23.7,22.6,1.95,No
+EMP0847,Quality,Quality Engineer,MGR-Q02,Bui Thanh Lan,Day,2020-03-18,,Active,,40,1560.0,Yes,16.7,5,5,5,3,0,14.0,25.9,5.79,No
+EMP0848,Maintenance,Facilities Technician,MGR-M02,Hoang Van Nam,Rotating,2019-10-05,,Active,,38,1302.0,No,5.7,9,4,2,4,2,48.4,26.7,6.24,No
+EMP0849,Production,Production Technician,MGR-P03,Le Thanh Cong,Night,2025-08-12,,Active,,23,1080.0,No,2.7,7,4,2,3,0,50.6,32.7,0.39,No
+EMP0850,HR & Administration,Payroll Specialist,MGR-H01,Luong Phuong Thao,Day,2023-02-17,,Active,,32,1232.0,Yes,37.1,13,3,4,3,2,8.8,18.1,2.87,No
+EMP0851,Production,Production Operator,MGR-P03,Le Thanh Cong,Day,2018-09-18,,Active,,38,971.0,Yes,42.3,8,2,5,3,6,32.0,10.0,7.29,No
+EMP0852,Production,Production Technician,MGR-P02,Tran Quoc Bao,Day,2024-09-09,,Active,,20,914.0,Yes,22.7,10,5,2,2,0,35.8,8.1,1.31,No
+EMP0853,Quality,Quality Technician,MGR-Q01,Vo Thu Ha,Rotating,2025-04-12,,Active,,34,1216.0,No,5.4,4,3,4,3,0,30.8,11.0,0.72,No
+EMP0854,Quality,Quality Engineer,MGR-Q01,Vo Thu Ha,Day,2025-07-14,,Active,,47,1464.0,Yes,19.4,2,3,4,3,0,14.2,8.1,0.47,No
+EMP0855,Production,Production Technician,MGR-P04,Pham Hoang Duy,Day,2022-02-18,2025-06-02,Exited,Personal reasons,30,1107.0,No,2.7,11,3,3,4,0,21.4,15.6,3.29,Yes
+EMP0856,Production,Line Leader,MGR-P03,Le Thanh Cong,Night,2022-02-01,,Active,,41,1306.0,Yes,26.7,5,5,4,5,1,33.0,35.8,3.91,No
+EMP0857,Production,Production Technician,MGR-P01,Nguyen Minh Anh,Night,2022-11-20,,Active,,27,1105.0,Yes,14.0,12,2,3,4,2,22.7,31.4,3.11,No
+EMP0858,Production,Production Technician,MGR-P01,Nguyen Minh Anh,Night,2018-08-28,2024-08-19,Exited,Performance,28,1172.0,No,3.6,2,1,2,4,1,45.1,11.2,5.98,Yes
+EMP0859,Quality,Quality Technician,MGR-Q01,Vo Thu Ha,Night,2018-10-02,,Active,,50,1344.0,Yes,23.4,8,4,3,4,6,20.5,13.1,7.25,No
+EMP0860,Production,Line Leader,MGR-P02,Tran Quoc Bao,Rotating,2023-09-25,,Active,,39,1174.0,Yes,18.0,7,1,4,1,1,25.6,23.7,2.27,No
+EMP0861,Finance,Accountant,MGR-F01,Mai Thanh Son,Day,2019-02-13,,Active,,38,1343.0,No,6.8,9,2,4,5,2,23.1,15.4,6.88,No
+EMP0862,Production,Line Leader,MGR-P03,Le Thanh Cong,Day,2024-01-18,,Active,,37,1385.0,No,2.2,13,3,3,3,1,38.6,40.6,1.95,No
+EMP0863,Quality,Quality Inspector,MGR-Q02,Bui Thanh Lan,Day,2023-03-26,,Active,,48,1401.0,No,7.8,3,3,3,4,2,30.3,14.9,2.77,No
+EMP0864,Quality,Quality Technician,MGR-Q01,Vo Thu Ha,Day,2021-09-24,,Active,,21,1392.0,No,2.2,13,4,3,3,3,29.3,32.3,4.27,No
+EMP0865,Production,Production Operator,MGR-P03,Le Thanh Cong,Day,2022-06-06,,Active,,24,847.0,No,8.9,6,2,2,3,2,12.1,14.0,3.57,No
+EMP0866,Production,Production Operator,MGR-P03,Le Thanh Cong,Day,2018-12-06,,Active,,27,864.0,No,7.6,3,4,5,4,2,23.6,10.7,7.07,No
+EMP0867,Finance,Cost Analyst,MGR-F01,Mai Thanh Son,Day,2024-01-01,,Active,,20,1769.0,Yes,14.4,11,4,3,3,1,25.7,16.5,2.0,No
+EMP0868,HR & Administration,HR Specialist,MGR-H01,Luong Phuong Thao,Day,2019-05-17,,Active,,22,1263.0,No,2.4,5,4,4,3,6,28.9,19.3,6.63,No
+EMP0869,Maintenance,Maintenance Technician,MGR-M02,Hoang Van Nam,Day,2022-04-15,,Active,,42,1466.0,Yes,26.2,7,1,3,3,1,14.2,21.7,3.71,No
+EMP0870,Maintenance,Equipment Engineer,MGR-M01,Do Tuan Kiet,Day,2018-06-06,,Active,,32,1903.0,No,6.9,7,3,4,3,3,48.7,36.4,7.57,No
+EMP0871,Maintenance,Facilities Technician,MGR-M02,Hoang Van Nam,Night,2025-03-18,2025-11-13,Exited,Compensation,43,1457.0,Yes,25.2,11,2,2,2,0,34.2,20.9,0.66,Yes
+EMP0872,Maintenance,Maintenance Technician,MGR-M01,Do Tuan Kiet,Rotating,2024-12-10,,Active,,40,1240.0,No,5.7,12,3,3,4,0,21.6,9.6,1.06,No
+EMP0873,HR & Administration,HR Specialist,MGR-H01,Luong Phuong Thao,Day,2025-03-15,,Active,,29,1081.0,No,1.9,8,5,4,4,0,13.4,29.7,0.8,No
+EMP0874,Supply Chain,Material Planner,MGR-S01,Phan Ngoc Mai,Night,2021-10-21,,Active,,25,1590.0,Yes,29.2,4,4,2,3,0,40.9,11.1,4.19,No
+EMP0875,Production,Line Leader,MGR-P02,Tran Quoc Bao,Night,2023-09-15,2025-04-24,Exited,Compensation,25,1217.0,No,8.5,2,5,3,2,0,18.2,5.0,1.61,Yes
+EMP0876,Production,Production Technician,MGR-P03,Le Thanh Cong,Day,2023-05-22,,Active,,39,936.0,No,3.2,2,3,4,3,0,29.3,28.6,2.61,No
+EMP0877,Production,Production Technician,MGR-P03,Le Thanh Cong,Night,2021-03-26,,Active,,47,923.0,No,4.9,7,4,3,5,2,34.3,22.6,4.77,No
+EMP0878,Finance,Accountant,MGR-F01,Mai Thanh Son,Day,2020-01-16,,Active,,53,1600.0,Yes,20.8,9,3,3,3,2,17.1,13.0,5.96,No
+EMP0879,Production,Production Technician,MGR-P01,Nguyen Minh Anh,Day,2024-09-15,2025-07-14,Exited,Performance,47,1141.0,Yes,20.9,3,4,2,3,0,21.4,25.3,0.83,Yes
+EMP0880,Production,Production Operator,MGR-P04,Pham Hoang Duy,Day,2023-06-10,,Active,,33,995.0,Yes,44.7,15,4,3,3,1,33.3,23.2,2.56,No
+EMP0881,Production,Production Technician,MGR-P02,Tran Quoc Bao,Day,2025-06-12,2025-11-09,Exited,Work schedule,31,962.0,No,5.9,5,4,3,3,0,21.7,13.7,0.41,Yes
+EMP0882,Finance,Finance Specialist,MGR-F01,Mai Thanh Son,Day,2023-07-15,,Active,,50,1599.0,No,1.5,3,4,4,5,0,29.1,31.6,2.46,No
+EMP0883,Production,Line Leader,MGR-P02,Tran Quoc Bao,Rotating,2018-10-27,,Active,,33,1211.0,No,2.7,14,5,2,3,4,26.7,6.9,7.18,No
+EMP0884,Supply Chain,Logistics Analyst,MGR-S02,Dang Quang Huy,Day,2023-12-23,,Active,,45,1531.0,No,5.0,1,2,3,3,2,42.4,10.3,2.02,No
+EMP0885,Supply Chain,Material Planner,MGR-S02,Dang Quang Huy,Night,2018-03-07,,Active,,44,1642.0,Yes,20.0,6,4,3,3,0,38.3,29.0,7.82,No
+EMP0886,Production,Line Leader,MGR-P03,Le Thanh Cong,Rotating,2018-01-31,2025-11-06,Exited,Better opportunity,43,1210.0,No,3.0,12,3,3,3,6,22.9,13.2,7.76,Yes
+EMP0887,Production,Production Operator,MGR-P02,Tran Quoc Bao,Day,2024-01-20,2025-12-17,Exited,Better opportunity,25,886.0,No,7.2,9,3,3,4,1,19.8,40.1,1.91,Yes
+EMP0888,Production,Production Operator,MGR-P03,Le Thanh Cong,Rotating,2021-10-09,,Active,,51,814.0,No,0.9,5,2,3,1,1,24.3,7.1,4.23,No
+EMP0889,Production,Production Technician,MGR-P04,Pham Hoang Duy,Day,2024-02-29,,Active,,25,1158.0,No,4.7,2,5,3,3,0,26.0,10.2,1.84,No
+EMP0890,Quality,Quality Engineer,MGR-Q01,Vo Thu Ha,Day,2020-09-12,2024-05-23,Exited,Compensation,31,1764.0,Yes,47.3,14,4,3,3,4,22.3,5.1,3.69,Yes
+EMP0891,Supply Chain,Warehouse Coordinator,MGR-S01,Phan Ngoc Mai,Night,2021-08-07,,Active,,53,1233.0,No,3.2,2,4,1,4,0,25.6,27.0,4.4,No
+EMP0892,Production,Line Leader,MGR-P01,Nguyen Minh Anh,Night,2024-06-17,,Active,,34,1190.0,Yes,37.6,6,1,2,4,1,47.1,23.1,1.54,No
+EMP0893,Maintenance,Equipment Engineer,MGR-M02,Hoang Van Nam,Day,2023-07-13,2025-01-29,Exited,Relocation,48,1582.0,No,4.9,14,3,3,4,2,25.7,30.6,1.55,Yes
+EMP0894,Production,Line Leader,MGR-P03,Le Thanh Cong,Rotating,2020-05-18,,Active,,34,1321.0,No,3.0,12,4,4,4,2,25.9,10.9,5.62,No
+EMP0895,Engineering,Automation Engineer,MGR-E01,Truong Minh Duc,Day,2025-07-23,,Active,,41,2553.0,No,5.4,3,4,3,4,0,50.5,22.1,0.44,No
+EMP0896,Supply Chain,Logistics Analyst,MGR-S02,Dang Quang Huy,Rotating,2019-10-26,,Active,,45,1397.0,Yes,18.1,7,4,3,3,5,20.9,30.3,6.18,No
+EMP0897,Production,Line Leader,MGR-P03,Le Thanh Cong,Day,2025-10-08,,Active,,21,1112.0,Yes,19.2,6,3,3,3,0,30.9,7.4,0.23,No
+EMP0898,Production,Line Leader,MGR-P02,Tran Quoc Bao,Day,2024-04-12,,Active,,43,1151.0,No,6.7,4,4,3,3,1,21.5,23.1,1.72,No
+EMP0899,Engineering,Automation Engineer,MGR-E02,Ngo Bao Chau,Day,2018-08-08,,Active,,42,2279.0,No,8.1,8,3,5,3,5,40.7,25.5,7.4,No
+EMP0900,Production,Production Operator,MGR-P02,Tran Quoc Bao,Night,2022-01-15,,Active,,40,868.0,No,3.4,15,4,4,1,2,30.1,21.7,3.96,No
+EMP0901,Production,Line Leader,MGR-P03,Le Thanh Cong,Rotating,2019-05-13,,Active,,48,1173.0,No,0.8,5,5,3,2,5,8.7,16.7,6.64,No
+EMP0902,Quality,Quality Inspector,MGR-Q01,Vo Thu Ha,Night,2025-08-26,2025-12-11,Exited,Work schedule,46,1356.0,No,6.2,4,4,4,3,0,40.0,8.2,0.29,Yes
+EMP0903,Production,Production Technician,MGR-P03,Le Thanh Cong,Day,2024-10-07,,Active,,44,1096.0,Yes,21.4,9,4,1,4,1,31.8,39.9,1.23,No
+EMP0904,Supply Chain,Logistics Analyst,MGR-S02,Dang Quang Huy,Day,2025-07-08,2025-09-22,Exited,Compensation,26,1444.0,Yes,24.2,7,3,4,3,0,26.9,27.0,0.21,Yes
+EMP0905,Quality,Quality Engineer,MGR-Q01,Vo Thu Ha,Day,2025-11-06,,Active,,28,1836.0,Yes,28.5,4,4,4,5,0,19.1,13.5,0.15,No
+EMP0906,Production,Production Technician,MGR-P04,Pham Hoang Duy,Night,2021-11-19,,Active,,49,1110.0,No,8.2,7,3,5,5,0,30.0,31.7,4.11,No
+EMP0907,Engineering,Process Engineer,MGR-E01,Truong Minh Duc,Day,2019-05-19,,Active,,41,1986.0,No,4.7,3,3,4,3,3,27.3,35.2,6.62,No
+EMP0908,Finance,Cost Analyst,MGR-F01,Mai Thanh Son,Day,2023-09-12,,Active,,48,1641.0,Yes,27.9,7,3,4,4,1,21.7,11.0,2.3,No
+EMP0909,Production,Line Leader,MGR-P01,Nguyen Minh Anh,Day,2018-10-03,,Active,,35,1388.0,No,2.9,10,4,3,4,6,15.1,6.6,7.24,No
+EMP0910,Quality,Quality Technician,MGR-Q01,Vo Thu Ha,Day,2020-03-08,,Active,,47,1333.0,Yes,26.1,6,3,1,2,0,15.0,29.8,5.82,No
+EMP0911,Maintenance,Maintenance Technician,MGR-M01,Do Tuan Kiet,Night,2021-08-14,,Active,,36,1403.0,No,2.6,8,2,4,3,3,39.5,25.0,4.38,No
+EMP0912,Supply Chain,Warehouse Coordinator,MGR-S01,Phan Ngoc Mai,Day,2021-10-21,,Active,,24,1109.0,No,3.8,7,3,4,3,4,39.3,23.9,4.19,No
+EMP0913,Maintenance,Facilities Technician,MGR-M02,Hoang Van Nam,Day,2020-11-01,,Active,,22,1518.0,Yes,15.7,8,3,1,2,4,32.3,9.5,5.16,No
+EMP0914,Quality,Quality Inspector,MGR-Q02,Bui Thanh Lan,Night,2019-07-20,,Active,,38,1347.0,No,0.9,9,4,4,4,0,27.0,15.0,6.45,No
+EMP0915,Finance,Accountant,MGR-F01,Mai Thanh Son,Day,2020-05-27,2025-12-16,Exited,Work schedule,49,1501.0,No,4.4,9,1,3,3,0,33.9,22.6,5.56,Yes
+EMP0916,Production,Production Operator,MGR-P01,Nguyen Minh Anh,Night,2023-04-24,2024-07-22,Exited,Career change,23,985.0,Yes,30.1,9,4,5,3,2,25.1,22.4,1.25,Yes
+EMP0917,Finance,Accountant,MGR-F01,Mai Thanh Son,Day,2019-12-17,,Active,,24,1650.0,No,5.4,3,3,4,3,3,8.8,6.3,6.04,No
+EMP0918,Production,Production Operator,MGR-P04,Pham Hoang Duy,Rotating,2023-09-27,2025-10-22,Exited,Personal reasons,37,943.0,Yes,38.0,4,2,3,3,2,9.3,29.7,2.07,Yes
+EMP0919,Supply Chain,Logistics Analyst,MGR-S01,Phan Ngoc Mai,Rotating,2023-02-22,,Active,,52,1448.0,Yes,21.2,3,5,1,3,2,29.2,18.4,2.86,No
+EMP0920,Supply Chain,Logistics Analyst,MGR-S02,Dang Quang Huy,Rotating,2021-08-17,2024-11-01,Exited,Better opportunity,35,1417.0,Yes,25.2,8,3,4,4,1,17.9,23.2,3.21,Yes
+EMP0921,Engineering,Process Engineer,MGR-E02,Ngo Bao Chau,Day,2021-02-03,,Active,,47,2120.0,No,0.8,13,3,3,2,2,22.9,31.6,4.91,No
+EMP0922,Production,Production Technician,MGR-P01,Nguyen Minh Anh,Day,2023-11-22,2025-08-25,Exited,Performance,33,1132.0,No,7.8,2,5,2,4,1,28.7,21.5,1.76,Yes
+EMP0923,Production,Production Operator,MGR-P01,Nguyen Minh Anh,Day,2019-12-26,,Active,,48,935.0,No,3.5,1,5,3,3,2,23.9,6.6,6.02,No
+EMP0924,Quality,Quality Technician,MGR-Q02,Bui Thanh Lan,Rotating,2022-07-20,2025-04-01,Exited,Personal reasons,52,1466.0,No,5.5,12,3,2,4,3,13.7,24.8,2.7,Yes
+EMP0925,Production,Line Leader,MGR-P01,Nguyen Minh Anh,Day,2023-11-11,,Active,,45,1144.0,No,8.3,7,4,2,3,0,31.4,28.4,2.14,No
+EMP0926,Production,Line Leader,MGR-P01,Nguyen Minh Anh,Day,2020-06-14,2024-05-22,Exited,Career change,25,1119.0,No,0.3,6,4,3,2,0,37.2,5.7,3.94,Yes
+EMP0927,Finance,Cost Analyst,MGR-F01,Mai Thanh Son,Day,2022-11-05,,Active,,33,1932.0,No,6.7,3,4,3,3,2,34.7,20.6,3.15,No
+EMP0928,Finance,Cost Analyst,MGR-F01,Mai Thanh Son,Day,2024-11-30,,Active,,31,1733.0,No,6.6,6,4,2,3,1,20.8,28.0,1.08,No
+EMP0929,Production,Production Operator,MGR-P03,Le Thanh Cong,Night,2020-11-29,,Active,,35,812.0,No,0.7,12,4,3,4,3,25.0,9.2,5.09,No
+EMP0930,Quality,Quality Engineer,MGR-Q01,Vo Thu Ha,Day,2025-08-22,,Active,,21,1791.0,No,3.5,8,3,2,4,0,39.7,26.9,0.36,No
+EMP0931,Quality,Quality Inspector,MGR-Q02,Bui Thanh Lan,Rotating,2022-11-04,2025-08-23,Exited,Better opportunity,31,1175.0,Yes,28.4,2,5,4,4,1,18.1,16.6,2.8,Yes
+EMP0932,Engineering,Process Engineer,MGR-E02,Ngo Bao Chau,Day,2022-11-27,,Active,,48,1856.0,No,5.8,13,4,2,2,2,35.1,30.1,3.09,No
+EMP0933,Quality,Quality Inspector,MGR-Q02,Bui Thanh Lan,Day,2020-04-02,,Active,,22,1240.0,Yes,17.9,14,1,3,2,5,37.0,11.5,5.75,No
+EMP0934,Finance,Accountant,MGR-F01,Mai Thanh Son,Day,2023-02-24,,Active,,44,1402.0,No,2.6,1,4,3,3,2,20.0,22.2,2.85,No
+EMP0935,Production,Line Leader,MGR-P04,Pham Hoang Duy,Day,2023-06-27,2024-02-10,Exited,Better opportunity,30,1182.0,No,4.3,9,3,2,3,0,49.7,21.5,0.62,Yes
+EMP0936,Production,Production Technician,MGR-P02,Tran Quoc Bao,Rotating,2018-03-07,2024-12-21,Exited,Better opportunity,20,922.0,Yes,30.1,11,3,4,3,3,23.7,10.8,6.79,Yes
+EMP0937,HR & Administration,HR Specialist,MGR-H01,Luong Phuong Thao,Day,2018-06-28,2025-06-20,Exited,Personal reasons,24,1152.0,No,4.0,8,2,2,3,2,30.6,13.7,6.98,Yes
+EMP0938,Engineering,Automation Engineer,MGR-E01,Truong Minh Duc,Day,2024-09-29,,Active,,39,2287.0,No,5.5,4,4,3,1,0,39.7,17.1,1.25,No
+EMP0939,Production,Production Operator,MGR-P02,Tran Quoc Bao,Day,2019-12-07,,Active,,48,784.0,Yes,47.3,8,2,4,3,2,29.9,9.4,6.07,No
+EMP0940,Quality,Quality Engineer,MGR-Q02,Bui Thanh Lan,Day,2021-08-21,,Active,,45,1606.0,No,1.1,2,3,3,3,2,42.7,15.9,4.36,No
+EMP0941,Maintenance,Facilities Technician,MGR-M01,Do Tuan Kiet,Rotating,2024-04-09,,Active,,21,1220.0,Yes,18.5,10,5,2,5,1,48.7,26.4,1.73,No
+EMP0942,Engineering,Automation Engineer,MGR-E01,Truong Minh Duc,Day,2023-12-13,,Active,,32,2084.0,Yes,28.4,10,4,4,5,2,54.5,18.4,2.05,No
+EMP0943,Maintenance,Facilities Technician,MGR-M02,Hoang Van Nam,Day,2020-10-04,,Active,,44,1462.0,No,2.7,5,3,3,4,1,8.4,5.9,5.24,No
+EMP0944,Production,Line Leader,MGR-P02,Tran Quoc Bao,Day,2022-11-30,2025-05-17,Exited,Career change,23,1380.0,Yes,20.2,9,5,3,3,1,5.2,17.4,2.46,Yes
+EMP0945,Production,Line Leader,MGR-P02,Tran Quoc Bao,Night,2023-12-29,,Active,,52,1266.0,No,2.4,4,5,4,5,0,29.1,21.9,2.01,No
+EMP0946,Finance,Finance Specialist,MGR-F01,Mai Thanh Son,Day,2025-05-24,,Active,,26,1623.0,No,6.2,2,4,2,4,0,23.2,14.1,0.61,No
+EMP0947,Finance,Accountant,MGR-F01,Mai Thanh Son,Day,2025-09-01,,Active,,45,1353.0,No,6.1,12,3,3,2,0,42.1,10.2,0.33,No
+EMP0948,Finance,Accountant,MGR-F01,Mai Thanh Son,Day,2018-06-17,,Active,,25,1331.0,Yes,39.4,10,4,4,4,6,42.0,11.6,7.54,No
+EMP0949,Quality,Quality Technician,MGR-Q02,Bui Thanh Lan,Night,2022-09-28,,Active,,35,1261.0,No,4.7,2,3,4,3,0,27.8,14.1,3.26,No
+EMP0950,Production,Line Leader,MGR-P02,Tran Quoc Bao,Rotating,2021-08-21,,Active,,29,1219.0,No,7.0,9,3,2,3,0,9.0,6.3,4.36,No
+EMP0951,Production,Production Operator,MGR-P04,Pham Hoang Duy,Day,2024-01-26,2024-04-08,Exited,Career change,26,931.0,Yes,26.2,9,3,4,5,0,39.1,25.6,0.2,Yes
+EMP0952,Supply Chain,Material Planner,MGR-S01,Phan Ngoc Mai,Night,2025-02-09,,Active,,35,1524.0,No,4.4,6,4,3,3,0,28.7,13.6,0.89,No
+EMP0953,Engineering,Automation Engineer,MGR-E02,Ngo Bao Chau,Day,2023-03-03,,Active,,36,2095.0,No,4.5,3,5,4,4,2,30.7,14.9,2.83,No
+EMP0954,Quality,Quality Inspector,MGR-Q02,Bui Thanh Lan,Day,2023-11-08,,Active,,49,1326.0,No,3.2,10,3,5,5,1,39.4,23.1,2.15,No
+EMP0955,Quality,Quality Engineer,MGR-Q02,Bui Thanh Lan,Day,2024-04-29,,Active,,24,1491.0,No,3.1,4,4,2,4,0,26.7,13.3,1.67,No
+EMP0956,Production,Production Operator,MGR-P03,Le Thanh Cong,Night,2021-10-23,,Active,,32,935.0,No,3.9,16,3,3,4,0,16.7,18.3,4.19,No
+EMP0957,Finance,Finance Specialist,MGR-F01,Mai Thanh Son,Day,2023-06-24,,Active,,48,1651.0,No,6.0,5,1,5,4,1,11.9,5.6,2.52,No
+EMP0958,Production,Production Technician,MGR-P03,Le Thanh Cong,Rotating,2022-03-10,,Active,,20,973.0,Yes,20.1,4,3,3,3,0,25.5,22.8,3.81,No
+EMP0959,Maintenance,Equipment Engineer,MGR-M02,Hoang Van Nam,Night,2018-04-10,,Active,,30,2055.0,No,1.3,10,5,4,4,5,15.8,14.8,7.73,No
+EMP0960,Quality,Quality Inspector,MGR-Q02,Bui Thanh Lan,Rotating,2019-03-21,2025-12-07,Exited,Relocation,31,1130.0,No,4.8,9,5,4,3,2,39.4,38.4,6.72,Yes
+EMP0961,Maintenance,Equipment Engineer,MGR-M01,Do Tuan Kiet,Night,2020-11-26,2025-04-30,Exited,Personal reasons,50,1889.0,No,5.2,1,2,4,3,2,33.9,19.7,4.42,Yes
+EMP0962,Quality,Quality Technician,MGR-Q01,Vo Thu Ha,Day,2024-11-21,,Active,,40,1347.0,No,8.2,12,3,3,1,0,45.4,14.0,1.11,No
+EMP0963,Finance,Finance Specialist,MGR-F01,Mai Thanh Son,Day,2019-05-31,,Active,,25,1418.0,No,5.3,13,5,4,4,0,23.6,34.4,6.59,No
+EMP0964,Production,Production Technician,MGR-P04,Pham Hoang Duy,Night,2025-02-06,2025-11-06,Exited,Work schedule,45,1020.0,Yes,22.7,11,2,2,4,0,7.7,6.4,0.75,Yes
+EMP0965,Production,Production Operator,MGR-P03,Le Thanh Cong,Day,2018-12-09,,Active,,51,845.0,Yes,19.0,4,4,5,3,5,48.4,19.4,7.06,No
+EMP0966,Quality,Quality Inspector,MGR-Q01,Vo Thu Ha,Day,2021-02-07,,Active,,21,1364.0,No,2.7,5,3,3,4,3,26.6,26.6,4.9,No
+EMP0967,Production,Line Leader,MGR-P03,Le Thanh Cong,Rotating,2019-03-23,,Active,,27,1362.0,No,8.6,9,4,2,5,4,27.9,40.5,6.78,No
+EMP0968,Production,Line Leader,MGR-P02,Tran Quoc Bao,Rotating,2024-06-04,2025-04-18,Exited,Compensation,25,1132.0,Yes,24.4,4,3,4,4,1,26.8,12.4,0.87,Yes
+EMP0969,Production,Production Technician,MGR-P03,Le Thanh Cong,Day,2019-05-12,,Active,,28,1063.0,Yes,27.1,2,4,5,3,4,48.3,29.3,6.64,No
+EMP0970,Production,Line Leader,MGR-P02,Tran Quoc Bao,Day,2024-10-01,,Active,,32,1129.0,No,7.2,12,4,1,4,1,18.8,26.1,1.25,No
+EMP0971,Quality,Quality Engineer,MGR-Q01,Vo Thu Ha,Rotating,2020-12-12,,Active,,20,1459.0,Yes,18.7,4,3,2,3,1,31.6,11.2,5.05,No
+EMP0972,Quality,Quality Technician,MGR-Q02,Bui Thanh Lan,Night,2022-04-24,,Active,,21,1239.0,No,2.1,6,2,2,3,2,19.8,8.2,3.69,No
+EMP0973,Engineering,Industrial Engineer,MGR-E03,Huynh Gia Han,Day,2018-05-16,,Active,,21,1755.0,Yes,28.7,5,4,3,4,4,30.1,24.1,7.63,No
+EMP0974,Production,Production Technician,MGR-P04,Pham Hoang Duy,Day,2024-06-09,,Active,,29,1075.0,Yes,35.7,8,5,3,4,0,8.6,39.7,1.56,No
+EMP0975,Quality,Quality Inspector,MGR-Q02,Bui Thanh Lan,Day,2024-06-21,,Active,,43,1250.0,No,0.8,13,1,2,3,1,16.3,14.7,1.53,No
+EMP0976,Maintenance,Maintenance Technician,MGR-M02,Hoang Van Nam,Day,2019-08-19,2025-05-03,Exited,Personal reasons,51,1272.0,Yes,25.6,14,2,2,4,0,21.9,23.7,5.71,Yes
+EMP0977,Engineering,Industrial Engineer,MGR-E01,Truong Minh Duc,Day,2018-11-27,,Active,,41,2104.0,Yes,19.3,3,5,2,5,5,26.1,43.0,7.09,No
+EMP0978,Production,Production Operator,MGR-P03,Le Thanh Cong,Day,2024-09-05,,Active,,38,932.0,No,3.8,10,3,3,3,1,25.5,32.9,1.32,No
+EMP0979,Engineering,Automation Engineer,MGR-E02,Ngo Bao Chau,Day,2022-12-01,,Active,,50,2017.0,No,3.6,4,5,4,5,0,9.6,20.4,3.08,No
+EMP0980,Production,Production Operator,MGR-P01,Nguyen Minh Anh,Day,2022-03-25,2025-03-26,Exited,Career change,41,782.0,No,2.9,6,2,3,4,0,23.1,2.9,3.0,Yes
+EMP0981,Supply Chain,Warehouse Coordinator,MGR-S02,Dang Quang Huy,Day,2018-11-16,,Active,,30,1285.0,No,2.9,7,3,4,4,4,19.4,16.3,7.12,No
+EMP0982,Supply Chain,Material Planner,MGR-S01,Phan Ngoc Mai,Night,2025-10-27,,Active,,48,1537.0,No,4.2,4,4,1,4,0,13.0,12.2,0.18,No
+EMP0983,Production,Production Operator,MGR-P02,Tran Quoc Bao,Night,2023-07-18,,Active,,46,962.0,No,7.8,4,4,1,4,2,23.6,9.6,2.46,No
+EMP0984,Production,Line Leader,MGR-P02,Tran Quoc Bao,Rotating,2020-06-02,,Active,,45,1089.0,Yes,30.3,13,3,3,4,5,42.0,12.3,5.58,No
+EMP0985,Production,Production Operator,MGR-P02,Tran Quoc Bao,Night,2021-02-05,,Active,,51,813.0,No,3.3,10,4,3,5,1,24.3,12.1,4.9,No
+EMP0986,Production,Line Leader,MGR-P04,Pham Hoang Duy,Day,2019-05-11,,Active,,21,1247.0,Yes,16.7,11,3,2,2,1,24.0,8.8,6.64,No
+EMP0987,Production,Production Technician,MGR-P02,Tran Quoc Bao,Rotating,2024-01-20,,Active,,21,1002.0,Yes,23.4,5,3,3,2,1,16.0,7.1,1.95,No
+EMP0988,Maintenance,Maintenance Technician,MGR-M02,Hoang Van Nam,Day,2019-06-02,,Active,,33,1384.0,No,3.8,13,4,2,3,0,15.2,21.4,6.58,No
+EMP0989,Quality,Quality Engineer,MGR-Q01,Vo Thu Ha,Day,2022-12-23,2024-01-14,Exited,Compensation,25,1785.0,No,2.7,4,3,3,4,3,55.2,20.9,1.06,Yes
+EMP0990,Maintenance,Maintenance Technician,MGR-M02,Hoang Van Nam,Day,2018-07-13,,Active,,41,1567.0,No,3.4,3,4,3,3,2,24.9,21.4,7.47,No
+EMP0991,Finance,Accountant,MGR-F01,Mai Thanh Son,Day,2018-08-21,,Active,,41,1690.0,Yes,26.5,13,3,3,1,0,39.2,17.3,7.36,No
+EMP0992,Maintenance,Facilities Technician,MGR-M01,Do Tuan Kiet,Day,2022-05-11,,Active,,48,1432.0,No,3.4,9,2,4,5,0,32.6,28.0,3.64,No
+EMP0993,Engineering,Process Engineer,MGR-E02,Ngo Bao Chau,Day,2025-03-20,,Active,,25,2164.0,No,7.1,10,4,2,4,0,28.9,12.7,0.78,No
+EMP0994,Maintenance,Maintenance Technician,MGR-M01,Do Tuan Kiet,Day,2023-03-14,2024-07-14,Exited,Work schedule,38,1279.0,No,4.6,8,4,2,5,1,30.1,9.5,1.34,Yes
+EMP0995,Supply Chain,Material Planner,MGR-S01,Phan Ngoc Mai,Night,2025-06-08,2025-11-06,Exited,Compensation,37,1521.0,No,1.5,3,5,2,4,0,19.1,16.4,0.41,Yes
+EMP0996,Production,Production Technician,MGR-P02,Tran Quoc Bao,Rotating,2020-02-14,2024-11-01,Exited,Career change,52,989.0,No,3.1,1,3,4,3,3,22.5,16.3,4.71,Yes
+EMP0997,Supply Chain,Logistics Analyst,MGR-S02,Dang Quang Huy,Night,2020-03-27,,Active,,39,1485.0,No,6.0,3,4,3,3,3,30.7,29.4,5.76,No
+EMP0998,Production,Line Leader,MGR-P03,Le Thanh Cong,Day,2020-07-31,,Active,,41,1117.0,No,4.6,12,5,4,2,1,38.8,17.2,5.42,No
+EMP0999,Production,Production Operator,MGR-P02,Tran Quoc Bao,Night,2025-09-18,,Active,,38,788.0,Yes,20.6,10,1,2,3,0,37.3,15.8,0.28,No
+EMP1000,Production,Production Operator,MGR-P04,Pham Hoang Duy,Night,2018-05-11,,Active,,31,993.0,No,3.0,7,4,3,3,2,22.3,18.5,7.64,No
